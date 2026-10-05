@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-04",
+  "documents": 1000,
+  "vocabulary_size": 17910,
+  "median_repetitions": 11,
+  "equality_queries": 210,
+  "raw_signature_ms": 60.1782,
+  "prepare_index_ms": 15.5545,
+  "build_vocabulary_ms": 272.6319,
+  "debounce_before_ms": 350,
+  "debounce_after_ms": 200,
+  "scope": "Python computation only; UI debounce, rendering and transport excluded. Cold word clears candidate LRU, but corpus index is prepared.",
+  "queries": [
+    {
+      "query": "insu",
+      "baseline_ms": 12.3301,
+      "prepared_cold_word_ms": 0.1578,
+      "prepared_warm_word_ms": 0.0026,
+      "suggested_query": "insr"
+    },
+    {
+      "query": "insul",
+      "baseline_ms": 12.6033,
+      "prepared_cold_word_ms": 0.145,
+      "prepared_warm_word_ms": 0.0025,
+      "suggested_query": "insul"
+    },
+    {
+      "query": "insuli",
+      "baseline_ms": 21.658,
+      "prepared_cold_word_ms": 1.1538,
+      "prepared_warm_word_ms": 0.0029,
+      "suggested_query": "insulin"
+    },
+    {
+      "query": "insulin",
+      "baseline_ms": 8.4367,
+      "prepared_cold_word_ms": 0.0016,
+      "prepared_warm_word_ms": 0.0015,
+      "suggested_query": "insulin"
+    },
+    {
+      "query": "insulinn",
+      "baseline_ms": 28.2048,
+      "prepared_cold_word_ms": 0.9975,
+      "prepared_warm_word_ms": 0.0029,
+      "suggested_query": "insulin"
+    },
+    {
+      "query": "semaglutid",
+      "baseline_ms": 30.5512,
+      "prepared_cold_word_ms": 0.4071,
+      "prepared_warm_word_ms": 0.0027,
+      "suggested_query": "semaglutide"
+    },
+    {
+      "query": "GLP-1 IL-6",
+      "baseline_ms": 8.5521,
+      "prepared_cold_word_ms": 0.0023,
+      "prepared_warm_word_ms": 0.0023,
+      "suggested_query": "GLP-1 IL-6"
+    },
+    {
+      "query": "insulinn treatment",
+      "baseline_ms": 28.2028,
+      "prepared_cold_word_ms": 1.0059,
+      "prepared_warm_word_ms": 0.0037,
+      "suggested_query": "insulin treatment"
+    },
+    {
+      "query": "semaglutid insulinn diabetees",
+      "baseline_ms": 71.486,
+      "prepared_cold_word_ms": 2.5936,
+      "prepared_warm_word_ms": 0.0067,
+      "suggested_query": "semaglutide insulin diabetes"
+    }
+  ]
+}

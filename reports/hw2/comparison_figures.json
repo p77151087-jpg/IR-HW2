@@ -1,0 +1,41 @@
+{
+  "source": "reports/hw2/experiment/summary.json",
+  "source_sha256": "2d33677c3bd506ac4d4f5bae24e99db6c6f65320329dc641c202720dbc8c16e6",
+  "code": [
+    {
+      "path": "scripts/build_hw2_comparison_figures.py",
+      "sha256": "a62892aa8c570f9d9cfcd460467e5bb9ed4fec6502ba24e3867f7b8425315012"
+    },
+    {
+      "path": "ir_hw2/comparisons.py",
+      "sha256": "6f3ec063ae9205e3065b531616142d89ccfdb28de302136ac791f27a0712038f"
+    }
+  ],
+  "figures": [
+    {
+      "path": "reports/hw2/figures/high_frequency_terms.png",
+      "sha256": "3e47ff109a3b230e20be173ebf63eaa87de50742ef1f17852badeced95812baa",
+      "description": "Four Top 10 lists; shared CF scale; independent ranks."
+    },
+    {
+      "path": "reports/hw2/figures/segment_fit.png",
+      "sha256": "dd8aead36ff2f7ca16af3bce6fa2f64ffa89e21fe1ee4efae993421d313699db",
+      "description": "All 12 saved segment fits, showing both R² and RMSE."
+    },
+    {
+      "path": "reports/hw2/figures/cf_df.png",
+      "sha256": "ffcc1ea55631f84029ef3baefb8bf635e0f5091fc87db6c0751378c62f2257b6",
+      "description": "B selected terms, CF = DF reference, all coordinates from saved results."
+    },
+    {
+      "path": "reports/hw2/figures/idf_relation.png",
+      "sha256": "a963f3c1551946bdc5d26980bb65dbe1250fae23b9e9d8bd650e381fa56968ad",
+      "description": "Specified base-10 IDF formula and observed term coordinates; IDF axis is linear."
+    },
+    {
+      "path": "reports/hw2/figures/idf_terms.png",
+      "sha256": "e58a6d48f06e8c38102f0b1c2c6773982997159ac9ddf1dbf07a455973da0987",
+      "description": "Twelve real terms; IDF with corresponding DF labels."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理" [checked]
+  - paragraph: 文章管理
+- paragraph: 本機文章 2 篇 · 索引詞彙 2,498 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "文章管理" [level=3]:
+  - text: 文章管理
+  - link "Link to heading":
+    - /url: "#840dd80d"
+- paragraph: 加入或刪除後立即更新搜尋；上傳及本機管理可離線使用，PMID 下載需要網路。
+- status:
+  - paragraph: 已還原 2 篇文章，可以重新搜尋。
+- tablist:
+  - tab "上傳 XML":
+    - paragraph: 上傳 XML
+  - tab "PMID 下載":
+    - paragraph: PMID 下載
+  - tab "刪除與還原" [selected]:
+    - paragraph: 刪除與還原
+- tabpanel "刪除與還原"

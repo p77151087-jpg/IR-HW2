@@ -1,0 +1,20 @@
+[server]
+address = "127.0.0.1"
+headless = true
+# Reload imported project modules when source files change, including on Windows.
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+# Reuse one script runner so rapid clicks cannot overlap local corpus writes.
+fastReruns = false
+
+[theme]
+base = "light"
+primaryColor = "#087F8C"
+backgroundColor = "#F7FAFC"
+secondaryBackgroundColor = "#EAF2F5"
+textColor = "#17324D"
+font = "sans serif"

@@ -1,0 +1,61 @@
+{
+  "verified_at_utc": "2026-09-29T01:54:58.371999+00:00",
+  "snapshot": "C:\\成大專案\\IR-HW2\\data\\hw2\\glp1-1000-20260929",
+  "counts": {
+    "matched": 30622,
+    "candidates": 1200,
+    "fetched": 1100,
+    "selected": 1000,
+    "excluded": 5,
+    "not_needed": 195,
+    "not_fetched": 100,
+    "eligible_not_selected": 95,
+    "duplicate_candidate_ids": 0,
+    "duplicate_returned_records": 0
+  },
+  "exclusion_reasons": {
+    "unsupported_book_record": 2,
+    "empty_abstract": 3
+  },
+  "abstracts_sha256": "9738b68d03a6e39bed010803aa878cfdc66e0bbcaf005e8ee83d3bcfeb7b2631",
+  "raw_response_count": 12,
+  "raw_bytes": 26412048,
+  "language_counts": {
+    "eng": 1000
+  },
+  "issue_year_counts": {
+    "2027": 2,
+    "2026": 998
+  },
+  "later_issue_dates": [
+    {
+      "pmid": "42503322",
+      "issue_year": "2027",
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "year": "2026",
+          "month": "07",
+          "day": "26"
+        }
+      ]
+    },
+    {
+      "pmid": "42545731",
+      "issue_year": "2027",
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "year": "2026",
+          "month": "08",
+          "day": "03"
+        }
+      ]
+    }
+  ],
+  "offline_reload_verified": true,
+  "immutable_same_parameters_verified": true,
+  "tests": "17 passed in 0.56s",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "selection_count_identity": true
+}

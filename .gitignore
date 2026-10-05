@@ -1,0 +1,14 @@
+.venv/
+.venv-hw2/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+tmp/
+*.log
+*.lock
+.coverage
+data/download_state.json
+data/raw_sync_state.json
+data/deleted_articles.json
+data/purge_pending.json
+data/rejected/

@@ -1,0 +1,312 @@
+{
+  "recorded_at_utc": "2026-09-29T01:48:48.852897+00:00",
+  "python_version": "3.13.14",
+  "executable": "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+  "prefix": "C:\\成大專案\\IR-HW2\\.venv-hw2",
+  "base_prefix": "C:\\Users\\Huayi\\AppData\\Local\\Programs\\Python\\Python313",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "commands": {
+    "pip_module": {
+      "command": [
+        "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "pip 26.1.2 from C:\\成大專案\\IR-HW2\\.venv-hw2\\Lib\\site-packages\\pip (python 3.13)",
+      "stderr": ""
+    },
+    "pip_launcher": {
+      "command": [
+        "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\pip.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "pip 26.1.2 from C:\\成大專案\\IR-HW2\\.venv-hw2\\Lib\\site-packages\\pip (python 3.13)",
+      "stderr": ""
+    },
+    "pip_check": {
+      "command": [
+        "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "returncode": 0,
+      "stdout": "No broken requirements found.",
+      "stderr": ""
+    },
+    "streamlit_module": {
+      "command": [
+        "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+        "-m",
+        "streamlit",
+        "version"
+      ],
+      "returncode": 0,
+      "stdout": "Streamlit, version 1.63.0",
+      "stderr": ""
+    },
+    "streamlit_launcher": {
+      "command": [
+        "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\streamlit.exe",
+        "version"
+      ],
+      "returncode": 0,
+      "stdout": "Streamlit, version 1.63.0",
+      "stderr": ""
+    }
+  },
+  "launcher_shebangs": {
+    "pip": "#!C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+    "streamlit": "#!C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe"
+  },
+  "gensim_training_smoke": "passed: 8-dimensional toy vectors, not formal experiment data",
+  "packages": [
+    {
+      "name": "altair",
+      "version": "6.2.2"
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.6"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.66.0"
+    },
+    {
+      "name": "gensim",
+      "version": "4.4.0"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "name": "httptools",
+      "version": "0.8.0"
+    },
+    {
+      "name": "idna",
+      "version": "3.19"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0"
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.26.0"
+    },
+    {
+      "name": "nltk",
+      "version": "3.9.2"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.5"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.1.2"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    {
+      "name": "protobuf",
+      "version": "7.36.1"
+    },
+    {
+      "name": "pyarrow",
+      "version": "25.0.1"
+    },
+    {
+      "name": "pydeck",
+      "version": "0.9.3"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.32"
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.10"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.6.3"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "smart_open",
+      "version": "8.0.1"
+    },
+    {
+      "name": "starlette",
+      "version": "1.6.0"
+    },
+    {
+      "name": "streamlit",
+      "version": "1.63.0"
+    },
+    {
+      "name": "toml",
+      "version": "0.10.2"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.4"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.4"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.52.4"
+    },
+    {
+      "name": "watchdog",
+      "version": "6.0.0"
+    },
+    {
+      "name": "websockets",
+      "version": "16.1.1"
+    },
+    {
+      "name": "wrapt",
+      "version": "2.5.0"
+    }
+  ]
+}

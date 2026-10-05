@@ -1,0 +1,306 @@
+{
+  "verified_at": "2026-09-21T14:42:01.683284+00:00",
+  "source_file": "pmid-covid-set.txt",
+  "source_sha256": "9b8581b8f4c7f9a0bdf7457a02c9d4902e17e0273c2309438caea7c42a53b43e",
+  "requested_pmids": [
+    "33126180",
+    "39283431",
+    "33496842",
+    "33810926",
+    "34333882",
+    "33543668",
+    "33811458",
+    "34024060",
+    "36148046",
+    "33288230"
+  ],
+  "test_data_only": true,
+  "results": [
+    {
+      "pmid": "33126180",
+      "pmcid": "PMC7584564",
+      "status": "imported",
+      "reason": ""
+    },
+    {
+      "pmid": "39283431",
+      "pmcid": "PMID39283431",
+      "status": "imported",
+      "reason": ""
+    },
+    {
+      "pmid": "33496842",
+      "pmcid": "PMC7835665",
+      "status": "imported",
+      "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+    },
+    {
+      "pmid": "33810926",
+      "pmcid": "PMC7955943",
+      "status": "imported",
+      "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+    },
+    {
+      "pmid": "34333882",
+      "pmcid": "PMID34333882",
+      "status": "imported",
+      "reason": ""
+    },
+    {
+      "pmid": "33543668",
+      "pmcid": "PMID33543668",
+      "status": "imported",
+      "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+    },
+    {
+      "pmid": "33811458",
+      "pmcid": "PMC8250914",
+      "status": "imported",
+      "reason": ""
+    },
+    {
+      "pmid": "34024060",
+      "pmcid": "",
+      "status": "download_failed",
+      "reason": "目前自動下載限定英文文章。"
+    },
+    {
+      "pmid": "36148046",
+      "pmcid": "PMC9486701",
+      "status": "imported",
+      "reason": ""
+    },
+    {
+      "pmid": "33288230",
+      "pmcid": "",
+      "status": "download_failed",
+      "reason": "目前自動下載限定英文文章。"
+    }
+  ],
+  "persisted_documents": [
+    {
+      "id": "PMC7584564",
+      "pmid": "33126180",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 1121,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 7,
+            "words": 176
+          }
+        ],
+        "characters": 1121,
+        "characters_no_whitespace": 946,
+        "sentences": 7,
+        "words": 176
+      }
+    },
+    {
+      "id": "PMC7835665",
+      "pmid": "33496842",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 539,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 3,
+            "words": 72
+          }
+        ],
+        "characters": 539,
+        "characters_no_whitespace": 468,
+        "sentences": 3,
+        "words": 72
+      }
+    },
+    {
+      "id": "PMC7955943",
+      "pmid": "33810926",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [],
+        "characters": 0,
+        "characters_no_whitespace": 0,
+        "sentences": 0,
+        "words": 0
+      }
+    },
+    {
+      "id": "PMC8250914",
+      "pmid": "33811458",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 700,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 4,
+            "words": 110
+          }
+        ],
+        "characters": 700,
+        "characters_no_whitespace": 591,
+        "sentences": 4,
+        "words": 110
+      }
+    },
+    {
+      "id": "PMC9486701",
+      "pmid": "36148046",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 343,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 2,
+            "words": 50
+          }
+        ],
+        "characters": 343,
+        "characters_no_whitespace": 294,
+        "sentences": 2,
+        "words": 50
+      }
+    },
+    {
+      "id": "PMID33543668",
+      "pmid": "33543668",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [],
+        "characters": 0,
+        "characters_no_whitespace": 0,
+        "sentences": 0,
+        "words": 0
+      }
+    },
+    {
+      "id": "PMID34333882",
+      "pmid": "34333882",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 1474,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 16,
+            "words": 230
+          }
+        ],
+        "characters": 1474,
+        "characters_no_whitespace": 1245,
+        "sentences": 16,
+        "words": 230
+      }
+    },
+    {
+      "id": "PMID39283431",
+      "pmid": "39283431",
+      "content_scope": "abstract",
+      "statistics": {
+        "blocks": [
+          {
+            "block_id": "b0",
+            "characters": 1393,
+            "kind": "abstract",
+            "narrative": true,
+            "section": "摘要",
+            "sentences": 9,
+            "words": 207
+          }
+        ],
+        "characters": 1393,
+        "characters_no_whitespace": 1187,
+        "sentences": 9,
+        "words": 207
+      }
+    }
+  ],
+  "offline_new_process": true,
+  "browser_reload_document_count": 8,
+  "query": "covid",
+  "stemming": true,
+  "search_results": [
+    {
+      "id": "PMC9486701",
+      "score": 0.17815088090509495,
+      "display": "18%"
+    },
+    {
+      "id": "PMC8250914",
+      "score": 0.14205263640960106,
+      "display": "14%"
+    },
+    {
+      "id": "PMID34333882",
+      "score": 0.12946099473946807,
+      "display": "13%"
+    },
+    {
+      "id": "PMID39283431",
+      "score": 0.1005380339856999,
+      "display": "10%"
+    },
+    {
+      "id": "PMC7584564",
+      "score": 0.053016418124113986,
+      "display": "5%"
+    }
+  ],
+  "personal_corpus_integrity": [
+    {
+      "path": "data/raw/PMID34242653-b32cc2665103134f46ff.xml",
+      "sha256": "b32cc2665103134f46ff2313bc7783a26ec1ab91b84f120e6c8d0823698244cb",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMID34935114-75b1acea7cee1b81b306.xml",
+      "sha256": "75b1acea7cee1b81b306cadc0e6b7449b370953c82162b1262fa206363169352",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMID35527294-52459f703bb1f78a0de9.xml",
+      "sha256": "52459f703bb1f78a0de9d2d05d46b9926b7ed182aab7e34edaa43b9386bbb82b",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMID39188132-db3528616d3540ccce71.xml",
+      "sha256": "db3528616d3540ccce71de288bb0c8b3ebdc68834a1899d93853939c9f6ccfbe",
+      "unchanged": true
+    },
+    {
+      "path": "data/index.json",
+      "sha256": "c494ccb1f6b5fd5c015a6e84ecc3528ba04dbcaed67e9a7383d4892e9757d7d2",
+      "unchanged": true
+    },
+    {
+      "path": "data/manifest.jsonl",
+      "sha256": "bad4258b7082e0e2ac1a0419c0ea942f360a0aa2b93c682ea190355f6236cf40",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/articles.jsonl",
+      "sha256": "2d0a8732e78cccf1f8091fdb9e461513341f1fd2fc0000bdd993e098b26469eb",
+      "unchanged": true
+    }
+  ]
+}

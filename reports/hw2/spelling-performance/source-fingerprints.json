@@ -1,0 +1,26 @@
+[
+  {
+    "path": "app.py",
+    "sha256": "d0b532f133d672c32ed25e683f786732892577b17fa374d95c25ec3a0f94d6b7"
+  },
+  {
+    "path": "ir_hw2/spelling.py",
+    "sha256": "e387f1c2df26a205ba982df3b7db4f6652c1f8e905b261fa6b3122f8680095de"
+  },
+  {
+    "path": "tests/test_hw2_spelling_index.py",
+    "sha256": "801509cf6bcc4a88a496bee803f735e55ace4e134b9448db7c0dd2bd523d553d"
+  },
+  {
+    "path": "tests/test_hw2_live_spelling.py",
+    "sha256": "8ca17590af6a1644be826c9ab4f07f05ba037d6fa7c44eaf3e09c566156e41e0"
+  },
+  {
+    "path": "tmp/spelling-latency-baseline-20261004.py",
+    "sha256": "768f42afac83e4edb35f8ab263f145f79fa83f0fa05d3a1a0c5e4bd101327a6f"
+  },
+  {
+    "path": "tmp/benchmark-spelling-performance.py",
+    "sha256": "756f604ed0cefaa94bb02357a28273c68eb04bfd80c598ad16454165e3a45900"
+  }
+]

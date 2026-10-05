@@ -1,0 +1,341 @@
+ROUND 1 SEARCH
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: public database
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.27 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：public database ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC3531190 · 2013 · 4,728 個單字
+- generic: GenBank
+- paragraph: 正文 / INTRODUCTION
+- text: GenBank ( 1 ) is a comprehensive
+- mark: public database
+- text: of nucleotide sequences and supporting bibliographic and biological annotation.…
+- button "開啟文章 PMC3531190":
+  - paragraph: 開啟文章 PMC3531190
+
+ROUND 1 DOWNLOAD
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理" [checked]
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "文章管理" [level=3]:
+  - text: 文章管理
+  - link "Link to heading":
+    - /url: "#840dd80d"
+- paragraph: 加入或刪除後立即更新搜尋；上傳及本機管理可離線使用，PMID 下載需要網路。
+- status:
+  - paragraph: PMID 查詢完成，結果如下。
+- button "Show/hide columns":
+- button "Download as CSV":
+- button "Search":
+- button "Fullscreen":
+- tablist:
+  - tab "上傳 XML":
+    - paragraph: 上傳 XML
+  - tab "PMID 下載" [selected]:
+    - paragraph: PMID 下載
+  - tab "刪除與還原":
+    - paragraph: 刪除與還原
+- tabpanel "PMID 下載":
+  - paragraph: 輸入 PubMed 的數字 PMID，例如 23193287。系統會尋找對應的 PMC 全文並加入本機。
+  - paragraph: 只下載可取得的英文全文及可辨識的 Creative Commons 授權文章；僅有摘要或尚未公開的文章無法加入。
+  - paragraph: PMID
+  - textbox "PMID":
+    - /placeholder: 例如：23193287
+    - text: "23193287"
+  - button "下載並加入搜尋" [active]:
+    - paragraph: 下載並加入搜尋
+
+ROUND 2 SEARCH
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: public database
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.20 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：public database ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC3531190 · 2013 · 4,728 個單字
+- generic: GenBank
+- paragraph: 正文 / INTRODUCTION
+- text: GenBank ( 1 ) is a comprehensive
+- mark: public database
+- text: of nucleotide sequences and supporting bibliographic and biological annotation.…
+- button "開啟文章 PMC3531190":
+  - paragraph: 開啟文章 PMC3531190
+
+ROUND 2 DOWNLOAD
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理" [checked]
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "文章管理" [level=3]:
+  - text: 文章管理
+  - link "Link to heading":
+    - /url: "#840dd80d"
+- paragraph: 加入或刪除後立即更新搜尋；上傳及本機管理可離線使用，PMID 下載需要網路。
+- status:
+  - paragraph: PMID 查詢完成，結果如下。
+- button "Show/hide columns":
+- button "Download as CSV":
+- button "Search":
+- button "Fullscreen":
+- tablist:
+  - tab "上傳 XML":
+    - paragraph: 上傳 XML
+  - tab "PMID 下載" [selected]:
+    - paragraph: PMID 下載
+  - tab "刪除與還原":
+    - paragraph: 刪除與還原
+- tabpanel "PMID 下載":
+  - paragraph: 輸入 PubMed 的數字 PMID，例如 23193287。系統會尋找對應的 PMC 全文並加入本機。
+  - paragraph: 只下載可取得的英文全文及可辨識的 Creative Commons 授權文章；僅有摘要或尚未公開的文章無法加入。
+  - paragraph: PMID
+  - textbox "PMID":
+    - /placeholder: 例如：23193287
+    - text: "23193287"
+  - button "下載並加入搜尋" [active]:
+    - paragraph: 下載並加入搜尋
+
+ROUND 3 SEARCH
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: public database
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.27 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：public database ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC3531190 · 2013 · 4,728 個單字
+- generic: GenBank
+- paragraph: 正文 / INTRODUCTION
+- text: GenBank ( 1 ) is a comprehensive
+- mark: public database
+- text: of nucleotide sequences and supporting bibliographic and biological annotation.…
+- button "開啟文章 PMC3531190":
+  - paragraph: 開啟文章 PMC3531190
+
+ROUND 3 DOWNLOAD
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理" [checked]
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "文章管理" [level=3]:
+  - text: 文章管理
+  - link "Link to heading":
+    - /url: "#840dd80d"
+- paragraph: 加入或刪除後立即更新搜尋；上傳及本機管理可離線使用，PMID 下載需要網路。
+- status:
+  - paragraph: PMID 查詢完成，結果如下。
+- button "Show/hide columns":
+- button "Download as CSV":
+- button "Search":
+- button "Fullscreen":
+- tablist:
+  - tab "上傳 XML":
+    - paragraph: 上傳 XML
+  - tab "PMID 下載" [selected]:
+    - paragraph: PMID 下載
+  - tab "刪除與還原":
+    - paragraph: 刪除與還原
+- tabpanel "PMID 下載":
+  - paragraph: 輸入 PubMed 的數字 PMID，例如 23193287。系統會尋找對應的 PMC 全文並加入本機。
+  - paragraph: 只下載可取得的英文全文及可辨識的 Creative Commons 授權文章；僅有摘要或尚未公開的文章無法加入。
+  - paragraph: PMID
+  - textbox "PMID":
+    - /placeholder: 例如：23193287
+    - text: "23193287"
+  - button "下載並加入搜尋" [active]:
+    - paragraph: 下載並加入搜尋

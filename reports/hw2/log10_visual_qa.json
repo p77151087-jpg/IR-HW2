@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-09-30T03:43:18.693414+00:00",
+  "figures": [
+    {
+      "file": "reports\\hw2\\experiment\\rank_frequency.png",
+      "sha256": "40137294b8fa4983104fa0f2400ba209c8826287092224ba524ac5cea67544a1",
+      "visual_review": "passed: inspected current output; base-10 axes/labels where applicable, values legible, no clipping/overlap"
+    },
+    {
+      "file": "reports\\hw2\\experiment\\log_log.png",
+      "sha256": "2dfeb4902d910249e5411c75632822924ba5e9c0d425bedd9b345ef8071b6585",
+      "visual_review": "passed: inspected current output; base-10 axes/labels where applicable, values legible, no clipping/overlap"
+    },
+    {
+      "file": "reports\\hw2\\experiment\\residuals.png",
+      "sha256": "51a21cd476d386bb02f11a73ccb6bd7931eb3c063c88a289c7a5aaf200d1cf9b",
+      "visual_review": "passed: inspected current output; base-10 axes/labels where applicable, values legible, no clipping/overlap"
+    },
+    {
+      "file": "reports\\hw2\\experiment\\preprocessing_comparison.png",
+      "sha256": "b14e37e6ebdd54bf48daaa5889c65d03ac5b05cb747627d672260eb68922c25f",
+      "visual_review": "passed: inspected current output; base-10 axes/labels where applicable, values legible, no clipping/overlap"
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,158 @@
+{
+  "verified_at_utc": "2026-10-03T15:41:40.329388+00:00",
+  "passed": true,
+  "pipeline_version": "hw2-hw1-four-conditions-v5-log10",
+  "primary_comparison": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "reference_condition": null,
+  "tokenizer_verification": {
+    "path": "reports/hw2/tokenizer_verification.json",
+    "sha256": "e90044b86f2f886f3dd8727a07932309f805292407599f9776b2c29968416644",
+    "documents_checked": 1000,
+    "reproduced_files": 21,
+    "independent_fits": 16,
+    "mapped_previous_conditions": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    }
+  },
+  "report": {
+    "path": "reports\\hw2\\HW2_REPORT.md",
+    "sha256": "8a3a25ebc2922f3d59649128932cdb404edf8abebf2a32957b3417a686a356b8",
+    "cf_df_idf_rows_checked": 39,
+    "regression_rows_checked": 16,
+    "statistics_rows_checked": 4,
+    "selected_terms_condition": "B",
+    "top50_rows_checked": 200,
+    "additional_comparison_figures": 5,
+    "english_words": 389,
+    "english_sha256": "35a2c2a213ac43f8f586ccc6046cc79573e03dc1506763944492aedfa733fae9"
+  },
+  "tests": {
+    "passed": 497,
+    "original_hw1": 348,
+    "hw2": 149,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "junit_seconds": 58.155,
+    "junit_path": "C:\\成大專案\\IR-HW2\\reports\\hw2\\comparisons-pytest.xml",
+    "junit_sha256": "5c2f5494b538f5f37e8fc5d126fe73bedd7a821aee88cae25851efb49be52b9a"
+  },
+  "original_test_files": [
+    {
+      "path": "tests/test_abstract_scope.py",
+      "sha256": "e90c05787c757b02c5d4bc4dc1d3f40d9f39007f4a1adb1afbe2261d854472b8",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_app.py",
+      "sha256": "8a49f30ea69b3e65a905409cc6b41b20a247854643c827de1f6ebd8e002d6df4",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_batch_download.py",
+      "sha256": "0d8099ced3c755f1f368010e46ad6dbcf01ade6469d1a69934b4fae7029160a7",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_compound_search.py",
+      "sha256": "052101f01ba0fec35d121d26fccfd96daf8b97717cb3d1f1464c73ec510942ec",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "9e857a64b58fff8962b56e114eaa51fb1ddd4420a6ad74496b7c34a759d84e8e",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_folder_batch.py",
+      "sha256": "61938e7298f1ced8a8bbe453d18db3acc14f806c8b93dfb34903a3d614e099bc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_library.py",
+      "sha256": "16347dc8e1f5063e8c5c840c58ca437590e3810d83aa5392954768780dad8d8a",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_phrase.py",
+      "sha256": "4c40564b9d5dfcb6ee875bed774e7d5dddaa2ab35be961ac67a94252103c5c01",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_pmid_list.py",
+      "sha256": "931bb62f47385ff1cb0714655f8eac45ad9204382c958bf1872d7c1c26ad17ef",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_purge.py",
+      "sha256": "c1351b9d8744bc6c9d836698784dfc9175a7a0edc72eb54163653d3e9cf70fae",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_real_corpus.py",
+      "sha256": "3b4d9c026860ae7022120853c63ae1b128d24a3efaab832b1a8867af288e1471",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_relevance.py",
+      "sha256": "a4ce954cb2b9d9f159f352b57ad607cae57b4630333933bae078e386b7537c69",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_source_scope.py",
+      "sha256": "48a505c54179f2c86aac873cc2f84fac1ffcb716a1b4b3aea6ee734b2773fd21",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_stemming.py",
+      "sha256": "ba767358c233e41ec2f0e4fea44ab75c0127189710833236da0c4c15c464f6a6",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_sync.py",
+      "sha256": "7b4e32e30cb7cdc2ba412711e04f9b18713750119a544ba26a2abf2fd0da5207",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_tfidf_app.py",
+      "sha256": "7b174aca73e15260beb6008ff9263c2ed4bd9ebe2c9b4946d87ffd8c3f57df9d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_tfidf.py",
+      "sha256": "21f61e99ba1d6f95753461b637e34ffcbff00890f38a9acb156af3d36d0499ef",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_xml_and_corpus.py",
+      "sha256": "6ee451efc1e6f95bca69a95dca788b6e39faa86ee9be4b8ac3c4b7d5e0975853",
+      "unchanged": true
+    }
+  ],
+  "word2vec": {
+    "ordered_sentences": 10843,
+    "tokens": 246256,
+    "vocabulary": 9658,
+    "sentence_cf_equals_analysis_B": true,
+    "vectors_sha256": "7de476d45de19d97d0572bbc561266ba6efac538c462a4f817144e647cae62f0",
+    "offline_reload": "passed"
+  },
+  "pdf_export": {
+    "sha256": "871799c6fbfd5b403ca2a822b81cc94b69ff85f6fe9365925d467e1b6a0eac43",
+    "current_source_and_figure_hashes": "passed",
+    "pages": [
+      21,
+      1
+    ],
+    "visual_qa": "Separate visual inspection evidence: reports/hw2/pdf_qa.json"
+  },
+  "limitations": "Counts and regression are descriptive; these checks do not establish retrieval or semantic accuracy."
+}

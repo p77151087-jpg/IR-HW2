@@ -1,0 +1,43 @@
+         3763428 function calls (3470294 primitive calls) in 14.559 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2702 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1559    7.690    0.005   28.270    0.018 {built-in method time.sleep}
+        4    0.000    0.000   14.574    3.644 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\element_tree.py:2681(run)
+        4    0.000    0.000   14.572    3.643 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\app_test.py:442(_run)
+        7    0.000    0.000   14.360    2.051 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:1059(join)
+        7    0.002    0.000   14.357    2.051 {method 'join' of '_thread._ThreadHandle' objects}
+      8/5    0.001    0.000   14.355    2.871 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:1001(_bootstrap)
+        4    0.000    0.000   14.222    3.556 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\local_script_runner.py:157(run)
+        4    0.000    0.000   14.219    3.555 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\local_script_runner.py:136(join)
+      8/5    0.005    0.001   14.217    2.843 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:1028(_bootstrap_inner)
+      7/5    0.000    0.000   14.212    2.842 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:984(run)
+        4    0.000    0.000   14.210    3.553 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py:379(_run_script_thread)
+        4    0.003    0.001   14.158    3.539 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py:580(_run_script)
+     49/5    0.002    0.000   12.654    2.531 {built-in method builtins.exec}
+        4    0.000    0.000   12.652    3.163 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py:83(exec_func_with_error_handling)
+        4    0.000    0.000   12.652    3.163 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py:766(code_to_exec)
+        1    0.000    0.000   11.207   11.207 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\app_test.py:547(run)
+     7545    0.012    0.000    7.653    0.001 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py:304(loads)
+     7545    0.021    0.000    6.849    0.001 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py:340(decode)
+        2    0.036    0.018    3.621    1.811 C:\成大專案\IR-HW2\ir_hw1\index.py:72(load_snapshot)
+        3    0.000    0.000    3.367    1.122 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\element_tree.py:214(run)
+        1    0.000    0.000    2.888    2.888 C:\成大專案\IR-HW2\app.py:1(<module>)
+        4    0.000    0.000    2.623    0.656 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\caching\cache_utils.py:683(__call__)
+        4    0.000    0.000    2.623    0.656 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\caching\cache_utils.py:707(_get_or_create_cached_value)
+        1    0.000    0.000    2.618    2.618 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\caching\cache_utils.py:777(_handle_cache_miss)
+        1    0.000    0.000    2.618    2.618 C:\成大專案\IR-HW2\app.py:44(cached_snapshot)
+        2    0.003    0.002    2.320    1.160 C:\成大專案\IR-HW2\ir_hw1\sync.py:31(_read_json)
+        1    0.003    0.003    2.318    2.318 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py:432(_run_with_thread_state)
+        1    0.000    0.000    2.228    2.228 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:1342(run)
+     10/9    0.000    0.000    2.165    0.241 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:641(wait)
+    13/12    0.000    0.000    2.165    0.180 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\threading.py:327(wait)
+    68/51    2.027    0.030    2.027    0.040 {method 'acquire' of '_thread.lock' objects}
+  186/178    0.001    0.000    1.689    0.009 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\metrics_util.py:681(wrapped_func)
+        4    0.000    0.000    1.470    0.368 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py:28(add_magic)
+       10    0.045    0.005    1.096    0.110 C:\成大專案\IR-HW2\ir_hw1\sync.py:196(raw_signature)
+        5    0.012    0.002    1.022    0.204 C:\成大專案\IR-HW2\ir_hw1\storage.py:56(load_documents)
+
+

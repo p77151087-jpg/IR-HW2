@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-10-03T15:52:56.095137+00:00",
+  "url": "http://127.0.0.1:8501",
+  "checks": [
+    "Five-topic laboratory navigation displayed",
+    "A-D high-frequency charts share CF scale",
+    "High-frequency charts stack at narrow width and use two columns on desktop",
+    "CF/DF selected semaglutide: 649, 228, 22.8%, 2.85",
+    "IDF formula and representative-word views switch successfully",
+    "Zipf all-condition head/middle/tail chart switches R2/RMSE",
+    "All four middle segments shown as best by both metrics",
+    "Requirement mapping and main/summary PDF buttons displayed",
+    "Main PDF downloaded from website and matches final exported bytes"
+  ],
+  "viewport_checks": {
+    "narrow_width": 429,
+    "desktop_width": 1100,
+    "override_reset": true
+  },
+  "pdf_download": {
+    "file": "C:\\Users\\Huayi\\Downloads\\HW2_REPORT.pdf",
+    "sha256": "e20077a571caeca4e369ee0cd756575496cd4b23977cf6eb1747149659782de4",
+    "matches_export": true
+  },
+  "evidence": [
+    {
+      "path": "reports\\hw2\\comparisons-qa\\cf-df-desktop.jpg",
+      "sha256": "3f72e96328aa43bae1aea2df412b2b764606ed1d2fc35acb08a115199bd5f7a9"
+    },
+    {
+      "path": "reports\\hw2\\comparisons-qa\\segment-comparison.jpg",
+      "sha256": "931713eb82f4666018e3e5adbf35c69521948d5a5413fda1efaa7b5202e23e16"
+    }
+  ],
+  "limitations": [
+    "This browser pass covers the changed comparison and report views; Word2Vec and spelling are covered by the full regression and prior dedicated browser verification."
+  ]
+}

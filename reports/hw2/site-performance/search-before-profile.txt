@@ -1,0 +1,43 @@
+         30825 function calls (30560 primitive calls) in 0.219 seconds
+
+   Ordered by: cumulative time
+   List reduced from 486 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.215    0.215 {built-in method builtins.exec}
+        1    0.000    0.000    0.215    0.215 C:\成大專案\IR-HW2\app.py:1(<module>)
+        3    0.006    0.002    0.204    0.068 C:\成大專案\IR-HW2\ir_hw1\sync.py:196(raw_signature)
+        2    0.000    0.000    0.137    0.069 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\fragment.py:587(wrap)
+        2    0.000    0.000    0.136    0.068 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\fragment.py:616(wrapped_fragment)
+      121    0.096    0.001    0.096    0.001 {built-in method time.sleep}
+       30    0.071    0.002    0.071    0.002 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.069    0.069 C:\成大專案\IR-HW2\app.py:89(show_search_controls)
+        1    0.000    0.000    0.068    0.068 C:\成大專案\IR-HW2\app.py:211(ensure_reader_current)
+        1    0.000    0.000    0.066    0.066 C:\成大專案\IR-HW2\app.py:294(watch_raw_folder)
+       30    0.024    0.001    0.024    0.001 {built-in method _hashlib.openssl_sha256}
+       33    0.000    0.000    0.007    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\metrics_util.py:681(wrapped_func)
+       27    0.002    0.000    0.003    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\delta_generator.py:289(__init__)
+       16    0.000    0.000    0.003    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\delta_generator.py:513(_enqueue)
+        1    0.003    0.003    0.003    0.003 {built-in method builtins.compile}
+       31    0.000    0.000    0.003    0.000 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:529(open)
+       31    0.002    0.000    0.002    0.000 {built-in method _io.open}
+        6    0.000    0.000    0.002    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\elements\layouts.py:108(container)
+        6    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\delta_generator.py:631(_block)
+      122    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\testing\v1\local_script_runner.py:191(script_stopped)
+       85    0.001    0.000    0.001    0.000 {built-in method nt.stat}
+       82    0.000    0.000    0.001    0.000 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:510(stat)
+        4    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\app.py:52(file_signature)
+    175/8    0.000    0.000    0.001    0.000 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\copy.py:119(deepcopy)
+       24    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\app.py:55(<genexpr>)
+        5    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\elements\markdown.py:288(caption)
+        4    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\elements\markdown.py:91(markdown)
+        4    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\elements\markdown.py:55(_markdown)
+      128    0.001    0.000    0.001    0.000 {built-in method builtins.any}
+      9/4    0.000    0.000    0.001    0.000 C:\Users\Huayi\AppData\Local\Programs\Python\Python313\Lib\copy.py:201(_deepcopy_tuple)
+       31    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+        3    0.000    0.000    0.001    0.000 {built-in method builtins.sorted}
+      5/3    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\delta_generator.py:420(__deepcopy__)
+    14053    0.001    0.000    0.001    0.000 {built-in method builtins.callable}
+       24    0.000    0.000    0.001    0.000 C:\成大專案\IR-HW2\.venv-hw2\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py:328(enqueue)
+
+

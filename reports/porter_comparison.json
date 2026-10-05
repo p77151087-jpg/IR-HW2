@@ -1,0 +1,346 @@
+{
+  "documents": 15,
+  "corpus_sha256": "dc786090172376eaf94e8c965304670e89a8af5340dd30e7820677d8b79fe34a",
+  "porter_preprocessing": {
+    "casefold": true,
+    "implementation": "nltk",
+    "implementation_version": "3.9.2",
+    "mode": "MARTIN_EXTENSIONS",
+    "remove_stopwords": false,
+    "scope": "ascii-alpha-v1",
+    "stemming": "porter",
+    "tokenizer": "unicode-word-v1"
+  },
+  "original_terms": 7707,
+  "porter_terms": 5846,
+  "original_postings_unchanged": true,
+  "all_article_statistics_unchanged": true,
+  "original_index_bytes": 1528112,
+  "dual_index_bytes": 2943698,
+  "porter_locations_checked": 55164,
+  "queries": [
+    {
+      "query": "therapy",
+      "mode": "AND",
+      "original_terms": [
+        "therapy"
+      ],
+      "porter_terms": [
+        "therapi"
+      ],
+      "original_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "original_count": 10,
+      "porter_count": 10
+    },
+    {
+      "query": "therapies",
+      "mode": "AND",
+      "original_terms": [
+        "therapies"
+      ],
+      "porter_terms": [
+        "therapi"
+      ],
+      "original_documents": [
+        "PMC7616680"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "original_count": 1,
+      "porter_count": 10
+    },
+    {
+      "query": "patient",
+      "mode": "AND",
+      "original_terms": [
+        "patient"
+      ],
+      "porter_terms": [
+        "patient"
+      ],
+      "original_documents": [
+        "PMC7616680",
+        "PMC10765925",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "original_count": 8,
+      "porter_count": 11
+    },
+    {
+      "query": "patients",
+      "mode": "AND",
+      "original_terms": [
+        "patients"
+      ],
+      "porter_terms": [
+        "patient"
+      ],
+      "original_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10863270"
+      ],
+      "original_count": 10,
+      "porter_count": 11
+    },
+    {
+      "query": "treatment",
+      "mode": "AND",
+      "original_terms": [
+        "treatment"
+      ],
+      "porter_terms": [
+        "treatment"
+      ],
+      "original_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "original_count": 13,
+      "porter_count": 13
+    },
+    {
+      "query": "treatments",
+      "mode": "AND",
+      "original_terms": [
+        "treatments"
+      ],
+      "porter_terms": [
+        "treatment"
+      ],
+      "original_documents": [
+        "PMC10782598"
+      ],
+      "porter_documents": [
+        "PMC7616680",
+        "PMC7617274",
+        "PMC7617276",
+        "PMC10765925",
+        "PMC10765943",
+        "PMC10771658",
+        "PMC10771685",
+        "PMC10782598",
+        "PMC10801942",
+        "PMC10829476",
+        "PMC10832207",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "original_count": 1,
+      "porter_count": 13
+    },
+    {
+      "query": "cancer treatment",
+      "mode": "AND",
+      "original_terms": [
+        "cancer",
+        "treatment"
+      ],
+      "porter_terms": [
+        "cancer",
+        "treatment"
+      ],
+      "original_documents": [
+        "PMC7617276"
+      ],
+      "porter_documents": [
+        "PMC7617276"
+      ],
+      "original_count": 1,
+      "porter_count": 1
+    },
+    {
+      "query": "connect",
+      "mode": "AND",
+      "original_terms": [
+        "connect"
+      ],
+      "porter_terms": [
+        "connect"
+      ],
+      "original_documents": [],
+      "porter_documents": [
+        "PMC7617276",
+        "PMC10782598",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "original_count": 0,
+      "porter_count": 4
+    },
+    {
+      "query": "connected",
+      "mode": "AND",
+      "original_terms": [
+        "connected"
+      ],
+      "porter_terms": [
+        "connect"
+      ],
+      "original_documents": [
+        "PMC10863270"
+      ],
+      "porter_documents": [
+        "PMC7617276",
+        "PMC10782598",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "original_count": 1,
+      "porter_count": 4
+    },
+    {
+      "query": "connecting",
+      "mode": "AND",
+      "original_terms": [
+        "connecting"
+      ],
+      "porter_terms": [
+        "connect"
+      ],
+      "original_documents": [
+        "PMC7617276"
+      ],
+      "porter_documents": [
+        "PMC7617276",
+        "PMC10782598",
+        "PMC10858524",
+        "PMC10863270"
+      ],
+      "original_count": 1,
+      "porter_count": 4
+    },
+    {
+      "query": "cancer",
+      "mode": "AND",
+      "original_terms": [
+        "cancer"
+      ],
+      "porter_terms": [
+        "cancer"
+      ],
+      "original_documents": [
+        "PMC7617276"
+      ],
+      "porter_documents": [
+        "PMC7617276"
+      ],
+      "original_count": 1,
+      "porter_count": 1
+    },
+    {
+      "query": "cancerous",
+      "mode": "AND",
+      "original_terms": [
+        "cancerous"
+      ],
+      "porter_terms": [
+        "cancer"
+      ],
+      "original_documents": [],
+      "porter_documents": [
+        "PMC7617276"
+      ],
+      "original_count": 0,
+      "porter_count": 1
+    }
+  ],
+  "limitation": "Result counts compare matching behavior only; no relevance judgments or precision/recall evaluation."
+}

@@ -1,0 +1,2172 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-0a73d63249e12e707074cd127b71c607"
+      },
+      "mark": {
+        "type": "line",
+        "color": "#ABB5C0"
+      },
+      "encoding": {
+        "x": {
+          "axis": {
+            "values": [
+              1,
+              10,
+              100,
+              1000
+            ]
+          },
+          "field": "df",
+          "scale": {
+            "base": 10,
+            "domain": [
+              0.7,
+              1350.0
+            ],
+            "type": "log"
+          },
+          "title": "DF：文件覆蓋數（log 刻度）",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "idf",
+          "scale": {
+            "domain": [
+              -0.15,
+              3.2
+            ]
+          },
+          "title": "IDF = log(N / DF)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "df": 1,
+            "idf": 3.0,
+            "term_count": 9777,
+            "examples": "esge、esgena、c3m、mlf、brca1"
+          },
+          {
+            "df": 2,
+            "idf": 2.6989700043360187,
+            "term_count": 2344,
+            "examples": "gdm、fi、pr、crc、ibs"
+          },
+          {
+            "df": 3,
+            "idf": 2.5228787452803374,
+            "term_count": 1108,
+            "examples": "tzp、dpn、icosema、smi、abca1"
+          },
+          {
+            "df": 4,
+            "idf": 2.3979400086720375,
+            "term_count": 680,
+            "examples": "rgc、ecnoglutide、ibd、recommendation、hscrp"
+          },
+          {
+            "df": 5,
+            "idf": 2.3010299956639813,
+            "term_count": 486,
+            "examples": "hair、acdf、hs、suicide、pwh"
+          },
+          {
+            "df": 6,
+            "idf": 2.221848749616356,
+            "term_count": 367,
+            "examples": "pmos、oa、ca2、hhf、aud"
+          },
+          {
+            "df": 7,
+            "idf": 2.154901959985743,
+            "term_count": 302,
+            "examples": "noise、pseudarthrosis、bodyweight、smd、cervical"
+          },
+          {
+            "df": 9,
+            "idf": 2.0457574905606752,
+            "term_count": 234,
+            "examples": "osa、naion、pd、beta、ror"
+          },
+          {
+            "df": 8,
+            "idf": 2.0969100130080562,
+            "term_count": 233,
+            "examples": "asthma、sema、sg、ascvd、sglt-2i"
+          },
+          {
+            "df": 10,
+            "idf": 2.0,
+            "term_count": 169,
+            "examples": "pcos、cv、dkd、dm、mbs"
+          },
+          {
+            "df": 11,
+            "idf": 1.9586073148417749,
+            "term_count": 142,
+            "examples": "af、glp1-ra、dpp-4i、opioid、cgm"
+          },
+          {
+            "df": 12,
+            "idf": 1.9208187539523751,
+            "term_count": 130,
+            "examples": "uacr、children、recommend、aspiration、amylin"
+          },
+          {
+            "df": 13,
+            "idf": 1.8860566476931633,
+            "term_count": 109,
+            "examples": "dementia、ckm、aes、faers、recurrence"
+          },
+          {
+            "df": 14,
+            "idf": 1.853871964321762,
+            "term_count": 98,
+            "examples": "hf、ad、i2、reproductive、optic"
+          },
+          {
+            "df": 15,
+            "idf": 1.8239087409443189,
+            "term_count": 84,
+            "examples": "sglt2is、vitamin、exendin-4、anxiety、withdrawal"
+          },
+          {
+            "df": 16,
+            "idf": 1.7958800173440752,
+            "term_count": 77,
+            "examples": "mash、gipr、pancreatitis、retatrutide、90-day"
+          },
+          {
+            "df": 18,
+            "idf": 1.744727494896694,
+            "term_count": 74,
+            "examples": "cvd、dpp4i、skin、very、1-year"
+          },
+          {
+            "df": 19,
+            "idf": 1.721246399047171,
+            "term_count": 67,
+            "examples": "orforglipron、hfpef、sglt-2、mmol、products"
+          },
+          {
+            "df": 17,
+            "idf": 1.7695510786217261,
+            "term_count": 67,
+            "examples": "t1d、alcohol、b、binding、costs"
+          },
+          {
+            "df": 21,
+            "idf": 1.6777807052660807,
+            "term_count": 55,
+            "examples": "adolescents、β-cell、neuropathy、peptides、supplementation"
+          },
+          {
+            "df": 24,
+            "idf": 1.6197887582883939,
+            "term_count": 52,
+            "examples": "0、dl、volume、agonism、trajectories"
+          },
+          {
+            "df": 22,
+            "idf": 1.6575773191777938,
+            "term_count": 51,
+            "examples": "md、postprandial、microbial、ischemic、chinese"
+          },
+          {
+            "df": 20,
+            "idf": 1.6989700043360187,
+            "term_count": 47,
+            "examples": "hypoglycemia、depression、pediatric、coronary、hypoglycaemia"
+          },
+          {
+            "df": 23,
+            "idf": 1.6382721639824072,
+            "term_count": 42,
+            "examples": "rats、atrial、aging、circulating、visceral"
+          },
+          {
+            "df": 26,
+            "idf": 1.585026652029182,
+            "term_count": 39,
+            "examples": "cognitive、pulmonary、bone、survival、skeletal"
+          },
+          {
+            "df": 27,
+            "idf": 1.5686362358410126,
+            "term_count": 35,
+            "examples": "monotherapy、psychiatric、lean、stage、cardiorenal"
+          },
+          {
+            "df": 33,
+            "idf": 1.4814860601221125,
+            "term_count": 31,
+            "examples": "l、dulaglutide、stroke、min、utilization"
+          },
+          {
+            "df": 25,
+            "idf": 1.6020599913279623,
+            "term_count": 30,
+            "examples": "certainty、c、endothelial、hospitalization、cost"
+          },
+          {
+            "df": 30,
+            "idf": 1.5228787452803376,
+            "term_count": 28,
+            "examples": "rr、rcts、brain、persistent、synthesis"
+          },
+          {
+            "df": 32,
+            "idf": 1.494850021680094,
+            "term_count": 28,
+            "examples": "prescribing、i、reviews、vivo、exhibited"
+          },
+          {
+            "df": 35,
+            "idf": 1.4559319556497243,
+            "term_count": 28,
+            "examples": "0.05、scores、inhibition、strong、90"
+          },
+          {
+            "df": 28,
+            "idf": 1.5528419686577808,
+            "term_count": 28,
+            "examples": "dpp-4、sd、0.0001、glp-1-based、survey"
+          },
+          {
+            "df": 36,
+            "idf": 1.4436974992327127,
+            "term_count": 25,
+            "examples": "cancer、postoperative、9、production、gain"
+          },
+          {
+            "df": 31,
+            "idf": 1.5086383061657274,
+            "term_count": 25,
+            "examples": "egfr、incident、pain、receptors、points"
+          },
+          {
+            "df": 34,
+            "idf": 1.4685210829577449,
+            "term_count": 24,
+            "examples": "microbiota、emptying、prescription、doses、phenotype"
+          },
+          {
+            "df": 43,
+            "idf": 1.3665315444204134,
+            "term_count": 23,
+            "examples": "fibrosis、nutritional、women、undergoing、surgical"
+          },
+          {
+            "df": 46,
+            "idf": 1.337242168318426,
+            "term_count": 22,
+            "examples": "obese、pressure、inhibitor、healthcare、controls"
+          },
+          {
+            "df": 29,
+            "idf": 1.537602002101044,
+            "term_count": 22,
+            "examples": "eating、cholesterol、sleep、preoperative、concentrations"
+          },
+          {
+            "df": 42,
+            "idf": 1.3767507096020994,
+            "term_count": 19,
+            "examples": "antidiabetic、perioperative、obesity-related、range、adipose"
+          },
+          {
+            "df": 38,
+            "idf": 1.4202164033831899,
+            "term_count": 17,
+            "examples": "masld、composite、exercise、endocrine、weight-loss"
+          },
+          {
+            "df": 48,
+            "idf": 1.3187587626244128,
+            "term_count": 17,
+            "examples": "e、effectiveness、glucose-lowering、targets、event"
+          },
+          {
+            "df": 53,
+            "idf": 1.275724130399211,
+            "term_count": 16,
+            "examples": "muscle、glucagon、will、pharmacotherapy、medical"
+          },
+          {
+            "df": 45,
+            "idf": 1.3467874862246563,
+            "term_count": 16,
+            "examples": "level、7、occurred、oxidative、biological"
+          },
+          {
+            "df": 39,
+            "idf": 1.408935392973501,
+            "term_count": 15,
+            "examples": "mace、prevention、hypertension、residual、absolute"
+          },
+          {
+            "df": 44,
+            "idf": 1.3565473235138126,
+            "term_count": 15,
+            "examples": "mitochondrial、intestinal、adherence、reports、signals"
+          },
+          {
+            "df": 47,
+            "idf": 1.3279021420642825,
+            "term_count": 14,
+            "examples": "sglt2i、pooled、24、death、older"
+          },
+          {
+            "df": 37,
+            "idf": 1.431798275933005,
+            "term_count": 14,
+            "examples": "hormones、ml、tolerability、daily、glycaemic"
+          },
+          {
+            "df": 41,
+            "idf": 1.3872161432802645,
+            "term_count": 13,
+            "examples": "week、structural、achieved、does、highly"
+          },
+          {
+            "df": 50,
+            "idf": 1.3010299956639813,
+            "term_count": 12,
+            "examples": "ckd、pancreatic、access、15、impaired"
+          },
+          {
+            "df": 54,
+            "idf": 1.2676062401770316,
+            "term_count": 12,
+            "examples": "all-cause、reporting、8、g、markers"
+          },
+          {
+            "df": 55,
+            "idf": 1.2596373105057561,
+            "term_count": 12,
+            "examples": "diseases、acid、severe、diagnosis、received"
+          },
+          {
+            "df": 57,
+            "idf": 1.2441251443275085,
+            "term_count": 12,
+            "examples": "median、symptoms、biomarkers、dysfunction-associated、include"
+          },
+          {
+            "df": 60,
+            "idf": 1.2218487496163564,
+            "term_count": 11,
+            "examples": "glp-1r、appetite、energy、adjusted、pathway"
+          },
+          {
+            "df": 61,
+            "idf": 1.2146701649892329,
+            "term_count": 11,
+            "examples": "mice、cells、sglt2、cell、tissue"
+          },
+          {
+            "df": 78,
+            "idf": 1.1079053973095196,
+            "term_count": 11,
+            "examples": "blood、protein、our、additional、how"
+          },
+          {
+            "df": 58,
+            "idf": 1.2365720064370627,
+            "term_count": 11,
+            "examples": "gastric、injury、composition、diet、male"
+          },
+          {
+            "df": 62,
+            "idf": 1.207608310501746,
+            "term_count": 10,
+            "examples": "intake、fat、incretin、receiving、matched"
+          },
+          {
+            "df": 40,
+            "idf": 1.3979400086720377,
+            "term_count": 10,
+            "examples": "vascular、serum、fatty、myocardial、protection"
+          },
+          {
+            "df": 49,
+            "idf": 1.3098039199714864,
+            "term_count": 9,
+            "examples": "plasma、randomised、subgroup、least、about"
+          },
+          {
+            "df": 83,
+            "idf": 1.080921907623926,
+            "term_count": 8,
+            "examples": "hba1c、m2、overweight、human、rates"
+          },
+          {
+            "df": 82,
+            "idf": 1.0861861476162833,
+            "term_count": 8,
+            "examples": "food、initiation、drugs、rate、estimated"
+          },
+          {
+            "df": 71,
+            "idf": 1.1487416512809248,
+            "term_count": 8,
+            "examples": "odds、responses、alone、combined、comorbidities"
+          },
+          {
+            "df": 63,
+            "idf": 1.2006594505464183,
+            "term_count": 8,
+            "examples": "quality、progression、diabetic、improvement、female"
+          },
+          {
+            "df": 87,
+            "idf": 1.0604807473813815,
+            "term_count": 7,
+            "examples": "0.001、combination、change、6、pharmacological"
+          },
+          {
+            "df": 84,
+            "idf": 1.0757207139381184,
+            "term_count": 7,
+            "examples": "dose、low、disorders、matching、available"
+          },
+          {
+            "df": 65,
+            "idf": 1.1870866433571445,
+            "term_count": 7,
+            "examples": "gut、practice、period、criteria、2024"
+          },
+          {
+            "df": 52,
+            "idf": 1.2839966563652008,
+            "term_count": 7,
+            "examples": "dietary、case、approved、contribute、database"
+          },
+          {
+            "df": 51,
+            "idf": 1.2924298239020637,
+            "term_count": 7,
+            "examples": "fasting、hormone、mechanism、critical、consistently"
+          },
+          {
+            "df": 56,
+            "idf": 1.2518119729937995,
+            "term_count": 7,
+            "examples": "per、discontinuation、initiated、eligible、addition"
+          },
+          {
+            "df": 96,
+            "idf": 1.0177287669604316,
+            "term_count": 6,
+            "examples": "liver、surgery、regarding、direct、impact"
+          },
+          {
+            "df": 76,
+            "idf": 1.1191864077192086,
+            "term_count": 6,
+            "examples": "t2d、hazard、three、before、burden"
+          },
+          {
+            "df": 94,
+            "idf": 1.0268721464003012,
+            "term_count": 6,
+            "examples": "oral、5、propensity、well、insulinotropic"
+          },
+          {
+            "df": 79,
+            "idf": 1.1023729087095586,
+            "term_count": 6,
+            "examples": "users、lifestyle、there、rather、characterized"
+          },
+          {
+            "df": 88,
+            "idf": 1.0555173278498313,
+            "term_count": 6,
+            "examples": "complications、novel、effective、ratios、increasing"
+          },
+          {
+            "df": 95,
+            "idf": 1.0222763947111522,
+            "term_count": 6,
+            "examples": "time、factors、early、populations、yet"
+          },
+          {
+            "df": 59,
+            "idf": 1.2291479883578558,
+            "term_count": 6,
+            "examples": "year、integrated、interval、compare、intervals"
+          },
+          {
+            "df": 86,
+            "idf": 1.0655015487564323,
+            "term_count": 5,
+            "examples": "hr、resistance、treated、did、approaches"
+          },
+          {
+            "df": 102,
+            "idf": 0.9913998282380825,
+            "term_count": 5,
+            "examples": "t2dm、inflammation、30、development、identify"
+          },
+          {
+            "df": 135,
+            "idf": 0.8696662315049939,
+            "term_count": 5,
+            "examples": "drug、trial、who、differences、particularly"
+          },
+          {
+            "df": 85,
+            "idf": 1.0705810742857074,
+            "term_count": 5,
+            "examples": "renal、incidence、4、profile、need"
+          },
+          {
+            "df": 70,
+            "idf": 1.1549019599857433,
+            "term_count": 5,
+            "examples": "liraglutide、response、axis、new、approach"
+          },
+          {
+            "df": 80,
+            "idf": 1.0969100130080565,
+            "term_count": 5,
+            "examples": "medication、weeks、molecular、metabolism、respectively"
+          },
+          {
+            "df": 67,
+            "idf": 1.1739251972991736,
+            "term_count": 5,
+            "examples": "expression、syndrome、acute、prescribed、meaningful"
+          },
+          {
+            "df": 69,
+            "idf": 1.1611509092627448,
+            "term_count": 5,
+            "examples": "hepatic、associations、design、global、trinetx"
+          },
+          {
+            "df": 74,
+            "idf": 1.1307682802690238,
+            "term_count": 5,
+            "examples": "incretin-based、preclinical、activation、independent、relevant"
+          },
+          {
+            "df": 75,
+            "idf": 1.1249387366083,
+            "term_count": 5,
+            "examples": "secretion、lipid、stress、regulation、several"
+          },
+          {
+            "df": 123,
+            "idf": 0.9100948885606021,
+            "term_count": 4,
+            "examples": "kidney、individuals、association、patient"
+          },
+          {
+            "df": 107,
+            "idf": 0.9706162223147904,
+            "term_count": 4,
+            "examples": "mg、mortality、based、confidence"
+          },
+          {
+            "df": 178,
+            "idf": 0.7495799976911061,
+            "term_count": 4,
+            "examples": "years、analyses、significantly、assessed"
+          },
+          {
+            "df": 114,
+            "idf": 0.9430951486635274,
+            "term_count": 4,
+            "examples": "gip、signaling、levels、2025"
+          },
+          {
+            "df": 73,
+            "idf": 1.136677139879544,
+            "term_count": 4,
+            "examples": "placebo、phase、difference、concerns"
+          },
+          {
+            "df": 113,
+            "idf": 0.9469215565165803,
+            "term_count": 4,
+            "examples": "cardiometabolic、function、secondary、aimed"
+          },
+          {
+            "df": 112,
+            "idf": 0.9507819773298184,
+            "term_count": 4,
+            "examples": "following、gastrointestinal、controlled、despite"
+          },
+          {
+            "df": 101,
+            "idf": 0.9956786262173575,
+            "term_count": 4,
+            "examples": "model、interventions、consistent、prospective"
+          },
+          {
+            "df": 106,
+            "idf": 0.9746941347352298,
+            "term_count": 4,
+            "examples": "benefit、framework、score、population"
+          },
+          {
+            "df": 77,
+            "idf": 1.1135092748275182,
+            "term_count": 4,
+            "examples": "people、inflammatory、systematic、conditions"
+          },
+          {
+            "df": 66,
+            "idf": 1.1804560644581314,
+            "term_count": 4,
+            "examples": "disorder、meta-analysis、literature、driven"
+          },
+          {
+            "df": 68,
+            "idf": 1.1674910872937636,
+            "term_count": 4,
+            "examples": "heterogeneity、functional、cohorts、followed"
+          },
+          {
+            "df": 259,
+            "idf": 0.5867002359187482,
+            "term_count": 3,
+            "examples": "therapy、among、across"
+          },
+          {
+            "df": 161,
+            "idf": 0.7931741239681503,
+            "term_count": 3,
+            "examples": "glp-1ras、support、mellitus"
+          },
+          {
+            "df": 247,
+            "idf": 0.6073030467403343,
+            "term_count": 3,
+            "examples": "after、significant、reduced"
+          },
+          {
+            "df": 141,
+            "idf": 0.8507808873446201,
+            "term_count": 3,
+            "examples": "ras、mean、dual"
+          },
+          {
+            "df": 136,
+            "idf": 0.8664610916297825,
+            "term_count": 3,
+            "examples": "participants、should、research"
+          },
+          {
+            "df": 111,
+            "idf": 0.9546770212133426,
+            "term_count": 3,
+            "examples": "vs、versus、mechanistic"
+          },
+          {
+            "df": 176,
+            "idf": 0.7544873321858502,
+            "term_count": 3,
+            "examples": "without、mechanisms、showed"
+          },
+          {
+            "df": 117,
+            "idf": 0.9318141382538383,
+            "term_count": 3,
+            "examples": "group、ratio、increasingly"
+          },
+          {
+            "df": 110,
+            "idf": 0.958607314841775,
+            "term_count": 3,
+            "examples": "bmi、glycemic、follow-up"
+          },
+          {
+            "df": 108,
+            "idf": 0.9665762445130504,
+            "term_count": 3,
+            "examples": "n、whereas、beyond"
+          },
+          {
+            "df": 152,
+            "idf": 0.8181564120552274,
+            "term_count": 3,
+            "examples": "effect、evaluated、demonstrated"
+          },
+          {
+            "df": 99,
+            "idf": 1.00436480540245,
+            "term_count": 3,
+            "examples": "months、high、common"
+          },
+          {
+            "df": 93,
+            "idf": 1.0315170514460648,
+            "term_count": 3,
+            "examples": "12、10、each"
+          },
+          {
+            "df": 97,
+            "idf": 1.0132282657337552,
+            "term_count": 3,
+            "examples": "heart、groups、network"
+          },
+          {
+            "df": 109,
+            "idf": 0.9625735020593764,
+            "term_count": 3,
+            "examples": "greater、observational、two"
+          },
+          {
+            "df": 72,
+            "idf": 1.1426675035687315,
+            "term_count": 3,
+            "examples": "bariatric、risks、relative"
+          },
+          {
+            "df": 81,
+            "idf": 1.0915149811213503,
+            "term_count": 3,
+            "examples": "metformin、days、activity"
+          },
+          {
+            "df": 103,
+            "idf": 0.9871627752948278,
+            "term_count": 3,
+            "examples": "those、systemic、central"
+          },
+          {
+            "df": 92,
+            "idf": 1.0362121726544447,
+            "term_count": 3,
+            "examples": "assessment、when、polypeptide"
+          },
+          {
+            "df": 254,
+            "idf": 0.595166283380062,
+            "term_count": 2,
+            "examples": "95、has"
+          },
+          {
+            "df": 394,
+            "idf": 0.4045037781744259,
+            "term_count": 2,
+            "examples": "outcomes、an"
+          },
+          {
+            "df": 366,
+            "idf": 0.43651891460558934,
+            "term_count": 2,
+            "examples": "evidence、not"
+          },
+          {
+            "df": 210,
+            "idf": 0.6777807052660807,
+            "term_count": 2,
+            "examples": "cardiovascular、than"
+          },
+          {
+            "df": 140,
+            "idf": 0.853871964321762,
+            "term_count": 2,
+            "examples": "glp-1ra、randomized"
+          },
+          {
+            "df": 355,
+            "idf": 0.4497716469449059,
+            "term_count": 2,
+            "examples": "including、but"
+          },
+          {
+            "df": 245,
+            "idf": 0.6108339156354675,
+            "term_count": 2,
+            "examples": "trials、agonist"
+          },
+          {
+            "df": 281,
+            "idf": 0.5512936800949201,
+            "term_count": 2,
+            "examples": "included、potential"
+          },
+          {
+            "df": 132,
+            "idf": 0.8794260687941502,
+            "term_count": 2,
+            "examples": "ra、performed"
+          },
+          {
+            "df": 219,
+            "idf": 0.6595558851598817,
+            "term_count": 2,
+            "examples": "body、both"
+          },
+          {
+            "df": 209,
+            "idf": 0.679853713888946,
+            "term_count": 2,
+            "examples": "lower、which"
+          },
+          {
+            "df": 192,
+            "idf": 0.7166987712964503,
+            "term_count": 2,
+            "examples": "inhibitors、control"
+          },
+          {
+            "df": 155,
+            "idf": 0.8096683018297085,
+            "term_count": 2,
+            "examples": "glucose、changes"
+          },
+          {
+            "df": 188,
+            "idf": 0.7258421507363202,
+            "term_count": 2,
+            "examples": "safety、benefits"
+          },
+          {
+            "df": 190,
+            "idf": 0.721246399047171,
+            "term_count": 2,
+            "examples": "all、efficacy"
+          },
+          {
+            "df": 126,
+            "idf": 0.8996294548824371,
+            "term_count": 2,
+            "examples": "kg、clinically"
+          },
+          {
+            "df": 139,
+            "idf": 0.8569851997459049,
+            "term_count": 2,
+            "examples": "mass、into"
+          },
+          {
+            "df": 164,
+            "idf": 0.7851561519523022,
+            "term_count": 2,
+            "examples": "agents、current"
+          },
+          {
+            "df": 163,
+            "idf": 0.7878123955960422,
+            "term_count": 2,
+            "examples": "such、more"
+          },
+          {
+            "df": 130,
+            "idf": 0.8860566476931633,
+            "term_count": 2,
+            "examples": "care、age"
+          },
+          {
+            "df": 147,
+            "idf": 0.8326826652518239,
+            "term_count": 2,
+            "examples": "pathways、over"
+          },
+          {
+            "df": 145,
+            "idf": 0.8386319977650251,
+            "term_count": 2,
+            "examples": "strategies、identified"
+          },
+          {
+            "df": 127,
+            "idf": 0.8961962790440432,
+            "term_count": 2,
+            "examples": "dysfunction、reported"
+          },
+          {
+            "df": 120,
+            "idf": 0.9208187539523752,
+            "term_count": 2,
+            "examples": "failure、suggest"
+          },
+          {
+            "df": 118,
+            "idf": 0.9281179926938746,
+            "term_count": 2,
+            "examples": "peptide、results"
+          },
+          {
+            "df": 119,
+            "idf": 0.9244530386074693,
+            "term_count": 2,
+            "examples": "had、sodium-glucose"
+          },
+          {
+            "df": 142,
+            "idf": 0.8477116556169435,
+            "term_count": 2,
+            "examples": "whether、emerging"
+          },
+          {
+            "df": 122,
+            "idf": 0.9136401693252517,
+            "term_count": 2,
+            "examples": "reductions、improve"
+          },
+          {
+            "df": 116,
+            "idf": 0.9355420107730815,
+            "term_count": 2,
+            "examples": "can、key"
+          },
+          {
+            "df": 105,
+            "idf": 0.978810700930062,
+            "term_count": 2,
+            "examples": "real-world、established"
+          },
+          {
+            "df": 115,
+            "idf": 0.9393021596463883,
+            "term_count": 2,
+            "examples": "overall、needed"
+          },
+          {
+            "df": 104,
+            "idf": 0.9829666607012196,
+            "term_count": 2,
+            "examples": "reduce、future"
+          },
+          {
+            "df": 91,
+            "idf": 1.0409586076789064,
+            "term_count": 2,
+            "examples": "sensitivity、provide"
+          },
+          {
+            "df": 89,
+            "idf": 1.0506099933550872,
+            "term_count": 2,
+            "examples": "decreased、recent"
+          },
+          {
+            "df": 997,
+            "idf": 0.0013048416883442802,
+            "term_count": 1,
+            "examples": "and"
+          },
+          {
+            "df": 977,
+            "idf": 0.01010543628122691,
+            "term_count": 1,
+            "examples": "the"
+          },
+          {
+            "df": 972,
+            "idf": 0.012333735073725415,
+            "term_count": 1,
+            "examples": "of"
+          },
+          {
+            "df": 961,
+            "idf": 0.017276612331454597,
+            "term_count": 1,
+            "examples": "in"
+          },
+          {
+            "df": 915,
+            "idf": 0.03857890593355177,
+            "term_count": 1,
+            "examples": "with"
+          },
+          {
+            "df": 943,
+            "idf": 0.025488307262671636,
+            "term_count": 1,
+            "examples": "to"
+          },
+          {
+            "df": 922,
+            "idf": 0.03526907894637068,
+            "term_count": 1,
+            "examples": "a"
+          },
+          {
+            "df": 860,
+            "idf": 0.0655015487564323,
+            "term_count": 1,
+            "examples": "for"
+          },
+          {
+            "df": 570,
+            "idf": 0.24412514432750856,
+            "term_count": 1,
+            "examples": "were"
+          },
+          {
+            "df": 574,
+            "idf": 0.24108810760202645,
+            "term_count": 1,
+            "examples": "glp-1"
+          },
+          {
+            "df": 590,
+            "idf": 0.2291479883578558,
+            "term_count": 1,
+            "examples": "was"
+          },
+          {
+            "df": 566,
+            "idf": 0.24718356881172854,
+            "term_count": 1,
+            "examples": "or"
+          },
+          {
+            "df": 751,
+            "idf": 0.12436006299583165,
+            "term_count": 1,
+            "examples": "this"
+          },
+          {
+            "df": 793,
+            "idf": 0.10072681268239621,
+            "term_count": 1,
+            "examples": "receptor"
+          },
+          {
+            "df": 618,
+            "idf": 0.2090115249111842,
+            "term_count": 1,
+            "examples": "is"
+          },
+          {
+            "df": 582,
+            "idf": 0.2350770153501115,
+            "term_count": 1,
+            "examples": "as"
+          },
+          {
+            "df": 405,
+            "idf": 0.3925449767853314,
+            "term_count": 1,
+            "examples": "patients"
+          },
+          {
+            "df": 583,
+            "idf": 0.2343314452409859,
+            "term_count": 1,
+            "examples": "on"
+          },
+          {
+            "df": 389,
+            "idf": 0.41005039867429227,
+            "term_count": 1,
+            "examples": "weight"
+          },
+          {
+            "df": 561,
+            "idf": 0.2510371387438386,
+            "term_count": 1,
+            "examples": "by"
+          },
+          {
+            "df": 409,
+            "idf": 0.38827669199265824,
+            "term_count": 1,
+            "examples": "risk"
+          },
+          {
+            "df": 466,
+            "idf": 0.3316140833099998,
+            "term_count": 1,
+            "examples": "obesity"
+          },
+          {
+            "df": 517,
+            "idf": 0.2865094569060575,
+            "term_count": 1,
+            "examples": "that"
+          },
+          {
+            "df": 529,
+            "idf": 0.27654432796481426,
+            "term_count": 1,
+            "examples": "diabetes"
+          },
+          {
+            "df": 373,
+            "idf": 0.4282911681913124,
+            "term_count": 1,
+            "examples": "metabolic"
+          },
+          {
+            "df": 602,
+            "idf": 0.22040350874217546,
+            "term_count": 1,
+            "examples": "agonists"
+          },
+          {
+            "df": 225,
+            "idf": 0.6478174818886375,
+            "term_count": 1,
+            "examples": "ci"
+          },
+          {
+            "df": 487,
+            "idf": 0.31247103878536564,
+            "term_count": 1,
+            "examples": "from"
+          },
+          {
+            "df": 477,
+            "idf": 0.3214816209598861,
+            "term_count": 1,
+            "examples": "we"
+          },
+          {
+            "df": 427,
+            "idf": 0.3695721249749761,
+            "term_count": 1,
+            "examples": "associated"
+          },
+          {
+            "df": 484,
+            "idf": 0.3151546383555875,
+            "term_count": 1,
+            "examples": "2"
+          },
+          {
+            "df": 483,
+            "idf": 0.31605286924848786,
+            "term_count": 1,
+            "examples": "are"
+          },
+          {
+            "df": 695,
+            "idf": 0.1580151954098861,
+            "term_count": 1,
+            "examples": "glucagon-like"
+          },
+          {
+            "df": 222,
+            "idf": 0.6536470255493614,
+            "term_count": 1,
+            "examples": "p"
+          },
+          {
+            "df": 412,
+            "idf": 0.38510278396686537,
+            "term_count": 1,
+            "examples": "treatment"
+          },
+          {
+            "df": 515,
+            "idf": 0.288192770958809,
+            "term_count": 1,
+            "examples": "these"
+          },
+          {
+            "df": 644,
+            "idf": 0.19111413264018792,
+            "term_count": 1,
+            "examples": "peptide-1"
+          },
+          {
+            "df": 414,
+            "idf": 0.3829996588791011,
+            "term_count": 1,
+            "examples": "clinical"
+          },
+          {
+            "df": 228,
+            "idf": 0.6420651529995463,
+            "term_count": 1,
+            "examples": "semaglutide"
+          },
+          {
+            "df": 390,
+            "idf": 0.40893539297350084,
+            "term_count": 1,
+            "examples": "effects"
+          },
+          {
+            "df": 418,
+            "idf": 0.3788237182249648,
+            "term_count": 1,
+            "examples": "study"
+          },
+          {
+            "df": 338,
+            "idf": 0.47108329972234525,
+            "term_count": 1,
+            "examples": "at"
+          },
+          {
+            "df": 313,
+            "idf": 0.5044556624535516,
+            "term_count": 1,
+            "examples": "use"
+          },
+          {
+            "df": 315,
+            "idf": 0.5016894462103995,
+            "term_count": 1,
+            "examples": "studies"
+          },
+          {
+            "df": 321,
+            "idf": 0.4934949675951279,
+            "term_count": 1,
+            "examples": "disease"
+          },
+          {
+            "df": 319,
+            "idf": 0.49620931694281883,
+            "term_count": 1,
+            "examples": "1"
+          },
+          {
+            "df": 417,
+            "idf": 0.37986394502624254,
+            "term_count": 1,
+            "examples": "type"
+          },
+          {
+            "df": 269,
+            "idf": 0.570247719997592,
+            "term_count": 1,
+            "examples": "loss"
+          },
+          {
+            "df": 358,
+            "idf": 0.4461169733561256,
+            "term_count": 1,
+            "examples": "may"
+          },
+          {
+            "df": 359,
+            "idf": 0.44490555142168087,
+            "term_count": 1,
+            "examples": "using"
+          },
+          {
+            "df": 263,
+            "idf": 0.5800442515102422,
+            "term_count": 1,
+            "examples": "adults"
+          },
+          {
+            "df": 317,
+            "idf": 0.4989407377822485,
+            "term_count": 1,
+            "examples": "between"
+          },
+          {
+            "df": 298,
+            "idf": 0.5257837359237447,
+            "term_count": 1,
+            "examples": "be"
+          },
+          {
+            "df": 332,
+            "idf": 0.47886191629596375,
+            "term_count": 1,
+            "examples": "have"
+          },
+          {
+            "df": 194,
+            "idf": 0.712198270069774,
+            "term_count": 1,
+            "examples": "insulin"
+          },
+          {
+            "df": 296,
+            "idf": 0.5287082889410615,
+            "term_count": 1,
+            "examples": "data"
+          },
+          {
+            "df": 306,
+            "idf": 0.51427857351842,
+            "term_count": 1,
+            "examples": "their"
+          },
+          {
+            "df": 243,
+            "idf": 0.6143937264016878,
+            "term_count": 1,
+            "examples": "compared"
+          },
+          {
+            "df": 307,
+            "idf": 0.5128616245228135,
+            "term_count": 1,
+            "examples": "review"
+          },
+          {
+            "df": 137,
+            "idf": 0.8632794328435932,
+            "term_count": 1,
+            "examples": "tirzepatide"
+          },
+          {
+            "df": 246,
+            "idf": 0.6090648928966209,
+            "term_count": 1,
+            "examples": "management"
+          },
+          {
+            "df": 314,
+            "idf": 0.5030703519267851,
+            "term_count": 1,
+            "examples": "findings"
+          },
+          {
+            "df": 217,
+            "idf": 0.6635402661514704,
+            "term_count": 1,
+            "examples": "therapies"
+          },
+          {
+            "df": 236,
+            "idf": 0.6270879970298935,
+            "term_count": 1,
+            "examples": "increased"
+          },
+          {
+            "df": 242,
+            "idf": 0.6161846340195687,
+            "term_count": 1,
+            "examples": "no"
+          },
+          {
+            "df": 265,
+            "idf": 0.5767541260631922,
+            "term_count": 1,
+            "examples": "while"
+          },
+          {
+            "df": 174,
+            "idf": 0.7594507517174003,
+            "term_count": 1,
+            "examples": "events"
+          },
+          {
+            "df": 238,
+            "idf": 0.623423042943488,
+            "term_count": 1,
+            "examples": "through"
+          },
+          {
+            "df": 160,
+            "idf": 0.7958800173440752,
+            "term_count": 1,
+            "examples": "baseline"
+          },
+          {
+            "df": 223,
+            "idf": 0.6516951369518393,
+            "term_count": 1,
+            "examples": "health"
+          },
+          {
+            "df": 204,
+            "idf": 0.6903698325741012,
+            "term_count": 1,
+            "examples": "adverse"
+          },
+          {
+            "df": 216,
+            "idf": 0.6655462488490691,
+            "term_count": 1,
+            "examples": "analysis"
+          },
+          {
+            "df": 211,
+            "idf": 0.6757175447023074,
+            "term_count": 1,
+            "examples": "therapeutic"
+          },
+          {
+            "df": 253,
+            "idf": 0.596879478824182,
+            "term_count": 1,
+            "examples": "however"
+          },
+          {
+            "df": 183,
+            "idf": 0.7375489102695705,
+            "term_count": 1,
+            "examples": "cohort"
+          },
+          {
+            "df": 177,
+            "idf": 0.7520267336381934,
+            "term_count": 1,
+            "examples": "reduction"
+          },
+          {
+            "df": 221,
+            "idf": 0.6556077263148893,
+            "term_count": 1,
+            "examples": "also"
+          },
+          {
+            "df": 249,
+            "idf": 0.6038006529042637,
+            "term_count": 1,
+            "examples": "remains"
+          },
+          {
+            "df": 202,
+            "idf": 0.6946486305533762,
+            "term_count": 1,
+            "examples": "primary"
+          },
+          {
+            "df": 207,
+            "idf": 0.6840296545430823,
+            "term_count": 1,
+            "examples": "used"
+          },
+          {
+            "df": 185,
+            "idf": 0.7328282715969862,
+            "term_count": 1,
+            "examples": "its"
+          },
+          {
+            "df": 158,
+            "idf": 0.8013429130455774,
+            "term_count": 1,
+            "examples": "higher"
+          },
+          {
+            "df": 156,
+            "idf": 0.8068754016455384,
+            "term_count": 1,
+            "examples": "3"
+          },
+          {
+            "df": 189,
+            "idf": 0.7235381958267558,
+            "term_count": 1,
+            "examples": "most"
+          },
+          {
+            "df": 208,
+            "idf": 0.6819366650372384,
+            "term_count": 1,
+            "examples": "further"
+          },
+          {
+            "df": 182,
+            "idf": 0.7399286120149252,
+            "term_count": 1,
+            "examples": "chronic"
+          },
+          {
+            "df": 148,
+            "idf": 0.8297382846050426,
+            "term_count": 1,
+            "examples": "during"
+          },
+          {
+            "df": 203,
+            "idf": 0.6925039620867871,
+            "term_count": 1,
+            "examples": "conducted"
+          },
+          {
+            "df": 195,
+            "idf": 0.709965388637482,
+            "term_count": 1,
+            "examples": "limited"
+          },
+          {
+            "df": 172,
+            "idf": 0.7644715530924511,
+            "term_count": 1,
+            "examples": "observed"
+          },
+          {
+            "df": 196,
+            "idf": 0.707743928643524,
+            "term_count": 1,
+            "examples": "remain"
+          },
+          {
+            "df": 169,
+            "idf": 0.7721132953863264,
+            "term_count": 1,
+            "examples": "other"
+          },
+          {
+            "df": 159,
+            "idf": 0.7986028756795486,
+            "term_count": 1,
+            "examples": "major"
+          },
+          {
+            "df": 151,
+            "idf": 0.8210230527068305,
+            "term_count": 1,
+            "examples": "outcome"
+          },
+          {
+            "df": 165,
+            "idf": 0.7825160557860937,
+            "term_count": 1,
+            "examples": "although"
+          },
+          {
+            "df": 121,
+            "idf": 0.9172146296835498,
+            "term_count": 1,
+            "examples": "medications"
+          },
+          {
+            "df": 167,
+            "idf": 0.7772835288524167,
+            "term_count": 1,
+            "examples": "been"
+          },
+          {
+            "df": 146,
+            "idf": 0.8356471442155629,
+            "term_count": 1,
+            "examples": "total"
+          },
+          {
+            "df": 153,
+            "idf": 0.8153085691824012,
+            "term_count": 1,
+            "examples": "improved"
+          },
+          {
+            "df": 100,
+            "idf": 1.0,
+            "term_count": 1,
+            "examples": "exposure"
+          },
+          {
+            "df": 150,
+            "idf": 0.8239087409443188,
+            "term_count": 1,
+            "examples": "models"
+          },
+          {
+            "df": 129,
+            "idf": 0.889410289700751,
+            "term_count": 1,
+            "examples": "long-term"
+          },
+          {
+            "df": 133,
+            "idf": 0.8761483590329142,
+            "term_count": 1,
+            "examples": "it"
+          },
+          {
+            "df": 143,
+            "idf": 0.8446639625349383,
+            "term_count": 1,
+            "examples": "within"
+          },
+          {
+            "df": 134,
+            "idf": 0.8728952016351924,
+            "term_count": 1,
+            "examples": "index"
+          },
+          {
+            "df": 149,
+            "idf": 0.826813731587726,
+            "term_count": 1,
+            "examples": "retrospective"
+          },
+          {
+            "df": 125,
+            "idf": 0.9030899869919435,
+            "term_count": 1,
+            "examples": "role"
+          },
+          {
+            "df": 138,
+            "idf": 0.8601209135987635,
+            "term_count": 1,
+            "examples": "evaluate"
+          },
+          {
+            "df": 124,
+            "idf": 0.906578314837765,
+            "term_count": 1,
+            "examples": "substantial"
+          },
+          {
+            "df": 98,
+            "idf": 1.0087739243075051,
+            "term_count": 1,
+            "examples": "one"
+          },
+          {
+            "df": 64,
+            "idf": 1.193820026016113,
+            "term_count": 1,
+            "examples": "primarily"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "color": "#16847D",
+        "opacity": 0.58,
+        "stroke": "white",
+        "strokeWidth": 0.4
+      },
+      "encoding": {
+        "size": {
+          "field": "term_count",
+          "legend": {
+            "direction": "horizontal",
+            "format": ",.0f",
+            "labelOverlap": false,
+            "orient": "bottom",
+            "titleLimit": 220,
+            "values": [
+              1,
+              2444,
+              4888,
+              9777
+            ]
+          },
+          "scale": {
+            "domain": [
+              0,
+              9777
+            ],
+            "range": [
+              24,
+              1600
+            ],
+            "type": "linear"
+          },
+          "title": "詞數（氣泡面積）",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "df",
+            "format": ",",
+            "title": "DF",
+            "type": "quantitative"
+          },
+          {
+            "field": "idf",
+            "format": ".4f",
+            "title": "IDF",
+            "type": "quantitative"
+          },
+          {
+            "field": "term_count",
+            "format": ",",
+            "title": "詞數",
+            "type": "quantitative"
+          },
+          {
+            "field": "examples",
+            "title": "詞彙範例（最多 5 個）",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "axis": {
+            "values": [
+              1,
+              10,
+              100,
+              1000
+            ]
+          },
+          "field": "df",
+          "scale": {
+            "base": 10,
+            "domain": [
+              0.7,
+              1350.0
+            ],
+            "type": "log"
+          },
+          "title": "DF：文件覆蓋數（log 刻度）",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "idf",
+          "scale": {
+            "domain": [
+              -0.15,
+              3.2
+            ]
+          },
+          "title": "IDF = log(N / DF)",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "height": 370,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json",
+  "datasets": {
+    "data-0a73d63249e12e707074cd127b71c607": [
+      {
+        "df": 1,
+        "idf": 3.0
+      },
+      {
+        "df": 2,
+        "idf": 2.6989700043360187
+      },
+      {
+        "df": 3,
+        "idf": 2.5228787452803374
+      },
+      {
+        "df": 4,
+        "idf": 2.3979400086720375
+      },
+      {
+        "df": 5,
+        "idf": 2.3010299956639813
+      },
+      {
+        "df": 6,
+        "idf": 2.221848749616356
+      },
+      {
+        "df": 7,
+        "idf": 2.154901959985743
+      },
+      {
+        "df": 8,
+        "idf": 2.0969100130080562
+      },
+      {
+        "df": 9,
+        "idf": 2.0457574905606752
+      },
+      {
+        "df": 10,
+        "idf": 2.0
+      },
+      {
+        "df": 11,
+        "idf": 1.9586073148417749
+      },
+      {
+        "df": 12,
+        "idf": 1.9208187539523751
+      },
+      {
+        "df": 13,
+        "idf": 1.8860566476931633
+      },
+      {
+        "df": 14,
+        "idf": 1.853871964321762
+      },
+      {
+        "df": 15,
+        "idf": 1.8239087409443189
+      },
+      {
+        "df": 16,
+        "idf": 1.7958800173440752
+      },
+      {
+        "df": 17,
+        "idf": 1.7695510786217261
+      },
+      {
+        "df": 18,
+        "idf": 1.744727494896694
+      },
+      {
+        "df": 19,
+        "idf": 1.721246399047171
+      },
+      {
+        "df": 20,
+        "idf": 1.6989700043360187
+      },
+      {
+        "df": 21,
+        "idf": 1.6777807052660807
+      },
+      {
+        "df": 22,
+        "idf": 1.6575773191777938
+      },
+      {
+        "df": 23,
+        "idf": 1.6382721639824072
+      },
+      {
+        "df": 24,
+        "idf": 1.6197887582883939
+      },
+      {
+        "df": 25,
+        "idf": 1.6020599913279623
+      },
+      {
+        "df": 27,
+        "idf": 1.5686362358410126
+      },
+      {
+        "df": 28,
+        "idf": 1.5528419686577808
+      },
+      {
+        "df": 29,
+        "idf": 1.537602002101044
+      },
+      {
+        "df": 30,
+        "idf": 1.5228787452803376
+      },
+      {
+        "df": 32,
+        "idf": 1.494850021680094
+      },
+      {
+        "df": 33,
+        "idf": 1.4814860601221125
+      },
+      {
+        "df": 34,
+        "idf": 1.4685210829577449
+      },
+      {
+        "df": 36,
+        "idf": 1.4436974992327127
+      },
+      {
+        "df": 38,
+        "idf": 1.4202164033831899
+      },
+      {
+        "df": 39,
+        "idf": 1.408935392973501
+      },
+      {
+        "df": 41,
+        "idf": 1.3872161432802645
+      },
+      {
+        "df": 43,
+        "idf": 1.3665315444204134
+      },
+      {
+        "df": 45,
+        "idf": 1.3467874862246563
+      },
+      {
+        "df": 47,
+        "idf": 1.3279021420642825
+      },
+      {
+        "df": 49,
+        "idf": 1.3098039199714864
+      },
+      {
+        "df": 51,
+        "idf": 1.2924298239020637
+      },
+      {
+        "df": 53,
+        "idf": 1.275724130399211
+      },
+      {
+        "df": 55,
+        "idf": 1.2596373105057561
+      },
+      {
+        "df": 58,
+        "idf": 1.2365720064370627
+      },
+      {
+        "df": 60,
+        "idf": 1.2218487496163564
+      },
+      {
+        "df": 63,
+        "idf": 1.2006594505464183
+      },
+      {
+        "df": 66,
+        "idf": 1.1804560644581314
+      },
+      {
+        "df": 69,
+        "idf": 1.1611509092627448
+      },
+      {
+        "df": 72,
+        "idf": 1.1426675035687315
+      },
+      {
+        "df": 75,
+        "idf": 1.1249387366083
+      },
+      {
+        "df": 78,
+        "idf": 1.1079053973095196
+      },
+      {
+        "df": 82,
+        "idf": 1.0861861476162833
+      },
+      {
+        "df": 85,
+        "idf": 1.0705810742857074
+      },
+      {
+        "df": 89,
+        "idf": 1.0506099933550872
+      },
+      {
+        "df": 93,
+        "idf": 1.0315170514460648
+      },
+      {
+        "df": 97,
+        "idf": 1.0132282657337552
+      },
+      {
+        "df": 101,
+        "idf": 0.9956786262173575
+      },
+      {
+        "df": 106,
+        "idf": 0.9746941347352298
+      },
+      {
+        "df": 111,
+        "idf": 0.9546770212133426
+      },
+      {
+        "df": 115,
+        "idf": 0.9393021596463883
+      },
+      {
+        "df": 121,
+        "idf": 0.9172146296835498
+      },
+      {
+        "df": 126,
+        "idf": 0.8996294548824371
+      },
+      {
+        "df": 131,
+        "idf": 0.8827287043442358
+      },
+      {
+        "df": 137,
+        "idf": 0.8632794328435932
+      },
+      {
+        "df": 143,
+        "idf": 0.8446639625349383
+      },
+      {
+        "df": 150,
+        "idf": 0.8239087409443188
+      },
+      {
+        "df": 156,
+        "idf": 0.8068754016455384
+      },
+      {
+        "df": 163,
+        "idf": 0.7878123955960422
+      },
+      {
+        "df": 170,
+        "idf": 0.7695510786217261
+      },
+      {
+        "df": 178,
+        "idf": 0.7495799976911061
+      },
+      {
+        "df": 186,
+        "idf": 0.7304870557820836
+      },
+      {
+        "df": 194,
+        "idf": 0.712198270069774
+      },
+      {
+        "df": 202,
+        "idf": 0.6946486305533762
+      },
+      {
+        "df": 211,
+        "idf": 0.6757175447023074
+      },
+      {
+        "df": 221,
+        "idf": 0.6556077263148893
+      },
+      {
+        "df": 230,
+        "idf": 0.638272163982407
+      },
+      {
+        "df": 241,
+        "idf": 0.6179829574251317
+      },
+      {
+        "df": 251,
+        "idf": 0.6003262785189618
+      },
+      {
+        "df": 262,
+        "idf": 0.5816987086802545
+      },
+      {
+        "df": 274,
+        "idf": 0.5622494371796121
+      },
+      {
+        "df": 286,
+        "idf": 0.543633966870957
+      },
+      {
+        "df": 299,
+        "idf": 0.5243288116755703
+      },
+      {
+        "df": 312,
+        "idf": 0.5058454059815573
+      },
+      {
+        "df": 325,
+        "idf": 0.4881166390211256
+      },
+      {
+        "df": 340,
+        "idf": 0.4685210829577449
+      },
+      {
+        "df": 355,
+        "idf": 0.4497716469449059
+      },
+      {
+        "df": 370,
+        "idf": 0.431798275933005
+      },
+      {
+        "df": 387,
+        "idf": 0.4122890349810886
+      },
+      {
+        "df": 404,
+        "idf": 0.393618634889395
+      },
+      {
+        "df": 422,
+        "idf": 0.37468754903832613
+      },
+      {
+        "df": 440,
+        "idf": 0.35654732351381263
+      },
+      {
+        "df": 460,
+        "idf": 0.3372421683184259
+      },
+      {
+        "df": 480,
+        "idf": 0.31875876262441283
+      },
+      {
+        "df": 501,
+        "idf": 0.30016227413275426
+      },
+      {
+        "df": 523,
+        "idf": 0.2814983111327257
+      },
+      {
+        "df": 546,
+        "idf": 0.2628073572952628
+      },
+      {
+        "df": 570,
+        "idf": 0.24412514432750856
+      },
+      {
+        "df": 596,
+        "idf": 0.22475374025976358
+      },
+      {
+        "df": 622,
+        "idf": 0.20620961530918128
+      },
+      {
+        "df": 649,
+        "idf": 0.1877553031996308
+      },
+      {
+        "df": 678,
+        "idf": 0.16877030613293661
+      },
+      {
+        "df": 708,
+        "idf": 0.14996674231023102
+      },
+      {
+        "df": 739,
+        "idf": 0.13135556160517423
+      },
+      {
+        "df": 772,
+        "idf": 0.11238269966426383
+      },
+      {
+        "df": 806,
+        "idf": 0.09366495819490933
+      },
+      {
+        "df": 841,
+        "idf": 0.07520400420208784
+      },
+      {
+        "df": 879,
+        "idf": 0.0560111249262281
+      },
+      {
+        "df": 917,
+        "idf": 0.037630664329978886
+      },
+      {
+        "df": 958,
+        "idf": 0.018634490921455624
+      },
+      {
+        "df": 1000,
+        "idf": 0.0
+      }
+    ]
+  }
+}

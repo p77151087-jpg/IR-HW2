@@ -1,0 +1,557 @@
+{
+  "index_version": 4,
+  "document_count": 4,
+  "raw_unchanged": true,
+  "article_snapshot_unchanged": true,
+  "offline": true,
+  "statistics": {
+    "PMC8259047": {
+      "blocks": [
+        {
+          "block_id": "b0",
+          "characters": 1563,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要",
+          "sentences": 11,
+          "words": 228
+        }
+      ],
+      "characters": 1563,
+      "characters_no_whitespace": 1336,
+      "sentences": 11,
+      "words": 228
+    },
+    "PMC8692081": {
+      "blocks": [
+        {
+          "block_id": "b0",
+          "characters": 775,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要",
+          "sentences": 4,
+          "words": 106
+        }
+      ],
+      "characters": 775,
+      "characters_no_whitespace": 670,
+      "sentences": 4,
+      "words": 106
+    },
+    "PMC9080963": {
+      "blocks": [
+        {
+          "block_id": "b0",
+          "characters": 339,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / PURPOSE",
+          "sentences": 3,
+          "words": 49
+        },
+        {
+          "block_id": "b1",
+          "characters": 368,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / METHODS",
+          "sentences": 1,
+          "words": 53
+        },
+        {
+          "block_id": "b2",
+          "characters": 637,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / RESULTS",
+          "sentences": 6,
+          "words": 106
+        },
+        {
+          "block_id": "b3",
+          "characters": 261,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / CONCLUSIONS",
+          "sentences": 2,
+          "words": 42
+        }
+      ],
+      "characters": 1608,
+      "characters_no_whitespace": 1359,
+      "sentences": 12,
+      "words": 250
+    },
+    "PMC11462910": {
+      "blocks": [
+        {
+          "block_id": "b0",
+          "characters": 343,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / OBJECTIVE",
+          "sentences": 1,
+          "words": 48
+        },
+        {
+          "block_id": "b1",
+          "characters": 755,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / INTRODUCTION",
+          "sentences": 5,
+          "words": 103
+        },
+        {
+          "block_id": "b2",
+          "characters": 757,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / INCLUSION CRITERIA",
+          "sentences": 6,
+          "words": 102
+        },
+        {
+          "block_id": "b3",
+          "characters": 773,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / METHODS",
+          "sentences": 6,
+          "words": 115
+        },
+        {
+          "block_id": "b4",
+          "characters": 480,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / RESULTS",
+          "sentences": 3,
+          "words": 62
+        },
+        {
+          "block_id": "b5",
+          "characters": 464,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / CONCLUSIONS",
+          "sentences": 4,
+          "words": 71
+        },
+        {
+          "block_id": "b6",
+          "characters": 24,
+          "kind": "abstract",
+          "narrative": true,
+          "section": "摘要 / REVIEW REGISTRATION",
+          "sentences": 1,
+          "words": 2
+        }
+      ],
+      "characters": 3602,
+      "characters_no_whitespace": 3100,
+      "sentences": 26,
+      "words": 503
+    }
+  },
+  "queries": [
+    {
+      "query": "covid",
+      "stemming": false,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10139268648658262,
+        "PMC8259047": 0.10479592216311308,
+        "PMC9080963": 0.13952419673833985
+      },
+      "message": ""
+    },
+    {
+      "query": "covid19",
+      "stemming": false,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10139268648658262,
+        "PMC8259047": 0.10479592216311308,
+        "PMC9080963": 0.13952419673833985
+      },
+      "message": ""
+    },
+    {
+      "query": "COVID-19",
+      "stemming": false,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10139268648658262,
+        "PMC8259047": 0.10479592216311308,
+        "PMC9080963": 0.13952419673833985
+      },
+      "message": ""
+    },
+    {
+      "query": "the and of",
+      "stemming": false,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "請輸入至少一個具有主題意義的有效關鍵字；空白、標點或只有停用詞不會搜尋全部文章。"
+    },
+    {
+      "query": "a",
+      "stemming": false,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "請輸入至少一個具有主題意義的有效關鍵字；空白、標點或只有停用詞不會搜尋全部文章。"
+    },
+    {
+      "query": "b",
+      "stemming": false,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "c",
+      "stemming": false,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "a b c",
+      "stemming": false,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "vitamin A",
+      "stemming": false,
+      "terms": [
+        "vitamin",
+        "a"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "vitamin C",
+      "stemming": false,
+      "terms": [
+        "vitamin",
+        "c"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "hepatitis B",
+      "stemming": false,
+      "terms": [
+        "hepatitis",
+        "b"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "T cell",
+      "stemming": false,
+      "terms": [
+        "t",
+        "cell"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "cancer treatment",
+      "stemming": false,
+      "terms": [
+        "cancer",
+        "treatment"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "the treatment of cancer",
+      "stemming": false,
+      "terms": [
+        "treatment",
+        "cancer"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "nonexistentxyz",
+      "stemming": false,
+      "terms": [
+        "nonexistentxyz"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "covid",
+      "stemming": true,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10348330381339049,
+        "PMC8259047": 0.10757713034628326,
+        "PMC9080963": 0.14039411938776325
+      },
+      "message": ""
+    },
+    {
+      "query": "covid19",
+      "stemming": true,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10348330381339049,
+        "PMC8259047": 0.10757713034628326,
+        "PMC9080963": 0.14039411938776325
+      },
+      "message": ""
+    },
+    {
+      "query": "COVID-19",
+      "stemming": true,
+      "terms": [
+        "covid-19"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.10348330381339049,
+        "PMC8259047": 0.10757713034628326,
+        "PMC9080963": 0.14039411938776325
+      },
+      "message": ""
+    },
+    {
+      "query": "the and of",
+      "stemming": true,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "請輸入至少一個具有主題意義的有效關鍵字；空白、標點或只有停用詞不會搜尋全部文章。"
+    },
+    {
+      "query": "a",
+      "stemming": true,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "請輸入至少一個具有主題意義的有效關鍵字；空白、標點或只有停用詞不會搜尋全部文章。"
+    },
+    {
+      "query": "b",
+      "stemming": true,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "c",
+      "stemming": true,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "a b c",
+      "stemming": true,
+      "terms": [],
+      "ids": [],
+      "scores": {},
+      "message": "關鍵字過於簡短，請補充完整詞彙，例如 vitamin C 或 hepatitis B。"
+    },
+    {
+      "query": "vitamin A",
+      "stemming": true,
+      "terms": [
+        "vitamin",
+        "a"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "vitamin C",
+      "stemming": true,
+      "terms": [
+        "vitamin",
+        "c"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "hepatitis B",
+      "stemming": true,
+      "terms": [
+        "hepat",
+        "b"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "T cell",
+      "stemming": true,
+      "terms": [
+        "t",
+        "cell"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "cancer treatment",
+      "stemming": true,
+      "terms": [
+        "cancer",
+        "treatment"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "the treatment of cancer",
+      "stemming": true,
+      "terms": [
+        "treatment",
+        "cancer"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    },
+    {
+      "query": "nonexistentxyz",
+      "stemming": true,
+      "terms": [
+        "nonexistentxyz"
+      ],
+      "ids": [],
+      "scores": {},
+      "message": ""
+    }
+  ],
+  "highlights": [
+    {
+      "id": "PMC9080963",
+      "snippets": [
+        {
+          "block_id": "b0",
+          "section": "摘要 / PURPOSE",
+          "kind": "abstract",
+          "start": 0,
+          "end": 109,
+          "html": "The short- and long-term andrological effects of coronavirus disease 2019 (<mark>COVID-19</mark>) have not been clarified.…"
+        },
+        {
+          "block_id": "b2",
+          "section": "摘要 / RESULTS",
+          "kind": "abstract",
+          "start": 265,
+          "end": 331,
+          "html": "…<mark>COVID-19</mark> can result in short-term impaired sperm and T production.…"
+        }
+      ]
+    },
+    {
+      "id": "PMC8259047",
+      "snippets": [
+        {
+          "block_id": "b0",
+          "section": "摘要",
+          "kind": "abstract",
+          "start": 0,
+          "end": 227,
+          "html": "Serology or antibody tests for <mark>COVID-19</mark> are designed to detect antibodies (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+        }
+      ]
+    },
+    {
+      "id": "PMC11462910",
+      "snippets": [
+        {
+          "block_id": "b2",
+          "section": "摘要 / INCLUSION CRITERIA",
+          "kind": "abstract",
+          "start": 487,
+          "end": 559,
+          "html": "…The diagnosis of interest was <mark>COVID-19</mark> disease and SARS-CoV-2 infection.…"
+        },
+        {
+          "block_id": "b0",
+          "section": "摘要 / OBJECTIVE",
+          "kind": "abstract",
+          "start": 0,
+          "end": 343,
+          "html": "The objective of this review was to determine the diagnostic accuracy of the currently available and upcoming point-of-care rapid antigen tests (RATs) used in primary care settings relative to the viral genetic real-time reverse transcriptase polymerase chain reaction (RT-PCR) test as a reference for diagnosing <mark>COVID-19</mark>/SARS-CoV-2 in adults."
+        }
+      ]
+    }
+  ]
+}

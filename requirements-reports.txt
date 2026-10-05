@@ -1,0 +1,4 @@
+# Optional PDF export tools; runtime app/experiments use requirements-hw2.txt.
+reportlab==4.4.9
+pypdf==6.10.0
+pdfplumber==0.11.9

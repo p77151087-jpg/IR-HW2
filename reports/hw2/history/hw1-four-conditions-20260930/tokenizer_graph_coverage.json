@@ -1,0 +1,154 @@
+{
+  "captured_at_utc": "2026-09-30 07:03:39 UTC",
+  "evidence_tier": "Tier 2, bounded file-coverage check only",
+  "scope": "Final HW2 tokenizer integration: 13 explicitly requested source, test and verification files.",
+  "project_identity": {
+    "project": "C-e68890e5a4a7e5b088e6a188-IR-HW2",
+    "root_path": "C:/成大專案/IR-HW2",
+    "source": "Successful codebase-memory list_projects call; selected HW2 entry, not HW1.",
+    "list_pagination": {
+      "total": 21,
+      "limit": 30,
+      "has_more": false
+    }
+  },
+  "coverage_tool": "mcp__codebase_memory_mcp__check_index_coverage",
+  "coverage": {
+    "project": "C-e68890e5a4a7e5b088e6a188-IR-HW2",
+    "signal": "best_effort",
+    "indexed_at": "2026-09-30T07:02:58Z",
+    "metadata": {
+      "generation": "2026-09-30T07:02:58Z",
+      "index_mode": "full",
+      "recorded_at": "2026-09-30T07:03:00Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 45,
+      "ignored_files_total": 45,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "app.py",
+        "path": "app.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "ir_hw2/analysis.py",
+        "path": "ir_hw2/analysis.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "ir_hw2/embeddings.py",
+        "path": "ir_hw2/embeddings.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "ir_hw2/spelling.py",
+        "path": "ir_hw2/spelling.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "ir_hw2/ui.py",
+        "path": "ir_hw2/ui.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_hw2_analysis.py",
+        "path": "tests/test_hw2_analysis.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_hw2_embeddings.py",
+        "path": "tests/test_hw2_embeddings.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_hw2_spelling.py",
+        "path": "tests/test_hw2_spelling.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_hw2_ui.py",
+        "path": "tests/test_hw2_ui.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_hw2_tokenizer.py",
+        "path": "scripts/verify_hw2_tokenizer.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_hw2.py",
+        "path": "scripts/verify_hw2.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_hw2_delivery.py",
+        "path": "scripts/verify_hw2_delivery.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/build_hw2_reports.py",
+        "path": "scripts/build_hw2_reports.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "conclusion": {
+    "requested_files": 13,
+    "metadata_match_files": 13,
+    "no_recorded_issue_files": 13,
+    "reported_missed_ranges": [],
+    "source_fallback_required": false,
+    "source_fallback_performed": false
+  },
+  "limitations": [
+    "This successful call occurred in the corpus subagent; it does not establish availability in the parent agent's tool connection.",
+    "No recorded gap and matching filesystem metadata are best-effort indexing signals, not proof of exhaustive parsing, semantic correctness, test success, or runtime behavior.",
+    "No repository-wide completeness claim is made; only the 13 listed paths were checked.",
+    "No source was changed and no experiment, pytest run or verification script was rerun in this coverage task."
+  ]
+}

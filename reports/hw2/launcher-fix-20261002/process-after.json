@@ -1,0 +1,14 @@
+[
+  {
+    "ProcessId": 25280,
+    "ParentProcessId": 10492,
+    "ExecutablePath": "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+    "CommandLine": "\"C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe\"  -X utf8 -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501"
+  },
+  {
+    "ProcessId": 16852,
+    "ParentProcessId": 25280,
+    "ExecutablePath": "C:\\Users\\Huayi\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "CommandLine": "\"C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe\"  -X utf8 -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501"
+  }
+]

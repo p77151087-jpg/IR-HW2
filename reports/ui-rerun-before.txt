@@ -1,0 +1,12 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- status:
+  - paragraph: 文章正在由另一個程序更新，請稍後重新整理；暫不顯示可能過期的搜尋結果。

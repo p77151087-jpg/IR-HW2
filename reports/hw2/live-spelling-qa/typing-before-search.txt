@@ -1,0 +1,56 @@
+Browser tab: 1, Title: "BioSearch｜生醫文章搜尋", URL: "http://127.0.0.1:8501/".
+1 AXWebArea BioSearch｜生醫文章搜尋, URL: 127.0.0.1:8501/
+	2 container
+		3 container
+			4 container
+				42 image Running...
+				43 button Stop
+				5 button Deploy
+				6 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+			7 text IR HW2 · BIOMEDICAL SEARCH & EXPERIMENTS
+			8 heading 生醫文章搜尋, Value: 1, ID: 4088465b
+				9 text 生醫文章搜尋
+				10 link Description: Link to heading, Value: 127.0.0.1:8501/#4088465b
+			11 text 輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。
+			12 container
+				13 Description: 功能導覽, ID: react-aria8239288098-:r2:
+					14 container
+						15 radio button (settable, integer) Description: 搜尋文章, Value: 1
+						16 text 搜尋文章
+					17 container
+						18 radio button (settable, integer) Description: 文章詳情, Value: 0
+						19 text 文章詳情
+					20 container
+						21 radio button (settable, integer) Description: 語料概覽, Value: 0
+						22 text 語料概覽
+					23 container
+						24 radio button (settable, integer) Description: 文章管理, Value: 0
+						25 text 文章管理
+					26 container
+						27 radio button (settable, integer) Description: HW2 實驗室, Value: 0
+						28 text HW2 實驗室
+			29 text 本機文章 1000 篇 · 索引詞彙 15,106 · 資料已保存，可離線搜尋
+			30 text 範圍依文章設定：PMID 讀摘要，PMCID 讀全文。搜尋自動忽略常見停用詞，支援連字號及字母與數字交界的詞彙匹配。
+			31 text data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+			32 text 搜尋會自動合併部分英文詞形，例如 therapy／therapies；原文與字數統計保持原樣。
+			33 container
+				34 text field (settable) Description: 輸入英文關鍵字, Value: insulinn, ID: :rd:
+				35 text 8/2000
+			36 button 搜尋
+				37 text 搜尋
+			38 text 打字稍停就會顯示拼字建議，點選即可套用並搜尋。也可以直接搜尋原本的文字。
+			44 text 你是不是想找：
+			45 button insulin
+				46 text insulin
+			47 button insulins
+				48 text insulins
+			49 button inulin
+				50 text inulin
+			51 button (collapsed) keyboard_arrow_right 查看拼字比較, Secondary Actions: Expand
+				52 text keyboard_arrow_right
+				53 text 查看拼字比較
+			39 text 輸入一個或多個英文關鍵字，開始搜尋本機文章。
+			40 container
+				41 text 你可以在這裡核對 ：命中片段、讀取範圍內的字元與單字數，以及規則判斷的句界。
+
+The focused UI element is 34 text field (settable) Description: 輸入英文關鍵字, Value: insulinn, ID: :rd:

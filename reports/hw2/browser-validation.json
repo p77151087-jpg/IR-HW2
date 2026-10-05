@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-09-29T10:12:45.0691637+08:00",
+  "url": "http://127.0.0.1:8501",
+  "browser": "Codex In-app Browser",
+  "method": "Observed DOM/accessibility, screenshots, keyboard-driven UI interactions",
+  "checks": [
+    {
+      "check": "A-D table",
+      "result": "passed",
+      "observed": "1000 documents each; tokens 244477/266039/198384/198384; vocabulary 29255/13338/13220/9613"
+    },
+    {
+      "check": "Word2Vec reload",
+      "result": "passed",
+      "observed": "semaglutide -> liraglutide cosine 0.6930679082870483"
+    },
+    {
+      "check": "OOV",
+      "result": "passed",
+      "observed": "zzzznotincorpus: 此詞不在模型詞彙中，可能未出現或低於 min_count；不以隨機向量替代。"
+    },
+    {
+      "check": "spelling opt-in",
+      "result": "passed",
+      "observed": "insulinn remains unchanged and returns 0 hits; explicit adoption changes textbox to insulin, shows original-query caption and 203 hits"
+    },
+    {
+      "check": "Zipf",
+      "result": "passed",
+      "observed": "rank-frequency, log-log, residual images rendered; select B gives head 1-133, middle 134-1333, tail 1334-13338; middle exponent 0.9973431264384701"
+    },
+    {
+      "check": "CF DF IDF",
+      "result": "passed",
+      "observed": "ln(N/DF) explanation, tables and CSV download controls visible"
+    }
+  ],
+  "screenshots": [
+    "word2vec.png",
+    "oov.png",
+    "spelling-before.png",
+    "spelling-adopted.png",
+    "zipf-residuals.png"
+  ],
+  "expensive_actions_triggered": [],
+  "notes": "Automated click actions did not trigger expected state changes; documented keyboard actions succeeded. The cause of the automated click behavior was not established. Browser console showed no error/warning entries during the check. This is a UI smoke check, not a relevance or semantic accuracy evaluation."
+}

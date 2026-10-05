@@ -1,0 +1,32 @@
+[
+  {
+    "view": "cold_start",
+    "seconds": 20.091461700038053,
+    "exceptions": 0
+  },
+  {
+    "view": "HW2 實驗室",
+    "seconds": 10.259994100022595,
+    "exceptions": 0
+  },
+  {
+    "view": "語料概覽",
+    "seconds": 1.8026567000197247,
+    "exceptions": 0
+  },
+  {
+    "view": "搜尋文章",
+    "seconds": 1.8957777000032365,
+    "exceptions": 0
+  },
+  {
+    "view": "HW2 實驗室",
+    "seconds": 2.6138973999768496,
+    "exceptions": 0
+  },
+  {
+    "view": "搜尋文章",
+    "seconds": 1.5909243000205606,
+    "exceptions": 0
+  }
+]

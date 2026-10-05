@@ -1,0 +1,106 @@
+{
+  "verified_at_utc": "2026-10-04T07:23:34.502360+00:00",
+  "streamlit_version": "1.64.0",
+  "url": "http://127.0.0.1:8501/",
+  "typing_pause_ms": 350,
+  "browser_checks": [
+    {
+      "scenario": "Typing insulinn without submitting or blurring",
+      "observed": [
+        "insulin",
+        "insulins",
+        "inulin"
+      ],
+      "input_remained_focused": true,
+      "search_not_started": true
+    },
+    {
+      "scenario": "Click insulin",
+      "input_and_active_query": "insulin",
+      "matching_documents": 203
+    },
+    {
+      "scenario": "Search original semaglutid with search button",
+      "input_and_active_query": "semaglutid",
+      "matching_documents": 234
+    },
+    {
+      "scenario": "Rapidly change insulinn to semaglutid",
+      "latest_candidate": "semaglutide",
+      "old_insulin_candidate_removed": true,
+      "previous_results_unchanged": true
+    },
+    {
+      "scenario": "Type GLP-1 IL-6",
+      "query_unchanged": true,
+      "no_suggestions": true
+    },
+    {
+      "scenario": "Adopt correction in GLP-1 insulinn",
+      "input_and_active_query": "GLP-1 insulin"
+    },
+    {
+      "scenario": "Clear input",
+      "query": "",
+      "no_suggestions": true
+    }
+  ],
+  "regression": {
+    "path": "reports/hw2/live-spelling-complete-pytest.xml",
+    "tests": 507,
+    "failures": 0
+  },
+  "final_ui_tests": {
+    "path": "reports/hw2/live-spelling-ui-final-pytest.xml",
+    "tests": 22,
+    "failures": 0
+  },
+  "original_hw1_test_files_unchanged": true,
+  "original_hw1_test_file_count": 18,
+  "pip_check": "No broken requirements found.",
+  "sources": [
+    {
+      "path": "app.py",
+      "sha256": "951fa1db30301da5f66a14ac23268adb222fdd9a8c7f913c3bcd21778064324d"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "ce8c6e7c26f40a548bd9ecab7498ef5df1f6c1b60b902b2991e2462310894068"
+    },
+    {
+      "path": "requirements-hw2.txt",
+      "sha256": "7477bc0958fa02fef9d6f6430b964c93aab1f3260f148af9f9c5064eb67b75be"
+    },
+    {
+      "path": "scripts/start_demo.ps1",
+      "sha256": "5beb3eb2cde8d3c8d77eeff5f1d16e368c3101ad2feab867aa31b1d5ab5e9da9"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "ffb1fd3750c3a3aef9d6190f6c1e2d018ee374112cdc1d933c7a0feec4e43a11"
+    },
+    {
+      "path": "tests/test_hw2_ui.py",
+      "sha256": "322c10c0fb92c9f25aea73ab5b6c604a20ffe11853858068119e5d4a628c50e4"
+    },
+    {
+      "path": "tests/test_hw2_live_spelling.py",
+      "sha256": "f582f226b1864154208399c03b659fd03d4ff91a1a2d2fdee0f8636b13b672c9"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "reports/hw2/live-spelling-qa/typing-before-search-full.jpg",
+      "sha256": "59781448bf19620559e64812fcd7ce03278ec9229181108d33a10b6d103b5dde"
+    },
+    {
+      "path": "reports/hw2/live-spelling-qa/typing-before-search.jpg",
+      "sha256": "1b6c6e39356d7c406d22f999f7f49128fa205a6ea949973de72566834afbd862"
+    },
+    {
+      "path": "reports/hw2/live-spelling-qa/typing-before-search.txt",
+      "sha256": "5cea7f19e3e269098a7e52b355a8236e7e4e19b65911fd6b403d350d89d79bd9"
+    }
+  ],
+  "code_discovery": "Graph tools returned Transport closed; relied on direct source reads and tests."
+}

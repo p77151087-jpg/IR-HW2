@@ -1,0 +1,502 @@
+{
+  "recorded_at_utc": "2026-09-29T15:10:40.737062+00:00",
+  "documents": 1000,
+  "index_sha256": "295253a775870f508907a7643e8ee33371778d25fddf3cce33b5ed33c02c4884",
+  "index_unchanged": true,
+  "script_sha256": "3c507f49d35e72c84fc2bc1d15b924b0b45fb081ac0baf7ef580504e492db9eb",
+  "scope": "Same existing Porter relevance postings and binary query TF for every profile; only weights differ. This is ranking sensitivity, NOT relevance quality.",
+  "profiles": {
+    "legacy": "(1+ln(tf)) * (ln((N+1)/(DF+1))+1)",
+    "unsmoothed_ln": "(1+ln(tf)) * ln(N/DF)",
+    "idf_base_only": "(1+ln(tf)) * log10(N/DF)",
+    "lecture_log10": "(1+log10(tf)) * log10(N/DF)"
+  },
+  "query_weighting": "Distinct in-vocabulary terms; query TF=1; IDF weighting and full L2 normalization",
+  "queries": [
+    {
+      "query": "semaglutide",
+      "terms": [
+        "semaglutid"
+      ],
+      "matched_documents": 234,
+      "top10": {
+        "legacy": [
+          "PMC13580159",
+          "PMID42128321",
+          "PMID42629417",
+          "PMID42696191",
+          "PMC13538731",
+          "PMID42664897",
+          "PMID42622752",
+          "PMID42785112",
+          "PMID42773534",
+          "PMC13538802"
+        ],
+        "unsmoothed_ln": [
+          "PMC13580159",
+          "PMID42128321",
+          "PMID42696191",
+          "PMID42629417",
+          "PMC13538731",
+          "PMID42622752",
+          "PMC13565390",
+          "PMC13491103",
+          "PMID42785112",
+          "PMC13574348"
+        ],
+        "idf_base_only": [
+          "PMC13580159",
+          "PMID42128321",
+          "PMID42696191",
+          "PMID42629417",
+          "PMC13538731",
+          "PMID42622752",
+          "PMC13565390",
+          "PMC13491103",
+          "PMID42785112",
+          "PMC13574348"
+        ],
+        "lecture_log10": [
+          "PMC13580159",
+          "PMID42696191",
+          "PMID39421913",
+          "PMID42128321",
+          "PMID42622752",
+          "PMID42647098",
+          "PMC13565390",
+          "PMID42764204",
+          "PMC13437943",
+          "PMID42629417"
+        ]
+      },
+      "legacy_recalculation_max_error": 5.551115123125783e-17,
+      "pure_idf_base_change_max_error": 6.938893903907228e-17,
+      "legacy_vs_lecture_top10_shared": 5,
+      "top_document": "PMC13580159",
+      "legacy_score": 0.14949493917511775,
+      "query_norm": 2.4491692651710615,
+      "document_norm": 45.737277298559384,
+      "contributions": [
+        {
+          "term": "semaglutid",
+          "tf": 6,
+          "df": 234,
+          "idf": 2.4491692651710615,
+          "cosine_contribution": 0.14949493917511772
+        }
+      ]
+    },
+    {
+      "query": "insulin",
+      "terms": [
+        "insulin"
+      ],
+      "matched_documents": 203,
+      "top10": {
+        "legacy": [
+          "PMID42736532",
+          "PMC13538731",
+          "PMID42526996",
+          "PMID42526995",
+          "PMC13539724",
+          "PMID42526994",
+          "PMID42691476",
+          "PMC13587759",
+          "PMC13538751",
+          "PMC13526503"
+        ],
+        "unsmoothed_ln": [
+          "PMID42736532",
+          "PMID42526995",
+          "PMC13538731",
+          "PMID42526996",
+          "PMID42526994",
+          "PMC13539724",
+          "PMID42691476",
+          "PMC13587759",
+          "PMC13538751",
+          "PMC13526503"
+        ],
+        "idf_base_only": [
+          "PMID42736532",
+          "PMID42526995",
+          "PMC13538731",
+          "PMID42526996",
+          "PMID42526994",
+          "PMC13539724",
+          "PMID42691476",
+          "PMC13587759",
+          "PMC13538751",
+          "PMC13526503"
+        ],
+        "lecture_log10": [
+          "PMID42526995",
+          "PMID42526994",
+          "PMID42710489",
+          "PMID42736532",
+          "PMID42526996",
+          "PMC13538731",
+          "PMC13539724",
+          "PMID42695140",
+          "PMID42691476",
+          "PMID42527003"
+        ]
+      },
+      "legacy_recalculation_max_error": 5.551115123125783e-17,
+      "pure_idf_base_change_max_error": 5.551115123125783e-17,
+      "legacy_vs_lecture_top10_shared": 7,
+      "top_document": "PMID42736532",
+      "legacy_score": 0.17483323796883835,
+      "query_norm": 2.5906347854710043,
+      "document_norm": 43.65175292569383,
+      "contributions": [
+        {
+          "term": "insulin",
+          "tf": 7,
+          "df": 203,
+          "idf": 2.5906347854710043,
+          "cosine_contribution": 0.17483323796883837
+        }
+      ]
+    },
+    {
+      "query": "obesity treatment",
+      "terms": [
+        "obes",
+        "treatment"
+      ],
+      "matched_documents": 695,
+      "top10": {
+        "legacy": [
+          "PMC13493817",
+          "PMC13591101",
+          "PMC13595267",
+          "PMID42760621",
+          "PMID42696191",
+          "PMID42714854",
+          "PMID42690550",
+          "PMID41855048",
+          "PMC13615230",
+          "PMID42508693"
+        ],
+        "unsmoothed_ln": [
+          "PMC13493817",
+          "PMC13591101",
+          "PMC13595267",
+          "PMID42760621",
+          "PMID42696191",
+          "PMID42508693",
+          "PMID42690550",
+          "PMID42714854",
+          "PMID42695140",
+          "PMC13615230"
+        ],
+        "idf_base_only": [
+          "PMC13493817",
+          "PMC13591101",
+          "PMC13595267",
+          "PMID42760621",
+          "PMID42696191",
+          "PMID42508693",
+          "PMID42690550",
+          "PMID42714854",
+          "PMID42695140",
+          "PMC13615230"
+        ],
+        "lecture_log10": [
+          "PMC13493817",
+          "PMC13595267",
+          "PMC13591101",
+          "PMID42526995",
+          "PMID42760621",
+          "PMID42696191",
+          "PMID42690550",
+          "PMID42695140",
+          "PMID42508693",
+          "PMID42556958"
+        ]
+      },
+      "legacy_recalculation_max_error": 5.551115123125783e-17,
+      "pure_idf_base_change_max_error": 5.551115123125783e-17,
+      "legacy_vs_lecture_top10_shared": 7,
+      "top_document": "PMC13493817",
+      "legacy_score": 0.1505811559929627,
+      "query_norm": 2.455363903364756,
+      "document_norm": 24.854336421664783,
+      "contributions": [
+        {
+          "term": "obes",
+          "tf": 3,
+          "df": 498,
+          "idf": 1.6961486835637019,
+          "cosine_contribution": 0.09893318970508463
+        },
+        {
+          "term": "treatment",
+          "tf": 1,
+          "df": 460,
+          "idf": 1.775356736318572,
+          "cosine_contribution": 0.051647966287878065
+        }
+      ]
+    },
+    {
+      "query": "GLP-1",
+      "terms": [
+        "glp-1"
+      ],
+      "matched_documents": 580,
+      "top10": {
+        "legacy": [
+          "PMID42678766",
+          "PMC13595020",
+          "PMID42704078",
+          "PMID42760821",
+          "PMC13566191",
+          "PMC13571063",
+          "PMID42029362",
+          "PMID42661567",
+          "PMID42543082",
+          "PMC13510418"
+        ],
+        "unsmoothed_ln": [
+          "PMID42678766",
+          "PMID42704078",
+          "PMC13595020",
+          "PMC13566191",
+          "PMID42029362",
+          "PMC13571063",
+          "PMID42760821",
+          "PMID42692107",
+          "PMID40637782",
+          "PMID42661567"
+        ],
+        "idf_base_only": [
+          "PMID42678766",
+          "PMID42704078",
+          "PMC13595020",
+          "PMC13566191",
+          "PMID42029362",
+          "PMC13571063",
+          "PMID42760821",
+          "PMID42692107",
+          "PMID40637782",
+          "PMID42661567"
+        ],
+        "lecture_log10": [
+          "PMID42678766",
+          "PMID42704078",
+          "PMC13519219",
+          "PMC13595020",
+          "PMC13571063",
+          "PMID42760821",
+          "PMID42661567",
+          "PMID42029362",
+          "PMID42692107",
+          "PMID42526995"
+        ]
+      },
+      "legacy_recalculation_max_error": 5.551115123125783e-17,
+      "pure_idf_base_change_max_error": 3.469446951953614e-17,
+      "legacy_vs_lecture_top10_shared": 7,
+      "top_document": "PMID42678766",
+      "legacy_score": 0.15136582401653295,
+      "query_norm": 1.5440040224633094,
+      "document_norm": 26.617518580194467,
+      "contributions": [
+        {
+          "term": "glp-1",
+          "tf": 5,
+          "df": 580,
+          "idf": 1.5440040224633094,
+          "cosine_contribution": 0.15136582401653295
+        }
+      ]
+    },
+    {
+      "query": "semaglutide kidney disease",
+      "terms": [
+        "semaglutid",
+        "kidnei",
+        "diseas"
+      ],
+      "matched_documents": 542,
+      "top10": {
+        "legacy": [
+          "PMID42567173",
+          "PMID42302979",
+          "PMID42480913",
+          "PMID42140342",
+          "PMID42684397",
+          "PMID42777788",
+          "PMC13594706",
+          "PMID42526999",
+          "PMC13448877",
+          "PMID42682157"
+        ],
+        "unsmoothed_ln": [
+          "PMID42302979",
+          "PMID42140342",
+          "PMID42567173",
+          "PMID42480913",
+          "PMID42684397",
+          "PMID42526999",
+          "PMID42682157",
+          "PMC13594706",
+          "PMID42777788",
+          "PMC13448877"
+        ],
+        "idf_base_only": [
+          "PMID42302979",
+          "PMID42140342",
+          "PMID42567173",
+          "PMID42480913",
+          "PMID42684397",
+          "PMID42526999",
+          "PMID42682157",
+          "PMC13594706",
+          "PMID42777788",
+          "PMC13448877"
+        ],
+        "lecture_log10": [
+          "PMID42140342",
+          "PMID42302979",
+          "PMID42567173",
+          "PMID42526997",
+          "PMID42480913",
+          "PMID42526999",
+          "PMID42684397",
+          "PMID42777788",
+          "PMC13448877",
+          "PMID42681751"
+        ]
+      },
+      "legacy_recalculation_max_error": 8.326672684688674e-17,
+      "pure_idf_base_change_max_error": 5.551115123125783e-17,
+      "legacy_vs_lecture_top10_shared": 8,
+      "top_document": "PMID42567173",
+      "legacy_score": 0.1996818996888353,
+      "query_norm": 4.394793415910858,
+      "document_norm": 73.63177046967763,
+      "contributions": [
+        {
+          "term": "semaglutid",
+          "tf": 10,
+          "df": 234,
+          "idf": 2.4491692651710615,
+          "cosine_contribution": 0.06121923657566191
+        },
+        {
+          "term": "kidnei",
+          "tf": 15,
+          "df": 131,
+          "idf": 3.02595285672885,
+          "cosine_contribution": 0.10492191581466628
+        },
+        {
+          "term": "diseas",
+          "tf": 5,
+          "df": 353,
+          "idf": 2.039457866181446,
+          "cosine_contribution": 0.03354074729850715
+        }
+      ]
+    },
+    {
+      "query": "tirzepatide cardiovascular risk",
+      "terms": [
+        "tirzepatid",
+        "cardiovascular",
+        "risk"
+      ],
+      "matched_documents": 565,
+      "top10": {
+        "legacy": [
+          "PMC13580159",
+          "PMC13449074",
+          "PMID42442557",
+          "PMC13601590",
+          "PMC13572214",
+          "PMID42735883",
+          "PMID42526997",
+          "PMID42168641",
+          "PMID42526998",
+          "PMC13538750"
+        ],
+        "unsmoothed_ln": [
+          "PMC13580159",
+          "PMC13449074",
+          "PMID42442557",
+          "PMC13601590",
+          "PMC13572214",
+          "PMC13538750",
+          "PMID42735883",
+          "PMC13331987",
+          "PMID42168641",
+          "PMID42714458"
+        ],
+        "idf_base_only": [
+          "PMC13580159",
+          "PMC13449074",
+          "PMID42442557",
+          "PMC13601590",
+          "PMC13572214",
+          "PMC13538750",
+          "PMID42735883",
+          "PMC13331987",
+          "PMID42168641",
+          "PMID42714458"
+        ],
+        "lecture_log10": [
+          "PMC13580159",
+          "PMC13449074",
+          "PMID42442557",
+          "PMC13331987",
+          "PMC13538750",
+          "PMC13601590",
+          "PMID42735883",
+          "PMC13572214",
+          "PMID42685919",
+          "PMID42682157"
+        ]
+      },
+      "legacy_recalculation_max_error": 8.326672684688674e-17,
+      "pure_idf_base_change_max_error": 9.71445146547012e-17,
+      "legacy_vs_lecture_top10_shared": 7,
+      "top_document": "PMC13580159",
+      "legacy_score": 0.24501169726180255,
+      "query_norm": 4.300313756503648,
+      "document_norm": 45.737277298559384,
+      "contributions": [
+        {
+          "term": "tirzepatid",
+          "tf": 6,
+          "df": 139,
+          "idf": 2.9671123567059166,
+          "cosine_contribution": 0.12496129896330374
+        },
+        {
+          "term": "cardiovascular",
+          "tf": 5,
+          "df": 215,
+          "idf": 2.5334763716310555,
+          "cosine_contribution": 0.08515501564860466
+        },
+        {
+          "term": "risk",
+          "tf": 3,
+          "df": 445,
+          "idf": 1.8084358272951566,
+          "cosine_contribution": 0.03489538264989413
+        }
+      ]
+    }
+  ],
+  "slide59_recalculation": {
+    "N": 1000000,
+    "insurance_document_weight": 1.3010299956639813,
+    "document_norm": 1.9216344734671627,
+    "unnormalized_query_score": 3.0719109531487168,
+    "cosine_after_query_normalization": 0.8014162173691164
+  }
+}

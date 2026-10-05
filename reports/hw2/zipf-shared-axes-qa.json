@@ -1,0 +1,230 @@
+{
+  "panels": [
+    {
+      "condition": "A",
+      "xlim": [
+        -0.2232713734226287,
+        4.688698841875202
+      ],
+      "ylim": [
+        -0.4447051794165821,
+        5.592464976590137
+      ],
+      "xticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "yticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "visible_x_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "visible_y_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "plot_width_px": 988.5929546874999,
+      "plot_height_px": 659.0619697916663,
+      "box_aspect": 0.6666666666666666,
+      "observations_and_line_match_saved_results": true,
+      "annotations_overlap": false,
+      "annotations_clipped": false
+    },
+    {
+      "condition": "B",
+      "xlim": [
+        -0.2232713734226287,
+        4.688698841875202
+      ],
+      "ylim": [
+        -0.4447051794165821,
+        5.592464976590137
+      ],
+      "xticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "yticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "visible_x_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "visible_y_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "plot_width_px": 988.5929546875,
+      "plot_height_px": 659.0619697916663,
+      "box_aspect": 0.6666666666666666,
+      "observations_and_line_match_saved_results": true,
+      "annotations_overlap": false,
+      "annotations_clipped": false
+    },
+    {
+      "condition": "C",
+      "xlim": [
+        -0.2232713734226287,
+        4.688698841875202
+      ],
+      "ylim": [
+        -0.4447051794165821,
+        5.592464976590137
+      ],
+      "xticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "yticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "visible_x_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "visible_y_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "plot_width_px": 988.5929546874999,
+      "plot_height_px": 659.0619697916665,
+      "box_aspect": 0.6666666666666666,
+      "observations_and_line_match_saved_results": true,
+      "annotations_overlap": false,
+      "annotations_clipped": false
+    },
+    {
+      "condition": "D",
+      "xlim": [
+        -0.2232713734226287,
+        4.688698841875202
+      ],
+      "ylim": [
+        -0.4447051794165821,
+        5.592464976590137
+      ],
+      "xticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "yticks": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "visible_x_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "visible_y_tick_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "plot_width_px": 988.5929546875,
+      "plot_height_px": 659.0619697916665,
+      "box_aspect": 0.6666666666666666,
+      "observations_and_line_match_saved_results": true,
+      "annotations_overlap": false,
+      "annotations_clipped": false
+    }
+  ],
+  "common_observation_and_fit_extrema": {
+    "x": [
+      0.0,
+      4.465427468452574
+    ],
+    "y": [
+      -0.17028835414354937,
+      5.318048151317105
+    ]
+  },
+  "padding_fraction_each_side": 0.05,
+  "numerical_source_unchanged": true,
+  "log_base": 10,
+  "layout": "2x2",
+  "changed_experiment_files": [
+    "log_log.png"
+  ],
+  "numerical_artifacts_byte_identical": true,
+  "figure_sha256": "ebf951bed391ceeb869cfc77401b0a07b2edcb1b40b39a736072e2f1498ac07a",
+  "source": "Existing summary.json and terms_A-D.csv; saved OLS coefficients reused.",
+  "caption": "四張圖使用相同座標範圍，可直接比較回歸線的下降程度。",
+  "visual_review": "Final PNG inspected: all four panels have visible axis numbers and labels; titles, metrics, and legends do not overlap."
+}

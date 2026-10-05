@@ -1,0 +1,283 @@
+{
+  "recorded_at": "2026-09-30T07:02:35.419Z",
+  "source": "output/visualizations/zipf-reading-guide.html",
+  "source_sha256": "00564c667baf03244308615b6e2d76faef9138463e685d7da76b82b22698b9d1",
+  "backup": "reports/hw2/history/unicode-split-log10-20260930/zipf-reading-guide.html",
+  "backup_sha256": "c18ad1db23e693c4c4b63f27b0516de89e0b091fca05e75cbde81f227d4121b6",
+  "source_bytes": 291187,
+  "checks": [
+    {
+      "view": "desktop",
+      "viewport": 760,
+      "theme": "light",
+      "datasetTerms": 17910,
+      "datasetTokens": 246256,
+      "termsSha256": "3679dad18e62285452d1f05307bb7653b95a1784c8cf970654ee530080103d52",
+      "default": {
+        "term": "semaglutide",
+        "rank": 41,
+        "cf": 649
+      },
+      "dropdownCases": [
+        {
+          "term": "and",
+          "rank": 1,
+          "cf": 10658
+        },
+        {
+          "term": "glp-1",
+          "rank": 10,
+          "cf": 1736
+        },
+        {
+          "term": "semaglutide",
+          "rank": 41,
+          "cf": 649
+        },
+        {
+          "term": "insulin",
+          "rank": 65,
+          "cf": 431
+        },
+        {
+          "term": "1.5",
+          "rank": 1437,
+          "cf": 23
+        },
+        {
+          "term": "wnt5a",
+          "rank": 5681,
+          "cf": 4
+        },
+        {
+          "term": "cytoplasm",
+          "rank": 12941,
+          "cf": 1
+        }
+      ],
+      "pointerDrilldown": "passed",
+      "legacyStateTermMigration": "passed",
+      "legacyIndexOnlyReset": "passed",
+      "layout": {
+        "horizontalOverflow": false,
+        "charts": [
+          {
+            "width": 356,
+            "viewBox": 356,
+            "x": 0,
+            "y": 113.78125,
+            "xTickCount": 4,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          },
+          {
+            "width": 356,
+            "viewBox": 356,
+            "x": 372,
+            "y": 113.78125,
+            "xTickCount": 5,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          }
+        ],
+        "label": "glp-1：排名 10，CF 1,736；log10 座標（1.000, 3.240）"
+      }
+    },
+    {
+      "view": "mobile",
+      "viewport": 360,
+      "theme": "light",
+      "datasetTerms": 17910,
+      "datasetTokens": 246256,
+      "termsSha256": "3679dad18e62285452d1f05307bb7653b95a1784c8cf970654ee530080103d52",
+      "default": {
+        "term": "semaglutide",
+        "rank": 41,
+        "cf": 649
+      },
+      "dropdownCases": [
+        {
+          "term": "and",
+          "rank": 1,
+          "cf": 10658
+        },
+        {
+          "term": "glp-1",
+          "rank": 10,
+          "cf": 1736
+        },
+        {
+          "term": "semaglutide",
+          "rank": 41,
+          "cf": 649
+        },
+        {
+          "term": "insulin",
+          "rank": 65,
+          "cf": 431
+        },
+        {
+          "term": "1.5",
+          "rank": 1437,
+          "cf": 23
+        },
+        {
+          "term": "wnt5a",
+          "rank": 5681,
+          "cf": 4
+        },
+        {
+          "term": "cytoplasm",
+          "rank": 12941,
+          "cf": 1
+        }
+      ],
+      "pointerDrilldown": "passed",
+      "legacyStateTermMigration": "passed",
+      "legacyIndexOnlyReset": "passed",
+      "layout": {
+        "horizontalOverflow": false,
+        "charts": [
+          {
+            "width": 328,
+            "viewBox": 328,
+            "x": 0,
+            "y": 129.78125,
+            "xTickCount": 4,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          },
+          {
+            "width": 328,
+            "viewBox": 328,
+            "x": 0,
+            "y": 449.171875,
+            "xTickCount": 3,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          }
+        ],
+        "label": "glp-1：排名 10，CF 1,736；log10 座標（1.000, 3.240）"
+      }
+    },
+    {
+      "view": "desktop-dark",
+      "viewport": 760,
+      "theme": "dark",
+      "datasetTerms": 17910,
+      "datasetTokens": 246256,
+      "termsSha256": "3679dad18e62285452d1f05307bb7653b95a1784c8cf970654ee530080103d52",
+      "default": {
+        "term": "semaglutide",
+        "rank": 41,
+        "cf": 649
+      },
+      "dropdownCases": [
+        {
+          "term": "and",
+          "rank": 1,
+          "cf": 10658
+        },
+        {
+          "term": "glp-1",
+          "rank": 10,
+          "cf": 1736
+        },
+        {
+          "term": "semaglutide",
+          "rank": 41,
+          "cf": 649
+        },
+        {
+          "term": "insulin",
+          "rank": 65,
+          "cf": 431
+        },
+        {
+          "term": "1.5",
+          "rank": 1437,
+          "cf": 23
+        },
+        {
+          "term": "wnt5a",
+          "rank": 5681,
+          "cf": 4
+        },
+        {
+          "term": "cytoplasm",
+          "rank": 12941,
+          "cf": 1
+        }
+      ],
+      "pointerDrilldown": "passed",
+      "legacyStateTermMigration": "passed",
+      "legacyIndexOnlyReset": "passed",
+      "layout": {
+        "horizontalOverflow": false,
+        "charts": [
+          {
+            "width": 356,
+            "viewBox": 356,
+            "x": 0,
+            "y": 113.78125,
+            "xTickCount": 4,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          },
+          {
+            "width": 356,
+            "viewBox": 356,
+            "x": 372,
+            "y": 113.78125,
+            "xTickCount": 5,
+            "curveInside": true,
+            "markerInside": true,
+            "labelsInside": true,
+            "minTextPixels": 12
+          }
+        ],
+        "label": "glp-1：排名 10，CF 1,736；log10 座標（1.000, 3.240）"
+      }
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    {
+      "path": "tmp/visuals/hw1-tokenizer-guide/desktop-glp1.png",
+      "sha256": "427500abe94fd1d16a96f49cf59c73b8167178f1d9d20613c8ca557a7f138b23",
+      "visual_review": "passed"
+    },
+    {
+      "path": "tmp/visuals/hw1-tokenizer-guide/mobile-glp1.png",
+      "sha256": "3936ab215c3f48df05478eba820387bdfa5e9c288b88492c8756a83da6750dfe",
+      "visual_review": "passed"
+    },
+    {
+      "path": "tmp/visuals/hw1-tokenizer-guide/desktop-dark-glp1.png",
+      "sha256": "21c4f76d6c62176c35bf6f26f9aee975745c5985d73b1834464967999858bab8",
+      "visual_review": "passed"
+    }
+  ],
+  "status": "passed",
+  "visual_review": {
+    "reviewed_at": "2026-09-30T07:04:56.3916517Z",
+    "method": "Direct inspection of all three rendered screenshot images",
+    "result": "passed",
+    "findings": [
+      "Desktop light and dark plots appear side by side with readable axes and selected-word details.",
+      "Mobile 360px plots stack with no clipping or horizontal overflow.",
+      "Traditional Chinese labels, GLP-1 detail, controls, and both scales are readable without collisions."
+    ],
+    "source_hash_reverified": true
+  }
+}

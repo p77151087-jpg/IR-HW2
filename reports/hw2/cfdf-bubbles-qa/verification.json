@@ -1,0 +1,42 @@
+{
+  "condition": "B",
+  "documents": 1000,
+  "log_base": 10,
+  "modes": {
+    "all": {
+      "terms": 17910,
+      "cf_df": {
+        "coordinates": 1284,
+        "summed_terms": 17910,
+        "maximum_examples": 5
+      },
+      "df_idf": {
+        "coordinates": 262,
+        "summed_terms": 17910,
+        "maximum_examples": 5
+      }
+    },
+    "selected": {
+      "terms": 39,
+      "cf_df": {
+        "coordinates": 37,
+        "summed_terms": 39,
+        "maximum_examples": 2
+      },
+      "df_idf": {
+        "coordinates": 34,
+        "summed_terms": 39,
+        "maximum_examples": 3
+      }
+    }
+  },
+  "download": {
+    "rows": 17910,
+    "identical_terms_and_values": true
+  },
+  "source_sha256": {
+    "ir_hw2/analysis.py": "a483ee8dbbf18e76cfcf0a29b14511c11a7a80e034bd28b5d879ff116238999b",
+    "reports/hw2/experiment/summary.json": "2d33677c3bd506ac4d4f5bae24e99db6c6f65320329dc641c202720dbc8c16e6",
+    "reports/hw2/experiment/terms_B.csv": "3679dad18e62285452d1f05307bb7653b95a1784c8cf970654ee530080103d52"
+  }
+}

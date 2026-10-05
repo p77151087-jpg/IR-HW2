@@ -1,0 +1,113 @@
+{
+  "source_repository": "C:\\成大專案\\IR-HW1",
+  "source_commit": "ad8bf2bdde3b395f9d71c9d64ce9c28612688ab1",
+  "exported_at_utc": "2026-09-29T01:45:37.593367+00:00",
+  "purpose": "Portable exact historical HW1 regression fixtures; not the HW2 formal abstract corpus.",
+  "files": [
+    {
+      "pmcid": "PMC7616680",
+      "path": "PMC7616680.xml",
+      "source_git_path": "data/raw/PMC7616680.xml",
+      "bytes": 188802,
+      "sha256": "be74a5cb1b2ebe10eafd9c4583407e71cb47f6c5c6138b54519a04eb99ab4c56"
+    },
+    {
+      "pmcid": "PMC7616697",
+      "path": "PMC7616697.xml",
+      "source_git_path": "data/raw/PMC7616697.xml",
+      "bytes": 161385,
+      "sha256": "f6d015ef7a67fc0bde967c3a452baab6d1770d82abcefbcade0818d5b966ca39"
+    },
+    {
+      "pmcid": "PMC7617274",
+      "path": "PMC7617274.xml",
+      "source_git_path": "data/raw/PMC7617274.xml",
+      "bytes": 48528,
+      "sha256": "62e1dfe5e3ccb5f85fb882639a8f01fb4cd486b2160e177dbf913de3377b3a1b"
+    },
+    {
+      "pmcid": "PMC7617276",
+      "path": "PMC7617276.xml",
+      "source_git_path": "data/raw/PMC7617276.xml",
+      "bytes": 136922,
+      "sha256": "392f6c3e7e0dc8eb33f3bf7f9eae47fbde5e172b43d58d9ceec45e1da6d242ae"
+    },
+    {
+      "pmcid": "PMC10765925",
+      "path": "PMC10765925.xml",
+      "source_git_path": "data/raw/PMC10765925.xml",
+      "bytes": 49837,
+      "sha256": "06bdfd7e17ae7570aa8aeeb1c782e08c4cc02a040c901b0f547846d675ece499"
+    },
+    {
+      "pmcid": "PMC10765943",
+      "path": "PMC10765943.xml",
+      "source_git_path": "data/raw/PMC10765943.xml",
+      "bytes": 50008,
+      "sha256": "134ad1a299208ab5a88a391f3b4f9f2d5e55f0327ab0bfe908e85fc4ee4b5eef"
+    },
+    {
+      "pmcid": "PMC10771658",
+      "path": "PMC10771658.xml",
+      "source_git_path": "data/raw/PMC10771658.xml",
+      "bytes": 67707,
+      "sha256": "fa024d4932f3b8194697952a2d0e114fff654b4cbb1d006fce05424b9caec9c1"
+    },
+    {
+      "pmcid": "PMC10771685",
+      "path": "PMC10771685.xml",
+      "source_git_path": "data/raw/PMC10771685.xml",
+      "bytes": 40870,
+      "sha256": "cb59c22700a0280d889098197b8e55fa778d02cbb41bfe3d72dbe17b5b6d37dc"
+    },
+    {
+      "pmcid": "PMC10782598",
+      "path": "PMC10782598.xml",
+      "source_git_path": "data/raw/PMC10782598.xml",
+      "bytes": 93150,
+      "sha256": "e81fd914c0c589b96f5b47da172d73d8b2d075f843be823a099bd10e00212536"
+    },
+    {
+      "pmcid": "PMC10801942",
+      "path": "PMC10801942.xml",
+      "source_git_path": "data/raw/PMC10801942.xml",
+      "bytes": 43691,
+      "sha256": "1ac45370923d7b5d79ae372a0856cf6b9a46dfb070b62570a9e7c7a3692b082f"
+    },
+    {
+      "pmcid": "PMC10829476",
+      "path": "PMC10829476.xml",
+      "source_git_path": "data/raw/PMC10829476.xml",
+      "bytes": 210289,
+      "sha256": "85d1a7409a6d5869e5e73f285606f0aa159776a5fe2c7d4841e6f3cec458d519"
+    },
+    {
+      "pmcid": "PMC10832207",
+      "path": "PMC10832207.xml",
+      "source_git_path": "data/raw/PMC10832207.xml",
+      "bytes": 64412,
+      "sha256": "912c3eef5a50a1732d38b809a31459ecac09aade9fcc9b6c022300a8e1fbbda4"
+    },
+    {
+      "pmcid": "PMC10858524",
+      "path": "PMC10858524.xml",
+      "source_git_path": "data/raw/PMC10858524.xml",
+      "bytes": 24243,
+      "sha256": "fa79999b9d38e1e38d47dad273e2e145c57edf3cb7db0e6265899d14e124fdde"
+    },
+    {
+      "pmcid": "PMC10863270",
+      "path": "PMC10863270.xml",
+      "source_git_path": "data/raw/PMC10863270.xml",
+      "bytes": 100025,
+      "sha256": "2604bfa13a9d8cd2c81caf4ee2edfb7779f8522d9cf10032e9007897c7c2faa4"
+    },
+    {
+      "pmcid": "PMC10877741",
+      "path": "PMC10877741.xml",
+      "source_git_path": "data/raw/PMC10877741.xml",
+      "bytes": 114916,
+      "sha256": "0ecc764f38683813555d328cc4f26816a02acd3be80fd40c65ad5567a2e130f3"
+    }
+  ]
+}

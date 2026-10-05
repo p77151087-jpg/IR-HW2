@@ -1,0 +1,74 @@
+[
+  {
+    "path": "tests/test_abstract_scope.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_app.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_batch_download.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_compound_search.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_core.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_folder_batch.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_library.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_phrase.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_pmid_list.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_purge.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_real_corpus.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_relevance.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_source_scope.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_stemming.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_sync.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_tfidf_app.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_tfidf.py",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_xml_and_corpus.py",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-04",
+  "url": "http://127.0.0.1:8501/",
+  "method": "Real Codex in-app browser, native inputs and DOM observations after final source changes and reload",
+  "checks": {
+    "insulinn_shows_insulin_insulins_inulin_before_search_with_input_focused": true,
+    "rapid_draft_changes_show_latest_multiword_candidates": true,
+    "adopt_preserves_GLP_1_double_spaces_and_other_words": true,
+    "adopt_updates_input_and_committed_search": true,
+    "continued_edit_after_adoption_updates_suggestions_with_focus_retained": true,
+    "draft_changes_preserve_previously_committed_results": true,
+    "GLP_1_IL_6_not_corrected": true,
+    "empty_draft_removes_candidates": true,
+    "final_browser_error_log_empty": true
+  },
+  "observation": "An unfinished IME composition during automation temporarily deferred live commits. Cancelling composition and committing plain text restored focused-input updates; repeated adoption followed by editing passed. Streamlit intentionally waits until composition ends.",
+  "screenshot": "live-suggestions.png",
+  "tests": {"targeted_passed": 78, "full_suite_passed": 512, "full_suite_seconds": 48.05},
+  "original_HW1_test_files_unchanged": 18,
+  "performance_scope": "benchmark.json reports Python computation only, not end-to-end browser response time.",
+  "graph_limit": "Graph index_status and check_index_coverage returned Transport closed; verification used current source files."
+}

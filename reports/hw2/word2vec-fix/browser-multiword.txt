@@ -1,0 +1,61 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW2 · BIOMEDICAL SEARCH & EXPERIMENTS
+- heading "生醫文章搜尋" [level=1]:
+  - text: 生醫文章搜尋
+  - link "Link to heading":
+    - /url: "#4088465b"
+- generic: 輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+  - radio "HW2 實驗室" [checked]
+  - paragraph: HW2 實驗室
+- paragraph: 本機文章 1000 篇 · 索引詞彙 15,106 · 資料已保存，可離線搜尋
+- paragraph: 範圍依文章設定：PMID 讀摘要，PMCID 讀全文。搜尋自動忽略常見停用詞，支援連字號及字母與數字交界的詞彙匹配。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "HW2 實驗室" [level=3]:
+  - text: HW2 實驗室
+  - link "Link to heading":
+    - /url: "#hw-2"
+- paragraph: 正式分析使用固定的 PubMed 摘要快照；文章管理的增刪不會改變本次實驗。下載、統計與模型訓練皆由按鈕明確啟動。
+- paragraph: 實驗功能
+- radiogroup "實驗功能":
+  - radio "語料與前處理"
+  - paragraph: 語料與前處理
+  - radio "Zipf 分析"
+  - paragraph: Zipf 分析
+  - radio "Word2Vec" [checked]
+  - paragraph: Word2Vec
+  - radio "方法與報告"
+  - paragraph: 方法與報告
+- heading "Skip-gram 詞向量" [level=4]:
+  - text: Skip-gram 詞向量
+  - link "Link to heading":
+    - /url: "#skip-gram"
+- paragraph: 從原始摘要的有序句子訓練，保留文件、區塊與句子邊界；使用 B（HW1 原本切詞及標點處理），保留停用詞及詞序。
+- paragraph: vector size 100 · window 5 · min_count 2 · epochs 30 · seed 42 · workers 1 · negative 5
+- button "訓練／重新訓練 Word2Vec":
+  - paragraph: 訓練／重新訓練 Word2Vec
+- paragraph: 已訓練詞彙 9,658 個 · 10,843 句 · 語料 1,000 篇
+- generic "keyboard_arrow_right 模型設定與來源":
+  - generic: keyboard_arrow_right
+  - paragraph: 模型設定與來源
+- paragraph: 近鄰詞彙
+- textbox "近鄰詞彙":
+  - /placeholder: ""
+  - text: GLP-1 receptor
+- button "查詢近鄰" [active]:
+  - paragraph: 查詢近鄰
+- status:
+  - paragraph: 請輸入一個依 HW1 切詞規則保留的 B 條件詞彙，例如 GLP-1；GLP-1 receptor 含兩詞，不能作單詞近鄰查詢。
+- paragraph: 近鄰 cosine 不是正確率；小型單領域語料、規則句界及 min_count 均限制結果。GLP-1 會保留為 glp-1，可直接查詢；此處一次輸入一個切詞後的詞彙。

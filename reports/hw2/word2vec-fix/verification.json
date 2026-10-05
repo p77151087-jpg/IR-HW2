@@ -1,0 +1,97 @@
+{
+  "verified_at_utc": "2026-09-30T08:03:40.491363+00:00",
+  "passed": true,
+  "cause": "Live Streamlit was launched from copied .venv without gensim; CLI/tests used .venv-hw2",
+  "live_url": "http://127.0.0.1:8501",
+  "server_environment": ".venv-hw2",
+  "fix": [
+    "Restarted only the verified HW2 server in .venv-hw2",
+    "Handle Word2Vec ImportError with restart instructions",
+    "Check dependencies before launch",
+    "Add five UI regression cases"
+  ],
+  "full_tests": {
+    "passed": 492,
+    "original_hw1": 348,
+    "hw2": 144,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 56.72
+  },
+  "focused_tests": {
+    "passed": 29,
+    "seconds": 16.12
+  },
+  "old_environment_diagnostic": "passed without unhandled exceptions",
+  "browser_checks": [
+    {
+      "file": "browser-semaglutide-ax.txt",
+      "query_or_expected_term": "liraglutide",
+      "expected_result": "0.670418",
+      "sha256": "aeef2f45f9d1e4497459e70373095fc2098fc70832cab59b2c6d7a676e009f29"
+    },
+    {
+      "file": "browser-glp1.txt",
+      "query_or_expected_term": "GLP-1",
+      "expected_result": "ras",
+      "sha256": "44e61bdb2628efecaa1c472906415a746aa8e8cc256b8948a9e2c63e8ca6d326"
+    },
+    {
+      "file": "browser-oov.txt",
+      "query_or_expected_term": "zzzznotincorpus",
+      "expected_result": "不在模型詞彙",
+      "sha256": "49ef523b8766e08a0f7684cba004ca31458c90e13929765a79667efcef235bdf"
+    },
+    {
+      "file": "browser-multiword.txt",
+      "query_or_expected_term": "GLP-1 receptor",
+      "expected_result": "兩詞",
+      "sha256": "e1fa2c2c7b850f6904e92de0ca893b3582bb6f78f10db55797a31abe43e466dd"
+    }
+  ],
+  "screenshot": {
+    "path": "reports/hw2/word2vec-fix/browser-fixed.png",
+    "sha256": "8c28148b97976cffa301a1e580b8414f7c4aada087d16e015cf1d7399748d49f"
+  },
+  "formal_model_retrained": false,
+  "formal_model_and_sentences_match_saved_metadata": true,
+  "vectors_sha256": "7de476d45de19d97d0572bbc561266ba6efac538c462a4f817144e647cae62f0",
+  "existing_report_and_pdf_hashes_unchanged": true,
+  "document_local_links_checked": 34,
+  "changed_files": [
+    {
+      "path": "ir_hw2/ui.py",
+      "sha256": "cf28187d43808029d61074d934352393938cda679a16efd463b20bf2e76e872e"
+    },
+    {
+      "path": "scripts/start_demo.ps1",
+      "sha256": "173229bbfa2b6a7d98f661c389b4167381b702c065c85781a8afa4deb9aec846"
+    },
+    {
+      "path": "tests/test_hw2_ui.py",
+      "sha256": "59e3cb3acb80735f8021f4f579ea7ffe678e8dc633597621556a669ce7d2a00c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "42ddfa9cb8e52ac839227d25686c5d08fc459eb4546f1505c52e8232f1a4df3c"
+    },
+    {
+      "path": "docs/HW2_CHANGELOG.md",
+      "sha256": "22b2623e627032df1e6632109dce8fdd7b4880128f4462278dbb24cddb9b1915"
+    },
+    {
+      "path": "docs/HW2_PLAN.md",
+      "sha256": "cca8db8a75c52237a150fc0b51f521a7ba8a5f1fc0813c60936cf1d8ed5dda4d"
+    },
+    {
+      "path": "docs/HW2_DEVELOPMENT.md",
+      "sha256": "f3eb4bda314540ddb7326ae5d6965279959d9118583a924591ac14e02fca7b76"
+    },
+    {
+      "path": "docs/HW2_DEMO.md",
+      "sha256": "3d46fb7709d78addcfc18b2eeae3a0cb0f3130ad8d614a0cc304c47f6bcd07e9"
+    }
+  ],
+  "limits": "Browser checks cover Word2Vec only; training-button test uses a temporary synthetic fixture. No formal retraining or semantic accuracy evaluation."
+}

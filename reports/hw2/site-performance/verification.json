@@ -1,0 +1,34 @@
+{
+  "observed_failure": "Blank page with frontend Error: Bad delta path index 5 (should be between [0, 1]); followed by Cannot send rerun backMessage when disconnected from server.",
+  "fix": "Keep the polling fragment at the page root with a persistent empty element; skip redundant file scans during full app runs, while preserving freshness checks on fragment-only runs.",
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "56",
+    "time": "31.219",
+    "timestamp": "2026-10-04T16:54:07.401494+08:00",
+    "hostname": "MSI"
+  },
+  "browser_checked_at": "2026-10-04T08:58:53.850Z",
+  "browser_final_errors": [],
+  "browser_checks": [
+    "HW2 topic switches",
+    "Zipf regression tab with shared axes",
+    "idle across repeated 3-second polling ticks",
+    "live insulinn suggestions",
+    "adopt insulin and display 203 results"
+  ],
+  "profile_search_render_seconds": {
+    "before": 0.219,
+    "after": 0.102,
+    "scope": "Python rendering of a warm search page; excludes browser/network/first-load time"
+  },
+  "xml_scans_per_full_search_render": {
+    "before": 3,
+    "after": 1
+  },
+  "service_restarted": true,
+  "url": "http://127.0.0.1:8501/"
+}

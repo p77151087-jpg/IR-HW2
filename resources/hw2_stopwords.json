@@ -1,0 +1,16 @@
+{
+  "version": "hw2-function-words-v1",
+  "source": "Project-authored explicit English function-word list; no downloaded NLTK corpus is required.",
+  "purpose": "A fixed, reviewable experiment condition, not a claim that these words are always irrelevant to retrieval.",
+  "preserved_negations": ["no", "not", "without"],
+  "words": [
+    "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "as", "at",
+    "be", "because", "been", "before", "being", "below", "between", "both", "but", "by",
+    "can", "could", "did", "do", "does", "doing", "down", "during", "each", "either", "else", "few", "for", "from", "further",
+    "had", "has", "have", "having", "he", "her", "here", "hers", "herself", "him", "himself", "his", "how",
+    "i", "if", "in", "into", "is", "it", "its", "itself", "just", "may", "me", "might", "more", "most", "much", "must", "my", "myself",
+    "of", "off", "on", "once", "only", "or", "other", "our", "ours", "ourselves", "out", "over", "own",
+    "same", "she", "should", "so", "some", "such", "than", "that", "the", "their", "theirs", "them", "themselves", "then", "there", "these", "they", "this", "those", "through", "to", "too",
+    "under", "until", "up", "upon", "us", "very", "was", "we", "were", "what", "when", "where", "whether", "which", "while", "who", "whom", "whose", "why", "will", "with", "would", "you", "your", "yours", "yourself", "yourselves"
+  ]
+}

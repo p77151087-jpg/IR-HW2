@@ -1,0 +1,350 @@
+{
+  "date": "2026-09-19",
+  "stemming": true,
+  "data_and_index_unchanged": true,
+  "offline": true,
+  "queries": [
+    {
+      "query": "therapy",
+      "terms": [
+        "therapi"
+      ],
+      "ids": [],
+      "scores": {},
+      "snippets": {}
+    },
+    {
+      "query": "therapies",
+      "terms": [
+        "therapi"
+      ],
+      "ids": [],
+      "scores": {},
+      "snippets": {}
+    },
+    {
+      "query": "antibody",
+      "terms": [
+        "antibodi"
+      ],
+      "ids": [
+        "PMC8692081",
+        "PMC8259047"
+      ],
+      "scores": {
+        "PMC8692081": 0.16285130382750498,
+        "PMC8259047": 0.10435971115154428
+      },
+      "snippets": {
+        "PMC8692081": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 103,
+            "end": 256,
+            "html": "…Neutralizing <mark>antibody</mark> (NAb) assays play an important role in the management of the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) outbreak.…"
+          }
+        ],
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or <mark>antibody</mark> tests for COVID-19 are designed to detect <mark>antibodies</mark> (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+          }
+        ]
+      }
+    },
+    {
+      "query": "antibodies",
+      "terms": [
+        "antibodi"
+      ],
+      "ids": [
+        "PMC8692081",
+        "PMC8259047"
+      ],
+      "scores": {
+        "PMC8692081": 0.16285130382750498,
+        "PMC8259047": 0.10435971115154428
+      },
+      "snippets": {
+        "PMC8692081": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 103,
+            "end": 256,
+            "html": "…Neutralizing <mark>antibody</mark> (NAb) assays play an important role in the management of the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) outbreak.…"
+          }
+        ],
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or <mark>antibody</mark> tests for COVID-19 are designed to detect <mark>antibodies</mark> (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+          }
+        ]
+      }
+    },
+    {
+      "query": "test",
+      "terms": [
+        "test"
+      ],
+      "ids": [
+        "PMC8259047",
+        "PMC11462910",
+        "PMC8692081"
+      ],
+      "scores": {
+        "PMC11462910": 0.11165495060265666,
+        "PMC8692081": 0.07786810687574515,
+        "PMC8259047": 0.13930902175307694
+      },
+      "snippets": {
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or antibody <mark>tests</mark> for COVID-19 are designed to detect antibodies (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+          }
+        ],
+        "PMC11462910": [
+          {
+            "block_id": "b2",
+            "section": "摘要 / INCLUSION CRITERIA",
+            "kind": "abstract",
+            "start": 161,
+            "end": 223,
+            "html": "…The index <mark>test</mark> was any available SARS-CoV-2 point-of-care RAT.…"
+          },
+          {
+            "block_id": "b0",
+            "section": "摘要 / OBJECTIVE",
+            "kind": "abstract",
+            "start": 0,
+            "end": 343,
+            "html": "The objective of this review was to determine the diagnostic accuracy of the currently available and upcoming point-of-care rapid antigen <mark>tests</mark> (RATs) used in primary care settings relative to the viral genetic real-time reverse transcriptase polymerase chain reaction (RT-PCR) <mark>test</mark> as a reference for diagnosing COVID-19/SARS-CoV-2 in adults."
+          }
+        ],
+        "PMC8692081": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 257,
+            "end": 576,
+            "html": "…Using these tools, we can assess the presence and duration of antibody-mediated protection in naturally infected individuals, screen convalescent plasma preparations for donation, <mark>test</mark> the efficacy of immunotherapy, and analyze NAb titers and persistence after vaccination to predict vaccine-induced protective effects.…"
+          }
+        ]
+      }
+    },
+    {
+      "query": "tests",
+      "terms": [
+        "test"
+      ],
+      "ids": [
+        "PMC8259047",
+        "PMC11462910",
+        "PMC8692081"
+      ],
+      "scores": {
+        "PMC11462910": 0.11165495060265666,
+        "PMC8692081": 0.07786810687574515,
+        "PMC8259047": 0.13930902175307694
+      },
+      "snippets": {
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or antibody <mark>tests</mark> for COVID-19 are designed to detect antibodies (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+          }
+        ],
+        "PMC11462910": [
+          {
+            "block_id": "b2",
+            "section": "摘要 / INCLUSION CRITERIA",
+            "kind": "abstract",
+            "start": 161,
+            "end": 223,
+            "html": "…The index <mark>test</mark> was any available SARS-CoV-2 point-of-care RAT.…"
+          },
+          {
+            "block_id": "b0",
+            "section": "摘要 / OBJECTIVE",
+            "kind": "abstract",
+            "start": 0,
+            "end": 343,
+            "html": "The objective of this review was to determine the diagnostic accuracy of the currently available and upcoming point-of-care rapid antigen <mark>tests</mark> (RATs) used in primary care settings relative to the viral genetic real-time reverse transcriptase polymerase chain reaction (RT-PCR) <mark>test</mark> as a reference for diagnosing COVID-19/SARS-CoV-2 in adults."
+          }
+        ],
+        "PMC8692081": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 257,
+            "end": 576,
+            "html": "…Using these tools, we can assess the presence and duration of antibody-mediated protection in naturally infected individuals, screen convalescent plasma preparations for donation, <mark>test</mark> the efficacy of immunotherapy, and analyze NAb titers and persistence after vaccination to predict vaccine-induced protective effects.…"
+          }
+        ]
+      }
+    },
+    {
+      "query": "covid",
+      "terms": [
+        "covid"
+      ],
+      "ids": [
+        "PMC9080963",
+        "PMC8259047",
+        "PMC11462910"
+      ],
+      "scores": {
+        "PMC11462910": 0.0943857282927925,
+        "PMC9080963": 0.1343518827985841,
+        "PMC8259047": 0.10472092176844272
+      },
+      "snippets": {
+        "PMC9080963": [
+          {
+            "block_id": "b0",
+            "section": "摘要 / PURPOSE",
+            "kind": "abstract",
+            "start": 0,
+            "end": 109,
+            "html": "The short- and long-term andrological effects of coronavirus disease 2019 (<mark>COVID</mark>-19) have not been clarified.…"
+          },
+          {
+            "block_id": "b2",
+            "section": "摘要 / RESULTS",
+            "kind": "abstract",
+            "start": 265,
+            "end": 331,
+            "html": "…<mark>COVID</mark>-19 can result in short-term impaired sperm and T production.…"
+          }
+        ],
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or antibody tests for <mark>COVID</mark>-19 are designed to detect antibodies (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS CoV-2) infection.…"
+          }
+        ],
+        "PMC11462910": [
+          {
+            "block_id": "b2",
+            "section": "摘要 / INCLUSION CRITERIA",
+            "kind": "abstract",
+            "start": 487,
+            "end": 559,
+            "html": "…The diagnosis of interest was <mark>COVID</mark>-19 disease and SARS-CoV-2 infection.…"
+          },
+          {
+            "block_id": "b0",
+            "section": "摘要 / OBJECTIVE",
+            "kind": "abstract",
+            "start": 0,
+            "end": 343,
+            "html": "The objective of this review was to determine the diagnostic accuracy of the currently available and upcoming point-of-care rapid antigen tests (RATs) used in primary care settings relative to the viral genetic real-time reverse transcriptase polymerase chain reaction (RT-PCR) test as a reference for diagnosing <mark>COVID</mark>-19/SARS-CoV-2 in adults."
+          }
+        ]
+      }
+    },
+    {
+      "query": "SARS",
+      "terms": [
+        "sar"
+      ],
+      "ids": [
+        "PMC8692081",
+        "PMC11462910",
+        "PMC8259047",
+        "PMC9080963"
+      ],
+      "scores": {
+        "PMC11462910": 0.08900602254066978,
+        "PMC9080963": 0.06661668860670507,
+        "PMC8692081": 0.10778960938031375,
+        "PMC8259047": 0.06907462351042863
+      },
+      "snippets": {
+        "PMC8692081": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 103,
+            "end": 256,
+            "html": "…Neutralizing antibody (NAb) assays play an important role in the management of the severe acute respiratory syndrome coronavirus-2 (<mark>SARS</mark>-CoV-2) outbreak.…"
+          }
+        ],
+        "PMC11462910": [
+          {
+            "block_id": "b2",
+            "section": "摘要 / INCLUSION CRITERIA",
+            "kind": "abstract",
+            "start": 0,
+            "end": 160,
+            "html": "Studies that included nonpregnant adults (18 years or older) with suspected <mark>SARS</mark>-CoV-2 infection, regardless of symptomology or disease severity, were included.…"
+          },
+          {
+            "block_id": "b1",
+            "section": "摘要 / INTRODUCTION",
+            "kind": "abstract",
+            "start": 0,
+            "end": 130,
+            "html": "Accurate COVID-19 point-of-care diagnostic tests are required for real-time identification of <mark>SARS</mark>-CoV-2 infection in individuals.…"
+          }
+        ],
+        "PMC8259047": [
+          {
+            "block_id": "b0",
+            "section": "摘要",
+            "kind": "abstract",
+            "start": 0,
+            "end": 227,
+            "html": "Serology or antibody tests for COVID-19 are designed to detect antibodies (mainly Immunoglobulin M (IgM) and Immunoglobulin G (IgG) produced in response to Severe Acute Respiratory Syndrome Coronavirus 2 (<mark>SARS</mark> CoV-2) infection.…"
+          }
+        ],
+        "PMC9080963": [
+          {
+            "block_id": "b1",
+            "section": "摘要 / METHODS",
+            "kind": "abstract",
+            "start": 20,
+            "end": 368,
+            "html": "…retrospective observational studies reporting information on severe acute respiratory syndrome coronavirus 2 (<mark>SARS</mark>-Cov-2) mRNA semen and male genitalia tract detection (n = 19), as well as those reporting data on semen analysis (n = 5) and hormonal parameters (n = 11) in infected/recovered patients without any arbitrary restriction were included."
+          },
+          {
+            "block_id": "b2",
+            "section": "摘要 / RESULTS",
+            "kind": "abstract",
+            "start": 168,
+            "end": 264,
+            "html": "…<mark>SARS</mark>-CoV-2 mRNA can be localized in male genitalia tracts during the acute phase of the disease.…"
+          }
+        ]
+      }
+    }
+  ]
+}

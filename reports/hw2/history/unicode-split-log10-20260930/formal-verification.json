@@ -1,0 +1,283 @@
+{
+  "network_blocked": true,
+  "corpus_documents": 1000,
+  "corpus_sha256": "9738b68d03a6e39bed010803aa878cfdc66e0bbcaf005e8ee83d3bcfeb7b2631",
+  "library_documents": 1000,
+  "word2vec_vectors_sha256": "92aef64d0555dc0d979432128df87944d7fe78fdd7f20f903b7d8c66c27f3926",
+  "word2vec_reload": "passed",
+  "queries": [
+    {
+      "query": "semaglutide",
+      "hits": 234,
+      "seconds": 0.0004462000069906935,
+      "top5": [
+        "PMC13580159",
+        "PMID42128321",
+        "PMID42629417",
+        "PMID42696191",
+        "PMC13538731"
+      ],
+      "sample_highlight_text": [
+        "semaglutide",
+        "semaglutide",
+        "semaglutide",
+        "Semaglutide",
+        "Semaglutide",
+        "semaglutide"
+      ]
+    },
+    {
+      "query": "insulin",
+      "hits": 203,
+      "seconds": 0.00019630000315373763,
+      "top5": [
+        "PMID42736532",
+        "PMC13538731",
+        "PMID42526996",
+        "PMID42526995",
+        "PMC13539724"
+      ],
+      "sample_highlight_text": [
+        "insulin",
+        "insulin",
+        "insulin",
+        "insulin",
+        "insulin",
+        "insulin",
+        "insulin"
+      ]
+    },
+    {
+      "query": "obesity treatment",
+      "hits": 695,
+      "seconds": 0.000702500001352746,
+      "top5": [
+        "PMC13493817",
+        "PMC13591101",
+        "PMC13595267",
+        "PMID42760621",
+        "PMID42696191"
+      ],
+      "sample_highlight_text": [
+        "obesity",
+        "obesity",
+        "obesity",
+        "treatments"
+      ]
+    },
+    {
+      "query": "GLP-1",
+      "hits": 580,
+      "seconds": 0.000476399996841792,
+      "top5": [
+        "PMID42678766",
+        "PMC13595020",
+        "PMID42704078",
+        "PMID42760821",
+        "PMC13566191"
+      ],
+      "sample_highlight_text": [
+        "GLP-1",
+        "GLP-1",
+        "GLP-1",
+        "GLP-1",
+        "GLP-1"
+      ]
+    },
+    {
+      "query": "zzzznotincorpus",
+      "hits": 0,
+      "seconds": 4.949999856762588e-05,
+      "top5": [],
+      "sample_highlight_text": []
+    }
+  ],
+  "spelling": [
+    {
+      "original_query": "semaglutide",
+      "suggested_query": "semaglutide",
+      "changes": [],
+      "protected_terms": [
+        {
+          "term": "semaglutide",
+          "start": 0,
+          "end": 11,
+          "reason": "known_word"
+        }
+      ],
+      "unresolved_terms": [],
+      "message": "沒有可提供的拼字建議；原查詢保持不變。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    },
+    {
+      "original_query": "semaglutid",
+      "suggested_query": "semaglutide",
+      "changes": [
+        {
+          "original": "semaglutid",
+          "suggestion": "semaglutide",
+          "start": 0,
+          "end": 10,
+          "candidates": [
+            {
+              "term": "semaglutide",
+              "distance": 1,
+              "cf": 682
+            }
+          ]
+        }
+      ],
+      "protected_terms": [],
+      "unresolved_terms": [],
+      "message": "已產生拼字建議；原查詢保持不變，請自行決定是否採用。未知生醫詞不一定是錯字。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    },
+    {
+      "original_query": "insulinn",
+      "suggested_query": "insulin",
+      "changes": [
+        {
+          "original": "insulinn",
+          "suggestion": "insulin",
+          "start": 0,
+          "end": 8,
+          "candidates": [
+            {
+              "term": "insulin",
+              "distance": 1,
+              "cf": 487
+            },
+            {
+              "term": "insulins",
+              "distance": 1,
+              "cf": 8
+            },
+            {
+              "term": "inulin",
+              "distance": 2,
+              "cf": 6
+            }
+          ]
+        }
+      ],
+      "protected_terms": [],
+      "unresolved_terms": [],
+      "message": "已產生拼字建議；原查詢保持不變，請自行決定是否採用。未知生醫詞不一定是錯字。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    },
+    {
+      "original_query": "zzzznotincorpus",
+      "suggested_query": "zzzznotincorpus",
+      "changes": [],
+      "protected_terms": [],
+      "unresolved_terms": [
+        {
+          "term": "zzzznotincorpus",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "message": "沒有可提供的拼字建議；原查詢保持不變。 部分未知詞在允許編輯距離內沒有語料候選，已保留原詞。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    },
+    {
+      "original_query": "GLP-1 BRCA1 IL6 HbA1c",
+      "suggested_query": "GLP-1 BRCA1 IL6 HbA1c",
+      "changes": [],
+      "protected_terms": [
+        {
+          "term": "GLP-1",
+          "start": 0,
+          "end": 5,
+          "reason": "contains_digits"
+        },
+        {
+          "term": "BRCA1",
+          "start": 6,
+          "end": 11,
+          "reason": "known_word"
+        },
+        {
+          "term": "IL6",
+          "start": 12,
+          "end": 15,
+          "reason": "known_word"
+        },
+        {
+          "term": "HbA1c",
+          "start": 16,
+          "end": 21,
+          "reason": "known_word"
+        }
+      ],
+      "unresolved_terms": [],
+      "message": "沒有可提供的拼字建議；原查詢保持不變。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    },
+    {
+      "original_query": "Semaglutide treatment",
+      "suggested_query": "Semaglutide treatment",
+      "changes": [],
+      "protected_terms": [
+        {
+          "term": "Semaglutide",
+          "start": 0,
+          "end": 11,
+          "reason": "known_word"
+        },
+        {
+          "term": "treatment",
+          "start": 12,
+          "end": 21,
+          "reason": "known_word"
+        }
+      ],
+      "unresolved_terms": [],
+      "message": "沒有可提供的拼字建議；原查詢保持不變。",
+      "settings": {
+        "version": "hw2-levenshtein-cf-v1",
+        "distance": "Levenshtein DP",
+        "one_edit_max_length": 5,
+        "max_distance": 2,
+        "top_k": 3,
+        "vocabulary": "condition B corpus CF"
+      }
+    }
+  ],
+  "limitations": "Search scan oracle shares preprocessing; no relevance judgments or semantic accuracy evaluation."
+}

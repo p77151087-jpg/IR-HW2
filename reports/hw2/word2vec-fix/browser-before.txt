@@ -1,0 +1,73 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW2 · BIOMEDICAL SEARCH & EXPERIMENTS
+- heading "生醫文章搜尋" [level=1]:
+  - text: 生醫文章搜尋
+  - link "Link to heading":
+    - /url: "#4088465b"
+- generic: 輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章"
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+  - radio "HW2 實驗室" [checked]
+  - paragraph: HW2 實驗室
+- paragraph: 本機文章 1000 篇 · 索引詞彙 15,106 · 資料已保存，可離線搜尋
+- paragraph: 範圍依文章設定：PMID 讀摘要，PMCID 讀全文。搜尋自動忽略常見停用詞，支援連字號及字母與數字交界的詞彙匹配。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- heading "HW2 實驗室" [level=3]:
+  - text: HW2 實驗室
+  - link "Link to heading":
+    - /url: "#hw-2"
+- paragraph: 正式分析使用固定的 PubMed 摘要快照；文章管理的增刪不會改變本次實驗。下載、統計與模型訓練皆由按鈕明確啟動。
+- paragraph: 實驗功能
+- radiogroup "實驗功能":
+  - radio "語料與前處理"
+  - paragraph: 語料與前處理
+  - radio "Zipf 分析"
+  - paragraph: Zipf 分析
+  - radio "Word2Vec" [checked]
+  - paragraph: Word2Vec
+  - radio "方法與報告"
+  - paragraph: 方法與報告
+- heading "Skip-gram 詞向量" [level=4]:
+  - text: Skip-gram 詞向量
+  - link "Link to heading":
+    - /url: "#skip-gram"
+- paragraph: 從原始摘要的有序句子訓練，保留文件、區塊與句子邊界；使用 B（HW1 原本切詞及標點處理），保留停用詞及詞序。
+- paragraph: vector size 100 · window 5 · min_count 2 · epochs 30 · seed 42 · workers 1 · negative 5
+- button "訓練／重新訓練 Word2Vec":
+  - paragraph: 訓練／重新訓練 Word2Vec
+- paragraph: 已訓練詞彙 9,658 個 · 10,843 句 · 語料 1,000 篇
+- generic "keyboard_arrow_right 模型設定與來源":
+  - generic: keyboard_arrow_right
+  - paragraph: 模型設定與來源
+- paragraph: 近鄰詞彙
+- textbox "近鄰詞彙":
+  - /placeholder: ""
+  - text: semaglutide
+- button "查詢近鄰" [active]:
+  - paragraph: 查詢近鄰
+- alert:
+  - generic: "ModuleNotFoundError: No module named 'gensim'"
+  - generic: "Traceback:"
+  - code:
+    - generic: File "C:\成大專案\IR-HW2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling result = func()
+    - generic: "File \"C:\\成大專案\\IR-HW2\\.venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py\", line 827, in code_to_exec exec(code, module.__dict__) # noqa: S102 ~~~~^^^^^^^^^^^^^^^^^^^^^^^"
+    - generic: File "C:\成大專案\IR-HW2\app.py", line 251, in <module> show_lab(DATA_DIR) ~~~~~~~~^^^^^^^^^^
+    - generic: File "C:\成大專案\IR-HW2\ir_hw2\ui.py", line 50, in show_lab _show_embeddings(snapshot, manifest, model_dir) ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    - generic: File "C:\成大專案\IR-HW2\ir_hw2\ui.py", line 167, in _show_embeddings from .embeddings import load_word2vec, neighbors
+    - generic: File "C:\成大專案\IR-HW2\ir_hw2\embeddings.py", line 12, in <module> from gensim.models import Word2Vec
+  - button "Copy"
+  - link "Ask Google":
+    - /url: https://www.google.com/search?q=ModuleNotFoundError%3A%20No%20module%20named%20'gensim'
+  - link "Ask ChatGPT":
+    - /url: https://chatgpt.com/?q=ModuleNotFoundError%3A%20No%20module%20named%20'gensim'%0A%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5C.venv%5CLib%5Csite-packages%5Cstreamlit%5Cruntime%5Cscriptrunner%5Cexec_code.py%22%2C%20line%20136%2C%20in%20exec_func_with_error_handling%0A%20%20%20%20result%20%3D%20func()%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5C.venv%5CLib%5Csite-packages%5Cstreamlit%5Cruntime%5Cscriptrunner%5Cscript_runner.py%22%2C%20line%20827%2C%20in%20code_to_exec%0A%20%20%20%20exec(code%2C%20module.__dict__)%20%20%23%20noqa%3A%20S102%0A%20%20%20%20~~~~%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5Capp.py%22%2C%20line%20251%2C%20in%20%3Cmodule%3E%0A%20%20%20%20show_lab(DATA_DIR)%0A%20%20%20%20~~~~~~~~%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5Cir_hw2%5Cui.py%22%2C%20line%2050%2C%20in%20show_lab%0A%20%20%20%20_show_embeddings(snapshot%2C%20manifest%2C%20model_dir)%0A%20%20%20%20~~~~~~~~~~~~~~~~%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5Cir_hw2%5Cui.py%22%2C%20line%20167%2C%20in%20_show_embeddings%0A%20%20%20%20from%20.embeddings%20import%20load_word2vec%2C%20neighbors%0AFile%20%22C%3A%5C%E6%88%90%E5%A4%A7%E5%B0%88%E6%A1%88%5CIR-HW2%5Cir_hw2%5Cembeddings.py%22%2C%20line%2012%2C%20in%20%3Cmodule%3E%0A%20%20%20%20from%20gensim.models%20import%20Word2Vec

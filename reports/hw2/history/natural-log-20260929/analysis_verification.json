@@ -1,0 +1,323 @@
+{
+  "verified_at_utc": "2026-09-29T10:06:52.426887+08:00",
+  "corpus_sha256": "9738b68d03a6e39bed010803aa878cfdc66e0bbcaf005e8ee83d3bcfeb7b2631",
+  "source_text_sha256": "f990854805c5951c6b386ab5071c0ae9eb3630dedc5f4dd0cc9b9b7ea11b9e4a",
+  "analysis_code_sha256": "2ec5677c5a5bb02325af11c87410a4a4b09104e0c3fb83317dc4e9882152c23b",
+  "commands": [
+    ".venv-hw2/Scripts/python.exe -X utf8 -m ir_hw2.cli analyze",
+    ".venv-hw2/Scripts/python.exe -X utf8 -m ir_hw2.cli analyze --output tmp/hw2-reproduce"
+  ],
+  "all_artifacts_byte_identical": true,
+  "artifact_count": 21,
+  "artifacts": [
+    {
+      "file": "cf_df_comparison.csv",
+      "sha256": "a998113f9b57815dc459fe486d72b2b8ad7a72096bb46211bfeb1ec04e14cb1e",
+      "bytes": 680,
+      "repeated_sha256": "a998113f9b57815dc459fe486d72b2b8ad7a72096bb46211bfeb1ec04e14cb1e",
+      "identical": true
+    },
+    {
+      "file": "documents_A.csv",
+      "sha256": "60301a3e1eeba535cbafae195df78fbb1764e604209e5634e2556c52fdea0ed5",
+      "bytes": 17962,
+      "repeated_sha256": "60301a3e1eeba535cbafae195df78fbb1764e604209e5634e2556c52fdea0ed5",
+      "identical": true
+    },
+    {
+      "file": "documents_B.csv",
+      "sha256": "22d7de2b6b0dbbb927d1487e83adcf20404f28d600e98e1f92c17f9b8e2759d0",
+      "bytes": 17962,
+      "repeated_sha256": "22d7de2b6b0dbbb927d1487e83adcf20404f28d600e98e1f92c17f9b8e2759d0",
+      "identical": true
+    },
+    {
+      "file": "documents_C.csv",
+      "sha256": "7c6fa3213c677de6bcc4d4743e85d9006373a8032c3a7557008ea0c79823bb0c",
+      "bytes": 17856,
+      "repeated_sha256": "7c6fa3213c677de6bcc4d4743e85d9006373a8032c3a7557008ea0c79823bb0c",
+      "identical": true
+    },
+    {
+      "file": "documents_D.csv",
+      "sha256": "0f4210d40450b69e8f699bba9491b853c6016c520e1324e7422a7d16f03118a8",
+      "bytes": 17817,
+      "repeated_sha256": "0f4210d40450b69e8f699bba9491b853c6016c520e1324e7422a7d16f03118a8",
+      "identical": true
+    },
+    {
+      "file": "idf_terms.csv",
+      "sha256": "69d8d4df2f34227400e7e3dabd4c6bbaaef0b08ff223a2a46bd072ae0e90ed70",
+      "bytes": 1293,
+      "repeated_sha256": "69d8d4df2f34227400e7e3dabd4c6bbaaef0b08ff223a2a46bd072ae0e90ed70",
+      "identical": true
+    },
+    {
+      "file": "log_log.png",
+      "sha256": "76dab484c73d9302e6f75beaee7a144429274950bcaa58e326542c0a0a6ce15a",
+      "bytes": 274450,
+      "repeated_sha256": "76dab484c73d9302e6f75beaee7a144429274950bcaa58e326542c0a0a6ce15a",
+      "identical": true
+    },
+    {
+      "file": "preprocessing_comparison.csv",
+      "sha256": "0c14414363244b4a8a69f7f4366ec429f6982b5dd118a3f62057566ea0614cac",
+      "bytes": 1149,
+      "repeated_sha256": "0c14414363244b4a8a69f7f4366ec429f6982b5dd118a3f62057566ea0614cac",
+      "identical": true
+    },
+    {
+      "file": "preprocessing_comparison.png",
+      "sha256": "b14e37e6ebdd54bf48daaa5889c65d03ac5b05cb747627d672260eb68922c25f",
+      "bytes": 111386,
+      "repeated_sha256": "b14e37e6ebdd54bf48daaa5889c65d03ac5b05cb747627d672260eb68922c25f",
+      "identical": true
+    },
+    {
+      "file": "rank_frequency.png",
+      "sha256": "30049082a96ddb844a4f3a52ff14f0887f82af930af47dee04fe993861dbedc8",
+      "bytes": 116905,
+      "repeated_sha256": "30049082a96ddb844a4f3a52ff14f0887f82af930af47dee04fe993861dbedc8",
+      "identical": true
+    },
+    {
+      "file": "regression.csv",
+      "sha256": "38ca8b2c995c92ba0f56945a0ed93681a92f4a52158fe7e8fc1cfbdf13f2c6a1",
+      "bytes": 2199,
+      "repeated_sha256": "38ca8b2c995c92ba0f56945a0ed93681a92f4a52158fe7e8fc1cfbdf13f2c6a1",
+      "identical": true
+    },
+    {
+      "file": "residuals.png",
+      "sha256": "f1514c6a5ad5adc7b88a568721f09a676153dc171ed94ffca7fde4716d7f9178",
+      "bytes": 199883,
+      "repeated_sha256": "f1514c6a5ad5adc7b88a568721f09a676153dc171ed94ffca7fde4716d7f9178",
+      "identical": true
+    },
+    {
+      "file": "summary.json",
+      "sha256": "385241bb5d54cdcc11c7b2ff3f74fe645d263845c14bf982710575b4f3c8dae8",
+      "bytes": 3671621,
+      "repeated_sha256": "385241bb5d54cdcc11c7b2ff3f74fe645d263845c14bf982710575b4f3c8dae8",
+      "identical": true
+    },
+    {
+      "file": "terms_A.csv",
+      "sha256": "9a859e27557c8eccc5c2cf6a584a6c76bda6dddb3e786fa461f58a115b6e60b0",
+      "bytes": 1141257,
+      "repeated_sha256": "9a859e27557c8eccc5c2cf6a584a6c76bda6dddb3e786fa461f58a115b6e60b0",
+      "identical": true
+    },
+    {
+      "file": "terms_B.csv",
+      "sha256": "5e8c05514e5cf8f5e50cd7d22b16ba5a1450be098e5694d2ef19bb498c649cc5",
+      "bytes": 498896,
+      "repeated_sha256": "5e8c05514e5cf8f5e50cd7d22b16ba5a1450be098e5694d2ef19bb498c649cc5",
+      "identical": true
+    },
+    {
+      "file": "terms_C.csv",
+      "sha256": "107116493d54046a31ffffa63eaccc68dc61bc477e19bf4ceff6527f5a26fe4d",
+      "bytes": 494478,
+      "repeated_sha256": "107116493d54046a31ffffa63eaccc68dc61bc477e19bf4ceff6527f5a26fe4d",
+      "identical": true
+    },
+    {
+      "file": "terms_D.csv",
+      "sha256": "f4cf369ff62ba065d3ab826069d9b6a3c7005953345e14eea2ad623983419efc",
+      "bytes": 344086,
+      "repeated_sha256": "f4cf369ff62ba065d3ab826069d9b6a3c7005953345e14eea2ad623983419efc",
+      "identical": true
+    },
+    {
+      "file": "top50_A.csv",
+      "sha256": "caeb21966cd118ff6a6539dad359b976fab65d03ef5ca2ed57690a4040e26bca",
+      "bytes": 1876,
+      "repeated_sha256": "caeb21966cd118ff6a6539dad359b976fab65d03ef5ca2ed57690a4040e26bca",
+      "identical": true
+    },
+    {
+      "file": "top50_B.csv",
+      "sha256": "e84d751aae6f2dc486c9f53f7c388c401bce97647493e6359dfed89216ba1749",
+      "bytes": 1865,
+      "repeated_sha256": "e84d751aae6f2dc486c9f53f7c388c401bce97647493e6359dfed89216ba1749",
+      "identical": true
+    },
+    {
+      "file": "top50_C.csv",
+      "sha256": "94294788130a08e49451350ff9b675e9fca54cf2a9645c0e7d4e2cabd216221d",
+      "bytes": 1890,
+      "repeated_sha256": "94294788130a08e49451350ff9b675e9fca54cf2a9645c0e7d4e2cabd216221d",
+      "identical": true
+    },
+    {
+      "file": "top50_D.csv",
+      "sha256": "0878eaefb21b652b026487d38cf96254901236e221fdd8223c8ac8ecf5b4770d",
+      "bytes": 1874,
+      "repeated_sha256": "0878eaefb21b652b026487d38cf96254901236e221fdd8223c8ac8ecf5b4770d",
+      "identical": true
+    }
+  ],
+  "invariants": {
+    "A": {
+      "N_is_1000": true,
+      "sum_cf_equals_tokens": true,
+      "cf_ge_df_and_df_le_N": true,
+      "vocabulary_matches": true,
+      "postings_sum": true,
+      "document_token_sum": true,
+      "rank_segments_partition": true
+    },
+    "B": {
+      "N_is_1000": true,
+      "sum_cf_equals_tokens": true,
+      "cf_ge_df_and_df_le_N": true,
+      "vocabulary_matches": true,
+      "postings_sum": true,
+      "document_token_sum": true,
+      "rank_segments_partition": true
+    },
+    "C": {
+      "N_is_1000": true,
+      "sum_cf_equals_tokens": true,
+      "cf_ge_df_and_df_le_N": true,
+      "vocabulary_matches": true,
+      "postings_sum": true,
+      "document_token_sum": true,
+      "rank_segments_partition": true
+    },
+    "D": {
+      "N_is_1000": true,
+      "sum_cf_equals_tokens": true,
+      "cf_ge_df_and_df_le_N": true,
+      "vocabulary_matches": true,
+      "postings_sum": true,
+      "document_token_sum": true,
+      "rank_segments_partition": true
+    }
+  },
+  "all_invariants_passed": true,
+  "idf_terms": 32,
+  "all_selected_idf_formula_verified": true,
+  "visual_qa": {
+    "rank_frequency.png": "Both full linear view and log-frequency view legible; long tail and singleton plateaus visible; no clipped labels.",
+    "log_log.png": "All four panels legible, empirical curvature and OLS line visible; reported coefficients match summary.",
+    "residuals.png": "Systematic curved residuals and discretized low-frequency bands visible; segment boundary guides legible.",
+    "preprocessing_comparison.png": "All values and category labels visible; counts are explicitly index-size proxies rather than measured bytes."
+  },
+  "visual_qa_status": "All four formal figures inspected; no repair needed",
+  "test_baseline_note": "Synthetic hand-counting tests separate from formal data: test_hw2_analysis.py 33 passed; final integration counts owned by main agent.",
+  "english_discussion": {
+    "word_count": 384,
+    "method": "Whitespace-separated tokens between IR_ENGLISH_START and IR_ENGLISH_END, excluding heading and markers",
+    "meets_300_500": true,
+    "sha256": "c04bc48abdcafa8b4294110f56efbe672910613ea795a9782948e14de9289b75"
+  },
+  "matplotlib_config_dir": "C:/成大專案/IR-HW2/tmp/matplotlib",
+  "visual_qa_rerun_note": "Formal PNGs inspected again after setting MPLCONFIGDIR; final files correspond to the recorded hashes.",
+  "report_checks": {
+    "regression_rows": [
+      {
+        "condition": "A",
+        "segment": "全部",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "A",
+        "segment": "高頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "A",
+        "segment": "中頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "A",
+        "segment": "低頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "B",
+        "segment": "全部",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "B",
+        "segment": "高頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "B",
+        "segment": "中頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "B",
+        "segment": "低頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "C",
+        "segment": "全部",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "C",
+        "segment": "高頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "C",
+        "segment": "中頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "C",
+        "segment": "低頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "D",
+        "segment": "全部",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "D",
+        "segment": "高頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "D",
+        "segment": "中頻",
+        "six_decimal_values_match": true
+      },
+      {
+        "condition": "D",
+        "segment": "低頻",
+        "six_decimal_values_match": true
+      }
+    ],
+    "all_16_regression_rows_match": true,
+    "local_links_checked": 26,
+    "missing_local_links": [],
+    "report_sha256": "ea1dbf3241ac5ef9251912df579fae12ca6d1dc2f67ef3a961f99265f78c3fd3",
+    "typography_fix": "Only 參见 was changed to 參見 after numerical/link verification; previous hash: 6afa50f912d9e4e1e5568e1d4fed4864e12ccf58e9dd48770152b7d8347c4770"
+  },
+  "formal_integration": {
+    "record": "reports/hw2/formal-verification.json",
+    "network_blocked": true,
+    "word2vec_reload": "passed",
+    "queries": 5,
+    "spelling_cases": 6
+  },
+  "regression_test_record": {
+    "record": "reports/hw2/validation_summary.json",
+    "baseline_passed": 342,
+    "baseline_fixture_setup_errors": 6,
+    "after_fixture_repair_old_passed": 348,
+    "final_passed": 444,
+    "new_passed": 96,
+    "final_seconds": 48.47
+  }
+}

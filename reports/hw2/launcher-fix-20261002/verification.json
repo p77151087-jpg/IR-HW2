@@ -1,0 +1,41 @@
+{
+  "verified_at_utc": "2026-10-02T14:32:35.064202+00:00",
+  "passed": true,
+  "cause": "Website was started again with copied .venv, which does not contain gensim; .venv-hw2 imports succeed",
+  "launcher": "start_hw2.cmd",
+  "launcher_executed": true,
+  "server_python": "C:\\成大專案\\IR-HW2\\.venv-hw2\\Scripts\\python.exe",
+  "browser_query": {
+    "query": "semaglutide",
+    "first_neighbor": "liraglutide",
+    "cosine": 0.6704182028770447
+  },
+  "screenshot": {
+    "path": "reports/hw2/launcher-fix-20261002/word2vec-working.png",
+    "sha256": "d91f56fb0c6da8d7a4608c209a4fc11ceafd395c5b8187d46dbd608e41219f15"
+  },
+  "model_retrained": false,
+  "saved_model_and_sentence_hashes_match": true,
+  "packages_reinstalled": false,
+  "pytest_rerun": false,
+  "reason": "Only an explicit-environment CMD launcher and documentation changed; validated actual server launch and browser query",
+  "source_files": [
+    {
+      "path": "start_hw2.cmd",
+      "sha256": "29ab27965b360b1e94ddb15b2573fd9b82c8465aac34c85b2423fd22e2656de3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "79e702cf3817e21d1d330ac3ef24776aa6a70cf56d9851e1316393ee151f80da"
+    },
+    {
+      "path": "docs/HW2_CHANGELOG.md",
+      "sha256": "bb7d441ba3875a453a6049b06728aad9ae6fd792b592d9f2925c298eec4a6d42"
+    },
+    {
+      "path": "docs/HW2_DEMO.md",
+      "sha256": "0077384b924605796749f2b8886cbf9a63b0ddd14f6de8140d379b73f85c1996"
+    }
+  ],
+  "graph": "HW2 root verified. Initial generation 2026-09-30T08:28:20Z; start_demo.ps1 partial line 14 read directly. Post-edit generation 2026-10-02T14:28:39Z reports new launcher not_tracked and docs metadata_changed; direct source/doc reads used."
+}

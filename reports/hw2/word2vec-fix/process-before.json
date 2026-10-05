@@ -1,0 +1,14 @@
+[
+  {
+    "ProcessId": 5636,
+    "ParentProcessId": 11684,
+    "ExecutablePath": "C:\\成大專案\\IR-HW2\\.venv\\Scripts\\python.exe",
+    "CommandLine": "\"C:\\成大專案\\IR-HW2\\.venv\\Scripts\\python.exe\" -m streamlit run app.py"
+  },
+  {
+    "ProcessId": 17140,
+    "ParentProcessId": 5636,
+    "ExecutablePath": "C:\\Users\\Huayi\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "CommandLine": "\"C:\\成大專案\\IR-HW2\\.venv\\Scripts\\python.exe\" -m streamlit run app.py"
+  }
+]

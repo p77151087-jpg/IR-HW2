@@ -1,0 +1,7 @@
+{
+  "version": "biomedical-search-v2",
+  "source": "Project-authored conservative English stopword list and contextual letter rules, 2026-09-18. No search alias table, external corpus or model required.",
+  "stopwords": ["a", "an", "and", "are", "as", "at", "be", "been", "being", "but", "by", "for", "from", "had", "has", "have", "he", "in", "into", "is", "it", "its", "of", "on", "or", "she", "than", "that", "the", "their", "them", "there", "these", "they", "this", "those", "to", "was", "were", "will", "with"],
+  "letter_contexts": {"vitamin": ["a", "b", "c"], "hepatitis": ["b", "c"]},
+  "cell_letters": ["b", "t"]
+}

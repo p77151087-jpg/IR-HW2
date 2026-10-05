@@ -1,0 +1,459 @@
+{
+  "views": {
+    "log_log.png": {
+      "panels": [
+        {
+          "condition": "A",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -0.4447051794165821,
+            5.592464976590137
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "plot_width_px": 988.5929546874999,
+          "plot_height_px": 659.0619697916663,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": null
+        },
+        {
+          "condition": "B",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -0.4447051794165821,
+            5.592464976590137
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "plot_width_px": 988.5929546875,
+          "plot_height_px": 659.0619697916663,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": null
+        },
+        {
+          "condition": "C",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -0.4447051794165821,
+            5.592464976590137
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "plot_width_px": 988.5929546874999,
+          "plot_height_px": 659.0619697916665,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": null
+        },
+        {
+          "condition": "D",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -0.4447051794165821,
+            5.592464976590137
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "plot_width_px": 988.5929546875,
+          "plot_height_px": 659.0619697916665,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": null
+        }
+      ],
+      "labels_overlap": false,
+      "figure_sha256": "ebf951bed391ceeb869cfc77401b0a07b2edcb1b40b39a736072e2f1498ac07a"
+    },
+    "residuals.png": {
+      "panels": [
+        {
+          "condition": "A",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -2.155729316041627,
+            0.2810511003428435
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -2.5,
+            -2.0,
+            -1.5,
+            -1.0,
+            -0.5,
+            0.0,
+            0.5
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "−2.0",
+            "−1.5",
+            "−1.0",
+            "−0.5",
+            "0.0"
+          ],
+          "plot_width_px": 938.5929546874997,
+          "plot_height_px": 625.7286364583332,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": [
+            2.4653828514484184,
+            3.4653828514484184
+          ]
+        },
+        {
+          "condition": "B",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -2.155729316041627,
+            0.2810511003428435
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -2.5,
+            -2.0,
+            -1.5,
+            -1.0,
+            -0.5,
+            0.0,
+            0.5
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "−2.0",
+            "−1.5",
+            "−1.0",
+            "−0.5",
+            "0.0"
+          ],
+          "plot_width_px": 938.5929546875002,
+          "plot_height_px": 625.7286364583332,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": [
+            2.2528530309798933,
+            3.2530955858490316
+          ]
+        },
+        {
+          "condition": "C",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -2.155729316041627,
+            0.2810511003428435
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -2.5,
+            -2.0,
+            -1.5,
+            -1.0,
+            -0.5,
+            0.0,
+            0.5
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "−2.0",
+            "−1.5",
+            "−1.0",
+            "−0.5",
+            "0.0"
+          ],
+          "plot_width_px": 938.5929546874997,
+          "plot_height_px": 625.7286364583333,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": [
+            2.247973266361807,
+            3.250175948083925
+          ]
+        },
+        {
+          "condition": "D",
+          "xlim": [
+            -0.2232713734226287,
+            4.688698841875202
+          ],
+          "ylim": [
+            -2.155729316041627,
+            0.2810511003428435
+          ],
+          "xticks": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "yticks": [
+            -2.5,
+            -2.0,
+            -1.5,
+            -1.0,
+            -0.5,
+            0.0,
+            0.5
+          ],
+          "visible_x_tick_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "visible_y_tick_labels": [
+            "−2.0",
+            "−1.5",
+            "−1.0",
+            "−0.5",
+            "0.0"
+          ],
+          "plot_width_px": 938.5929546875002,
+          "plot_height_px": 625.7286364583333,
+          "box_aspect": 0.6666666666666666,
+          "observations_match_saved_results": true,
+          "labels_clipped": false,
+          "original_segment_boundaries": [
+            2.155336037465062,
+            3.155336037465062
+          ]
+        }
+      ],
+      "labels_overlap": false,
+      "figure_sha256": "f9196b516642c46baa9804b035882c78d07807e9168e9e2cd8702f5562b56739"
+    }
+  },
+  "log_base": 10,
+  "padding_fraction_each_side": 0.05,
+  "numerical_source_unchanged": true,
+  "layout": "2x2",
+  "caption": "同類子圖使用相同座標範圍，可直接比較斜率或殘差大小。",
+  "cross_view_x_limits_and_ticks_identical": true,
+  "numerical_artifacts_byte_identical": true,
+  "regenerated_page_images": [
+    "log_log.png",
+    "residuals.png"
+  ],
+  "source": "Saved summary.json counts and OLS coefficients; no reanalysis or refitting.",
+  "browser_images": {
+    "log_log.png": {
+      "size": [
+        1460,
+        1095
+      ],
+      "pixels_match_regenerated_image_after_streamlit_resize": true,
+      "download_sha256": "ef898367db9b535718e5d8453fe9a49bb13c2dbcf1db039c6893d30401a713aa"
+    },
+    "residuals.png": {
+      "size": [
+        1460,
+        1095
+      ],
+      "pixels_match_regenerated_image_after_streamlit_resize": true,
+      "download_sha256": "3e125eb52a91ef162f3cce8f2e29d69c22608a0e7d89a239a65cbce8410a3e20"
+    }
+  },
+  "tests_passed": 59
+}

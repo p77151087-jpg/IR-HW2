@@ -1,0 +1,13 @@
+# Keep downloaded XML and persisted data byte-for-byte across Git checkouts.
+/data/raw/*.xml -text
+/data/processed/*.jsonl -text
+/data/index.json -text
+/data/manifest.jsonl -text
+
+# Preserve reproducible corpus snapshots, experiment outputs, and fixture hashes.
+/data/hw2/** -text
+/reports/hw2/experiment/** -text
+/reports/hw2/model/** -text
+/reports/hw2/history/**/experiment/** -text
+/reports/hw2/history/**/model/** -text
+/tests/fixtures/** -text

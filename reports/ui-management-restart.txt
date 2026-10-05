@@ -1,0 +1,48 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: 新增文章：到「文章管理」上傳 XML 或輸入 PMID；也可將 XML 放進 data/raw 後重新整理。
+- switch "Porter 詞幹還原"
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 目前使用原詞比對；例如 therapy 與 therapies 分開搜尋。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: therapies
+- paragraph: 匹配模式
+- combobox "匹配模式": AND
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現。僅接受一般關鍵字，不解析引號片語、NOT 或括號。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "0"
+- paragraph: 搜尋耗時
+- paragraph: 0.30 ms
+- paragraph: 匹配模式
+- paragraph: AND
+- paragraph: 正規化查詢詞：therapies ｜ 文章編號排序（非相關性排名）
+- alert:
+  - paragraph: 語料中沒有的詞：therapies
+- status:
+  - paragraph: 找不到符合條件的文章。可減少關鍵字，或改用 OR。

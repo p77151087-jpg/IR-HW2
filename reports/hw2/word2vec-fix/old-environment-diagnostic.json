@@ -1,0 +1,10 @@
+{
+  "python": "C:\\成大專案\\IR-HW2\\.venv\\Scripts\\python.exe",
+  "errors": [
+    "Word2Vec 套件無法載入，請用 HW2 專用環境啟動網站。"
+  ],
+  "exceptions": [],
+  "instructions": [
+    "Set-Location -LiteralPath 'C:\\成大專案\\IR-HW2'\n.\\scripts\\setup_hw2.ps1\n.\\scripts\\start_demo.ps1"
+  ]
+}

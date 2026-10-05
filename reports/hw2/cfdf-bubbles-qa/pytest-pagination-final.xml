@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="4.679" timestamp="2026-10-04T17:46:26.784677+08:00" hostname="MSI"><testcase classname="tests.test_hw2_ui" name="test_frequency_scope_search_and_pagination_use_full_saved_vocabulary" time="4.373" /></testsuite></testsuites>

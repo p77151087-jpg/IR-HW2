@@ -1,0 +1,130 @@
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+- paragraph: 本機文章 15 篇 · 索引詞彙 7,707 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。完整單詞、不分大小寫；保留停用詞、未啟用詞幹還原。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: therapies
+- paragraph: 匹配模式
+- combobox "匹配模式": AND
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現。僅接受一般關鍵字，不解析引號片語、NOT 或括號。
+- button "搜尋":
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.21 ms
+- paragraph: 匹配模式
+- paragraph: AND
+- paragraph: 正規化查詢詞：therapies ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC7616680 · 2025 · 6,069 個單字
+- generic: "Advancing the chemotherapy of tuberculous meningitis: a consensus view"
+- paragraph: 正文 / Introduction
+- text: …Despite such poor patient outcomes, little progress has been made over the last 40 years to identify evidence-based
+- mark: therapies
+- text: and strategies that reduce death and disability from TBM; the exception being trials demonstrating that adjunctive corticosteroids reduce death in HIV-negative adults and children with TBM 2 , 3 .
+- paragraph: 正文 / Therapeutic goals / Control host inflammation
+- text: …Whilst limited evidence exists to guide adjunctive
+- mark: therapies
+- text: ", a landmark trial in Vietnam demonstrated that 6-8 weeks adjunctive dexamethasone reduced 9-month mortality in a predominantly HIV-negative group of adults and adolescents with TBM, though with no impact on disability 3 .…"
+- button "開啟文章 PMC7616680":
+  - paragraph: 開啟文章 PMC7616680
+- separator
+- heading "已開啟的文章" [level=3]:
+  - text: 已開啟的文章
+  - link "Link to heading":
+    - /url: "#3cb3855c"
+- paragraph: PMC7616680 · 2025 · en
+- 'heading "Advancing the chemotherapy of tuberculous meningitis: a consensus view" [level=3]':
+  - text: "Advancing the chemotherapy of tuberculous meningitis: a consensus view"
+  - link "Link to heading":
+    - /url: "#advancing-the-chemotherapy-of-tuberculous-meningitis-a-consensus-view"
+- paragraph: 字元數（含空白）
+- paragraph: 42,505
+- paragraph: 字元數（不含空白）
+- paragraph: 36,372
+- paragraph: 單字數
+- paragraph: 6,069
+- paragraph: 句子數
+- paragraph: "237"
+- paragraph: 字元／單字：標題、摘要、正文與圖表文字。句子：僅敘述段落、圖說及文字列表；不含標題與表格儲存格。
+- tablist:
+  - tab "摘要與全文":
+    - paragraph: 摘要與全文
+  - tab "分句與區塊統計" [selected]:
+    - paragraph: 分句與區塊統計
+  - tab "來源與授權":
+    - paragraph: 來源與授權
+- tabpanel "分句與區塊統計":
+  - paragraph: 位置為區塊內 Unicode 字元索引，起點含、終點不含；非空尾段以 paragraph_end 計入。
+  - paragraph: 敘述區塊
+  - combobox "敘述區塊": b2 · 摘要 · Tuberculous meningitis (TBM) causes death or disability in approx…
+  - button "Open":
+  - paragraph:
+    - strong: "1."
+    - code: 0:143
+    - text: ·
+    - code: terminal_punctuation
+  - generic: Tuberculous meningitis (TBM) causes death or disability in approximately 50% of those affected and kills approximately 78200 adults every year.
+  - paragraph:
+    - strong: "2."
+    - code: 144:301
+    - text: ·
+    - code: terminal_punctuation
+  - generic: Antimicrobial treatment is based on regimens used for pulmonary tuberculosis which overlooks important differences between lung and brain drug distributions.
+  - paragraph:
+    - strong: "3."
+    - code: 302:406
+    - text: ·
+    - code: terminal_punctuation
+  - generic: TBM has a profound inflammatory component, yet only adjunctive corticosteroids have shown clear benefit.
+  - paragraph:
+    - strong: "4."
+    - code: 407:600
+    - text: ·
+    - code: terminal_punctuation
+  - generic: There is an active pipeline of new antitubercular drugs, and the advent of biological agents targeted at specific inflammatory pathways promise a new era of improved TBM treatment and outcomes.
+  - paragraph:
+    - strong: "5."
+    - code: 601:755
+    - text: ·
+    - code: terminal_punctuation
+  - generic: Yet, to date, TBM trials have been relatively small, underpowered, heterogeneous, poorly generalizable, and have had little impact on policy and practice.
+  - paragraph:
+    - strong: "6."
+    - code: 756:805
+    - text: ·
+    - code: terminal_punctuation
+  - generic: Progress is slow, and a new approach is required.
+  - paragraph:
+    - strong: "7."
+    - code: 806:1044
+    - text: ·
+    - code: terminal_punctuation
+  - generic: Here, a global consortium of TBM researchers articulate a coordinated, definitive way ahead via globally conducted clinical trials of novel drugs and regimens to advance treatment and improve outcomes from this life-threatening infection.
+  - button "Show/hide columns":
+  - button "Download as CSV":
+  - button "Search":
+  - button "Fullscreen":

@@ -1,0 +1,200 @@
+{
+  "source": "pmid-covid-set.txt",
+  "pmids": [
+    "33126180",
+    "39283431",
+    "33496842",
+    "33810926",
+    "34333882",
+    "33543668",
+    "33811458",
+    "34024060",
+    "36148046",
+    "33288230"
+  ],
+  "test_data_only": true,
+  "runs": [
+    {
+      "mode": "previous_serial",
+      "seconds": 9.821237800002564,
+      "http_attempts": 10,
+      "results": [
+        {
+          "pmid": "33126180",
+          "pmcid": "PMC7584564",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "39283431",
+          "pmcid": "PMID39283431",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33496842",
+          "pmcid": "PMC7835665",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "33810926",
+          "pmcid": "PMC7955943",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "34333882",
+          "pmcid": "PMID34333882",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33543668",
+          "pmcid": "PMID33543668",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "33811458",
+          "pmcid": "PMC8250914",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "34024060",
+          "pmcid": "",
+          "status": "download_failed",
+          "reason": "目前自動下載限定英文文章。"
+        },
+        {
+          "pmid": "36148046",
+          "pmcid": "PMC9486701",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33288230",
+          "pmcid": "",
+          "status": "download_failed",
+          "reason": "目前自動下載限定英文文章。"
+        }
+      ],
+      "document_count": 8,
+      "covid_results": [
+        {
+          "id": "PMC9486701",
+          "score": 0.17815088090509495
+        },
+        {
+          "id": "PMC8250914",
+          "score": 0.14205263640960106
+        },
+        {
+          "id": "PMID34333882",
+          "score": 0.12946099473946807
+        },
+        {
+          "id": "PMID39283431",
+          "score": 0.1005380339856999
+        },
+        {
+          "id": "PMC7584564",
+          "score": 0.053016418124113986
+        }
+      ]
+    },
+    {
+      "mode": "batched",
+      "seconds": 1.4520279000280425,
+      "http_attempts": 1,
+      "results": [
+        {
+          "pmid": "33126180",
+          "pmcid": "PMC7584564",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "39283431",
+          "pmcid": "PMID39283431",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33496842",
+          "pmcid": "PMC7835665",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "33810926",
+          "pmcid": "PMC7955943",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "34333882",
+          "pmcid": "PMID34333882",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33543668",
+          "pmcid": "PMID33543668",
+          "status": "imported",
+          "reason": "本機匯入：未提供授權，使用者須確認使用權利"
+        },
+        {
+          "pmid": "33811458",
+          "pmcid": "PMC8250914",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "34024060",
+          "pmcid": "",
+          "status": "download_failed",
+          "reason": "目前自動下載限定英文文章。"
+        },
+        {
+          "pmid": "36148046",
+          "pmcid": "PMC9486701",
+          "status": "imported",
+          "reason": ""
+        },
+        {
+          "pmid": "33288230",
+          "pmcid": "",
+          "status": "download_failed",
+          "reason": "目前自動下載限定英文文章。"
+        }
+      ],
+      "document_count": 8,
+      "covid_results": [
+        {
+          "id": "PMC9486701",
+          "score": 0.17815088090509495
+        },
+        {
+          "id": "PMC8250914",
+          "score": 0.14205263640960106
+        },
+        {
+          "id": "PMID34333882",
+          "score": 0.12946099473946807
+        },
+        {
+          "id": "PMID39283431",
+          "score": 0.1005380339856999
+        },
+        {
+          "id": "PMC7584564",
+          "score": 0.053016418124113986
+        }
+      ]
+    }
+  ],
+  "content_statistics_search_identical": true,
+  "personal_files_unchanged": 7
+}

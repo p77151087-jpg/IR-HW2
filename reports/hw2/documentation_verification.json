@@ -1,0 +1,174 @@
+{
+  "verified_at_utc": "2026-09-30T07:38:21.039790+00:00",
+  "passed": true,
+  "scope": "Documentation-only consolidation of the existing four-condition v5 changes; no test suite or experiment rerun",
+  "documents": [
+    {
+      "path": "docs/HW2_CHANGELOG.md",
+      "sha256": "874876b7a1ecc8898cbbddc839170218bfa937ab7690c94b76c7a15b56b60032"
+    },
+    {
+      "path": "README.md",
+      "sha256": "475522bc8451484999a619f7dff7ae6af5c8f5cf91ee38212dd092180da83322"
+    },
+    {
+      "path": "docs/HW2_PLAN.md",
+      "sha256": "174124ee55929fe46a7c337e32632923a5b2013032fe6ac699964f88279a1308"
+    },
+    {
+      "path": "docs/HW2_DEVELOPMENT.md",
+      "sha256": "39e92958143feccd9513d6be345734da7183fcc85da05f69b337bdc6b2829a11"
+    },
+    {
+      "path": "docs/HW2_DEMO.md",
+      "sha256": "0f0cefdfc3e6a6f3262bbe036c00d210737726940ad8f62ea976fe1657750e05"
+    },
+    {
+      "path": "docs/LECTURE3_REVIEW.md",
+      "sha256": "cc0e86bd316169600997601d05ca750728471b9121a77b72af65701fdb9262db"
+    }
+  ],
+  "local_links_checked": 31,
+  "local_links": [
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "HW2_PLAN.md"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../README.md"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../output/visualizations/zipf-reading-guide.html"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/experiment/summary.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/model/metadata.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/formal-verification.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/pytest-hw1-tokenizer.log"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/pytest-hw1-tokenizer.xml"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/tokenizer_verification.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/formal-verification.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/analysis_verification.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/pdf_qa.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/pdf_export.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "../reports/hw2/tokenizer_guide_qa.json"
+    },
+    {
+      "document": "docs/HW2_CHANGELOG.md",
+      "target": "LECTURE3_REVIEW.md"
+    },
+    {
+      "document": "README.md",
+      "target": "output/visualizations/zipf-reading-guide.html"
+    },
+    {
+      "document": "README.md",
+      "target": "reports/hw2/corpus_acquisition.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/HW2_CHANGELOG.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/HW2_PLAN.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/HW2_DEMO.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/HW2_DEVELOPMENT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "reports/hw2/HW2_REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "reports/hw2/EXECUTIVE_SUMMARY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "reports/hw2/corpus_acquisition.md"
+    },
+    {
+      "document": "README.md",
+      "target": "reports/hw2/environment.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/HW1_README_ARCHIVE.md"
+    },
+    {
+      "document": "docs/HW2_PLAN.md",
+      "target": "HW2_CHANGELOG.md"
+    },
+    {
+      "document": "docs/HW2_DEVELOPMENT.md",
+      "target": "HW2_CHANGELOG.md"
+    },
+    {
+      "document": "docs/HW2_DEMO.md",
+      "target": "HW2_CHANGELOG.md"
+    },
+    {
+      "document": "docs/HW2_DEMO.md",
+      "target": "../output/visualizations/zipf-reading-guide.html"
+    },
+    {
+      "document": "docs/LECTURE3_REVIEW.md",
+      "target": "HW2_CHANGELOG.md"
+    }
+  ],
+  "statistics_rows_checked": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "existing_test_result": "487 passed in 50.69s",
+  "pdf_sources_and_outputs_unchanged": true,
+  "pdf_pages": [
+    12,
+    1
+  ],
+  "existing_pdf_text_checks": 612,
+  "guide_condition": "A",
+  "guide_source_hash_matches_qa": true,
+  "graph": "list_projects and check_index_coverage returned Transport closed; used direct document and saved output evidence"
+}

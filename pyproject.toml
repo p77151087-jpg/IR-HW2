@@ -1,0 +1,10 @@
+[project]
+name = "ir-hw2"
+version = "2.0.0"
+description = "Reproducible PubMed Zipf experiments, Word2Vec and biomedical retrieval"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

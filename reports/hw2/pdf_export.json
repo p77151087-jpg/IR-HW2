@@ -1,0 +1,310 @@
+{
+  "generator": "ReportLab with embedded Microsoft JhengHei and Segoe UI",
+  "dash_policy": "Unicode dash variants displayed as ASCII hyphens; curly apostrophes as ASCII apostrophes; source Markdown preserved.",
+  "outputs": [
+    {
+      "tables": [
+        {
+          "columns": 2,
+          "rows": 11,
+          "height_points": 214.8,
+          "header": [
+            "取得與篩選項目",
+            "實際數量"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 5,
+          "height_points": 132.3,
+          "header": [
+            "條件",
+            "本次實作與可重現定義"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 5,
+          "height_points": 97.8,
+          "header": [
+            "條件",
+            "有序 tokens"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 9,
+          "rows": 5,
+          "height_points": 105.6,
+          "header": [
+            "條件",
+            "Documents",
+            "Tokens",
+            "Unique terms",
+            "平均 tokens／篇",
+            "CF=1 詞數",
+            "CF=1／詞彙",
+            "Top 10／tokens",
+            "ΣDF"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 5,
+          "height_points": 143.8,
+          "header": [
+            "條件",
+            "依排名列出的 Top 10（括號為 CF）"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 8,
+          "rows": 17,
+          "height_points": 315.8,
+          "header": [
+            "條件／區段",
+            "Rank 範圍",
+            "n",
+            "slope",
+            "intercept a",
+            "exponent b",
+            "R²",
+            "RMSE log(CF)"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 4,
+          "rows": 21,
+          "height_points": 409.8,
+          "header": [
+            "B term",
+            "CF",
+            "DF",
+            "IDF=log(1000／DF)"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 4,
+          "rows": 20,
+          "height_points": 390.3,
+          "header": [
+            "B term",
+            "CF",
+            "DF",
+            "IDF=log(1000／DF)"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 11,
+          "height_points": 214.8,
+          "header": [
+            "正式訓練項目",
+            "實際設定／結果"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 4,
+          "rows": 6,
+          "height_points": 151.8,
+          "header": [
+            "查詢詞",
+            "第 1 近鄰／cosine",
+            "第 2 近鄰／cosine",
+            "第 3 近鄰／cosine"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 3,
+          "rows": 7,
+          "height_points": 159.8,
+          "header": [
+            "原查詢",
+            "實際建議／保留結果",
+            "檢核重點"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 10,
+          "height_points": 218.3,
+          "header": [
+            "成果",
+            "位置／用途"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 6,
+          "rows": 26,
+          "height_points": 507.3,
+          "header": [
+            "Rank",
+            "Term",
+            "CF",
+            "Rank",
+            "Term",
+            "CF"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 6,
+          "rows": 26,
+          "height_points": 507.3,
+          "header": [
+            "Rank",
+            "Term",
+            "CF",
+            "Rank",
+            "Term",
+            "CF"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 6,
+          "rows": 26,
+          "height_points": 507.3,
+          "header": [
+            "Rank",
+            "Term",
+            "CF",
+            "Rank",
+            "Term",
+            "CF"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 6,
+          "rows": 26,
+          "height_points": 507.3,
+          "header": [
+            "Rank",
+            "Term",
+            "CF",
+            "Rank",
+            "Term",
+            "CF"
+          ],
+          "kept_on_one_page": true
+        }
+      ],
+      "figures": [
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\preprocessing_comparison.png",
+          "sha256": "45314b99a46046652d248d510e259ee32858f24936c0ff37ac8f56d45ffaee45",
+          "caption": "A–D 四條件的計數、詞彙及索引代理量"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\figures\\high_frequency_terms.png",
+          "sha256": "3e47ff109a3b230e20be173ebf63eaa87de50742ef1f17852badeced95812baa",
+          "caption": "A–D Top 10 高頻詞並排比較；四圖共用 CF 尺度"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\rank_frequency.png",
+          "sha256": "839f7d99fc74f76263a9e4cdb8a28b997f054214cec3d147143bbc19468ee057",
+          "caption": "不同前處理方法的詞頻排名分布（Y 軸為對數刻度）"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\log_log.png",
+          "sha256": "3ade8ef389c6f5de06a8febd6ad266e05c942770a9a61188c5245adb1dcd1c47",
+          "caption": "以 10 為底的對數 Zipf 散點與全範圍 OLS"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\residuals.png",
+          "sha256": "79acd9cbdc1c7f3a33a433497b1a92f721d92165a7d91487b7b41a744ed8c9b0",
+          "caption": "全範圍 OLS 殘差"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\figures\\segment_fit.png",
+          "sha256": "dd8aead36ff2f7ca16af3bce6fa2f64ffa89e21fe1ee4efae993421d313699db",
+          "caption": "A–D 各三段分別回歸：R² 與 RMSE 並排比較"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\figures\\cf_df.png",
+          "sha256": "ffcc1ea55631f84029ef3baefb8bf635e0f5091fc87db6c0751378c62f2257b6",
+          "caption": "B 條件 39 個選詞的 CF／DF 散點圖"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\figures\\idf_relation.png",
+          "sha256": "a963f3c1551946bdc5d26980bb65dbe1250fae23b9e9d8bd650e381fa56968ad",
+          "caption": "文件覆蓋數 DF 與指定 IDF 的關係；N=1,000"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\figures\\idf_terms.png",
+          "sha256": "e58a6d48f06e8c38102f0b1c2c6773982997159ac9ddf1dbf07a455973da0987",
+          "caption": "12 個代表詞的 IDF 與對應 DF"
+        }
+      ],
+      "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\HW2_REPORT.md",
+      "source_sha256": "8a3a25ebc2922f3d59649128932cdb404edf8abebf2a32957b3417a686a356b8",
+      "pages": 21,
+      "output": "C:\\成大專案\\IR-HW2\\output\\pdf\\HW2_REPORT.pdf",
+      "pdf_sha256": "e20077a571caeca4e369ee0cd756575496cd4b23977cf6eb1747149659782de4",
+      "page_text_characters": [
+        1702,
+        2020,
+        1337,
+        1288,
+        1710,
+        275,
+        656,
+        767,
+        634,
+        678,
+        743,
+        460,
+        741,
+        3390,
+        1778,
+        2302,
+        2054,
+        914,
+        816,
+        872,
+        842
+      ],
+      "text_completeness_checks": "passed"
+    },
+    {
+      "tables": [
+        {
+          "columns": 5,
+          "rows": 5,
+          "height_points": 109.6,
+          "header": [
+            "條件",
+            "Tokens",
+            "Unique terms",
+            "全範圍 exponent",
+            "R²"
+          ],
+          "kept_on_one_page": true
+        }
+      ],
+      "figures": [],
+      "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\EXECUTIVE_SUMMARY.md",
+      "source_sha256": "92a80aa1eb4c3b2d99b3b0e1c637fce23725a89ca5e11709cbc9e8ff524d81f0",
+      "pages": 1,
+      "output": "C:\\成大專案\\IR-HW2\\output\\pdf\\HW2_EXECUTIVE_SUMMARY.pdf",
+      "pdf_sha256": "722baf51bc72a2d4db4455a4aabca0698b3b5c6c10ddf79bbb921c2e63116f45",
+      "page_text_characters": [
+        1783
+      ],
+      "text_completeness_checks": "passed"
+    }
+  ],
+  "visual_qa": "Required after generation; inspect Poppler-rendered pages."
+}

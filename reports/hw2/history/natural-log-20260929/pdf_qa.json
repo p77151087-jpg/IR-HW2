@@ -1,0 +1,154 @@
+{
+  "verified_at_utc": "2026-09-29T02:18:37.135442+00:00",
+  "marker": "Executed successfully exactly once before first authoring: create, expected-output-count=2, output-format=pdf.",
+  "english_words_in_pdf": 384,
+  "english_discussion_page": 9,
+  "all_rq_answers_present": true,
+  "summary_exactly_one_page": true,
+  "font_strategy": "Embedded Microsoft JhengHei regular/bold plus embedded Segoe UI glyph fallback; standard Helvetica for page furniture.",
+  "font_resources": {
+    "/Helvetica": {
+      "subtype": "/Type1",
+      "embedded": false
+    },
+    "/AAAAAA+MicrosoftJhengHeiRegular-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAB+MicrosoftJhengHeiRegular-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAC+MicrosoftJhengHeiRegular-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAD+MicrosoftJhengHeiRegular-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAA+MicrosoftJhengHeiBold-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAB+MicrosoftJhengHeiBold-0": {
+      "subtype": "/TrueType",
+      "embedded": true
+    },
+    "/AAAAAA+SegoeUI": {
+      "subtype": "/TrueType",
+      "embedded": true
+    }
+  },
+  "source_and_output_hashes_match_export_manifest": true,
+  "poppler_configuration_warnings": "Bundled Poppler reported absent default Symbol/ArialUnicode display-font mappings; embedded document glyphs rendered correctly on all inspected pages.",
+  "exports": [
+    {
+      "pdf": "output/pdf/HW2_REPORT.pdf",
+      "pdf_sha256": "d23e4f44248404b375f1be97752a202a968c2b901e3bdbec54595d4851ff8635",
+      "source": "reports/hw2/HW2_REPORT.md",
+      "source_sha256": "ea1dbf3241ac5ef9251912df579fae12ca6d1dc2f67ef3a961f99265f78c3fd3",
+      "pages": 12,
+      "source_text_checks": 527,
+      "source_text_omissions": [],
+      "page_bounds_check": "passed",
+      "renderer": "Poppler pdftoppm",
+      "render_dpi": 120,
+      "rendered_pages": [
+        {
+          "page": 1,
+          "path": "tmp/pdfs/hw2-report-final/page-01.png",
+          "sha256": "3c426b004049f0e6e3b59f19038cf841c26d7018a36be3e0ec089d01ddde2ff3",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 2,
+          "path": "tmp/pdfs/hw2-report-final/page-02.png",
+          "sha256": "76a5aa39db764a096d69acb2cb59e1368f7b168a19650b99b46c06ee3d2d2a1b",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 3,
+          "path": "tmp/pdfs/hw2-report-final/page-03.png",
+          "sha256": "64f4b21314c7803fd7c3ff79ea28eadad7cd305b5c6621d98e0053424b6d064f",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 4,
+          "path": "tmp/pdfs/hw2-report-final/page-04.png",
+          "sha256": "5175c2513690e1182a25ed6b6cdbd6cbf405f4116b91d30db5993d7d155bb3fb",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 5,
+          "path": "tmp/pdfs/hw2-report-final/page-05.png",
+          "sha256": "e4e33d5bfb512431a4e55fdb9c55b212d5f48df69a12abcfa7e9afc17d5c683a",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 6,
+          "path": "tmp/pdfs/hw2-report-final/page-06.png",
+          "sha256": "c8e5e38c29474b731292a4ed13e7a1413f61ac2b7fe9459ab411696bf607cebf",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 7,
+          "path": "tmp/pdfs/hw2-report-final/page-07.png",
+          "sha256": "83596a486b035b78c5693331bbc94fa9e84159e803f56e4387cdc4835ef5b08d",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 8,
+          "path": "tmp/pdfs/hw2-report-final/page-08.png",
+          "sha256": "b7252c64cdf2c1abb128e122a4ad7ed289124f29c9d45a1ee84c22832489bbfa",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 9,
+          "path": "tmp/pdfs/hw2-report-final/page-09.png",
+          "sha256": "eb15bd4846822ebf53866a39d4ada4caf9eb38d740b9c9ab5951e8ee6265b12b",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 10,
+          "path": "tmp/pdfs/hw2-report-final/page-10.png",
+          "sha256": "cdb2b2f7a9e26779119c03db35c828d72c3b23b6864a68137c9818cf0ecfdfe9",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 11,
+          "path": "tmp/pdfs/hw2-report-final/page-11.png",
+          "sha256": "2cc0f95c45f53f31163a5aa30bf979af63f937aebd85b63aef1db0135fce3807",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        },
+        {
+          "page": 12,
+          "path": "tmp/pdfs/hw2-report-final/page-12.png",
+          "sha256": "cbb1e8e8c17a236ed5b03bb34a606765c4adcc0b5ffb6de416a8262ea027dcf3",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        }
+      ]
+    },
+    {
+      "pdf": "output/pdf/HW2_EXECUTIVE_SUMMARY.pdf",
+      "pdf_sha256": "48af2501a01a69bc02676ebba2bb5d2e1449ded67dcef1120a2f9c88a45ec1c8",
+      "source": "reports/hw2/EXECUTIVE_SUMMARY.md",
+      "source_sha256": "50a0a44be62ed7ace59cab9b90803ab6d979ee9fdd2188c0e478f75b72c072e9",
+      "pages": 1,
+      "source_text_checks": 36,
+      "source_text_omissions": [],
+      "page_bounds_check": "passed",
+      "renderer": "Poppler pdftoppm",
+      "render_dpi": 150,
+      "rendered_pages": [
+        {
+          "page": 1,
+          "path": "tmp/pdfs/hw2-summary-final/page-1.png",
+          "sha256": "6ef7bdca9b595178f8bbfe018be6fc225b794761296577f883507ab843113bd1",
+          "visual_review": "passed: legible text, no clipping, overlap or missing glyphs; tables kept whole; header/footer and figures aligned"
+        }
+      ]
+    }
+  ],
+  "qa_status": "passed"
+}

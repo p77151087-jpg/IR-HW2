@@ -1,0 +1,6 @@
+<articles>
+  <!-- Synthetic, hand-countable retrieval corpus; these are NOT real PMC IDs. -->
+  <article><front><article-meta><article-id pub-id-type="pmc">1</article-id><title-group><article-title>Alpha</article-title></title-group></article-meta></front><body><p>Cancer.</p></body></article>
+  <article><front><article-meta><article-id pub-id-type="pmc">2</article-id><title-group><article-title>Beta</article-title></title-group></article-meta></front><body><p>Cancer treatment.</p></body></article>
+  <article><front><article-meta><article-id pub-id-type="pmc">3</article-id><title-group><article-title>Gamma</article-title></title-group></article-meta></front><body><p>Treatment.</p></body></article>
+</articles>

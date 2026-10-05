@@ -1,0 +1,198 @@
+{
+  "generator": "ReportLab with embedded Microsoft JhengHei and Segoe UI",
+  "dash_policy": "Unicode dash variants displayed as ASCII hyphens; curly apostrophes as ASCII apostrophes; source Markdown preserved.",
+  "outputs": [
+    {
+      "tables": [
+        {
+          "columns": 2,
+          "rows": 11,
+          "height_points": 214.8,
+          "header": [
+            "取得與篩選項目",
+            "實際數量"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 5,
+          "height_points": 132.3,
+          "header": [
+            "條件",
+            "本次實作與可重現定義"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 9,
+          "rows": 5,
+          "height_points": 105.6,
+          "header": [
+            "條件",
+            "Documents",
+            "Tokens",
+            "Unique terms",
+            "平均 tokens／篇",
+            "CF=1 詞數",
+            "CF=1／詞彙",
+            "Top 10／tokens",
+            "ΣDF"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 5,
+          "height_points": 143.8,
+          "header": [
+            "條件",
+            "依排名列出的 Top 10（括號為 CF）"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 8,
+          "rows": 17,
+          "height_points": 315.8,
+          "header": [
+            "條件／區段",
+            "Rank 範圍",
+            "n",
+            "slope",
+            "intercept a",
+            "exponent b",
+            "R²",
+            "RMSE ln(CF)"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 4,
+          "rows": 33,
+          "height_points": 643.8,
+          "header": [
+            "B term",
+            "CF",
+            "DF",
+            "IDF=ln(1000／DF)"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 11,
+          "height_points": 214.8,
+          "header": [
+            "正式訓練項目",
+            "實際設定／結果"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 4,
+          "rows": 6,
+          "height_points": 117.3,
+          "header": [
+            "查詢詞",
+            "第 1 鄰近詞／cosine",
+            "第 2 鄰近詞／cosine",
+            "第 3 鄰近詞／cosine"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 3,
+          "rows": 7,
+          "height_points": 148.3,
+          "header": [
+            "原查詢",
+            "回傳建議／保留結果",
+            "檢核重點"
+          ],
+          "kept_on_one_page": true
+        },
+        {
+          "columns": 2,
+          "rows": 9,
+          "height_points": 175.8,
+          "header": [
+            "成果",
+            "位置／用途"
+          ],
+          "kept_on_one_page": true
+        }
+      ],
+      "figures": [
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\preprocessing_comparison.png",
+          "sha256": "b14e37e6ebdd54bf48daaa5889c65d03ac5b05cb747627d672260eb68922c25f",
+          "caption": "A–D 計數及索引大小代理量"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\rank_frequency.png",
+          "sha256": "30049082a96ddb844a4f3a52ff14f0887f82af930af47dee04fe993861dbedc8",
+          "caption": "Rank-frequency 全範圍與 CF 對數軸"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\log_log.png",
+          "sha256": "76dab484c73d9302e6f75beaee7a144429274950bcaa58e326542c0a0a6ce15a",
+          "caption": "自然對數 Zipf 散點與全範圍 OLS"
+        },
+        {
+          "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\experiment\\residuals.png",
+          "sha256": "f1514c6a5ad5adc7b88a568721f09a676153dc171ed94ffca7fde4716d7f9178",
+          "caption": "全範圍 OLS 殘差"
+        }
+      ],
+      "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\HW2_REPORT.md",
+      "source_sha256": "ea1dbf3241ac5ef9251912df579fae12ca6d1dc2f67ef3a961f99265f78c3fd3",
+      "pages": 12,
+      "output": "C:\\成大專案\\IR-HW2\\output\\pdf\\HW2_REPORT.pdf",
+      "pdf_sha256": "d23e4f44248404b375f1be97752a202a968c2b901e3bdbec54595d4851ff8635",
+      "page_text_characters": [
+        1550,
+        1774,
+        1774,
+        1646,
+        211,
+        1067,
+        1007,
+        1507,
+        3234,
+        1729,
+        1822,
+        1671
+      ],
+      "text_completeness_checks": "passed"
+    },
+    {
+      "tables": [
+        {
+          "columns": 5,
+          "rows": 5,
+          "height_points": 109.6,
+          "header": [
+            "條件",
+            "Tokens",
+            "Unique terms",
+            "全範圍 exponent",
+            "R²"
+          ],
+          "kept_on_one_page": true
+        }
+      ],
+      "figures": [],
+      "source": "C:\\成大專案\\IR-HW2\\reports\\hw2\\EXECUTIVE_SUMMARY.md",
+      "source_sha256": "50a0a44be62ed7ace59cab9b90803ab6d979ee9fdd2188c0e478f75b72c072e9",
+      "pages": 1,
+      "output": "C:\\成大專案\\IR-HW2\\output\\pdf\\HW2_EXECUTIVE_SUMMARY.pdf",
+      "pdf_sha256": "48af2501a01a69bc02676ebba2bb5d2e1449ded67dcef1120a2f9c88a45ec1c8",
+      "page_text_characters": [
+        1765
+      ],
+      "text_completeness_checks": "passed"
+    }
+  ],
+  "visual_qa": "Required after generation; inspect Poppler-rendered pages."
+}

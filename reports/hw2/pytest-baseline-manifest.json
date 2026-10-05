@@ -1,0 +1,74 @@
+[
+  {
+    "sha256": "e90c05787c757b02c5d4bc4dc1d3f40d9f39007f4a1adb1afbe2261d854472b8",
+    "path": "tests/test_abstract_scope.py"
+  },
+  {
+    "sha256": "8a49f30ea69b3e65a905409cc6b41b20a247854643c827de1f6ebd8e002d6df4",
+    "path": "tests/test_app.py"
+  },
+  {
+    "sha256": "0d8099ced3c755f1f368010e46ad6dbcf01ade6469d1a69934b4fae7029160a7",
+    "path": "tests/test_batch_download.py"
+  },
+  {
+    "sha256": "052101f01ba0fec35d121d26fccfd96daf8b97717cb3d1f1464c73ec510942ec",
+    "path": "tests/test_compound_search.py"
+  },
+  {
+    "sha256": "9e857a64b58fff8962b56e114eaa51fb1ddd4420a6ad74496b7c34a759d84e8e",
+    "path": "tests/test_core.py"
+  },
+  {
+    "sha256": "61938e7298f1ced8a8bbe453d18db3acc14f806c8b93dfb34903a3d614e099bc",
+    "path": "tests/test_folder_batch.py"
+  },
+  {
+    "sha256": "16347dc8e1f5063e8c5c840c58ca437590e3810d83aa5392954768780dad8d8a",
+    "path": "tests/test_library.py"
+  },
+  {
+    "sha256": "4c40564b9d5dfcb6ee875bed774e7d5dddaa2ab35be961ac67a94252103c5c01",
+    "path": "tests/test_phrase.py"
+  },
+  {
+    "sha256": "931bb62f47385ff1cb0714655f8eac45ad9204382c958bf1872d7c1c26ad17ef",
+    "path": "tests/test_pmid_list.py"
+  },
+  {
+    "sha256": "c1351b9d8744bc6c9d836698784dfc9175a7a0edc72eb54163653d3e9cf70fae",
+    "path": "tests/test_purge.py"
+  },
+  {
+    "sha256": "3b4d9c026860ae7022120853c63ae1b128d24a3efaab832b1a8867af288e1471",
+    "path": "tests/test_real_corpus.py"
+  },
+  {
+    "sha256": "a4ce954cb2b9d9f159f352b57ad607cae57b4630333933bae078e386b7537c69",
+    "path": "tests/test_relevance.py"
+  },
+  {
+    "sha256": "48a505c54179f2c86aac873cc2f84fac1ffcb716a1b4b3aea6ee734b2773fd21",
+    "path": "tests/test_source_scope.py"
+  },
+  {
+    "sha256": "ba767358c233e41ec2f0e4fea44ab75c0127189710833236da0c4c15c464f6a6",
+    "path": "tests/test_stemming.py"
+  },
+  {
+    "sha256": "7b4e32e30cb7cdc2ba412711e04f9b18713750119a544ba26a2abf2fd0da5207",
+    "path": "tests/test_sync.py"
+  },
+  {
+    "sha256": "7b174aca73e15260beb6008ff9263c2ed4bd9ebe2c9b4946d87ffd8c3f57df9d",
+    "path": "tests/test_tfidf_app.py"
+  },
+  {
+    "sha256": "21f61e99ba1d6f95753461b637e34ffcbff00890f38a9acb156af3d36d0499ef",
+    "path": "tests/test_tfidf.py"
+  },
+  {
+    "sha256": "6ee451efc1e6f95bca69a95dca788b6e39faa86ee9be4b8ac3c4b7d5e0975853",
+    "path": "tests/test_xml_and_corpus.py"
+  }
+]

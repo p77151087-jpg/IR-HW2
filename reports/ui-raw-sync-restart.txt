@@ -1,0 +1,39 @@
+Browser tab: 2, Title: "BioSearch｜生醫全文搜尋", URL: "http://127.0.0.1:8502/".
+1 AXWebArea BioSearch｜生醫全文搜尋, URL: 127.0.0.1:8502/
+	2 container
+		3 container
+			4 container
+				5 button Deploy
+				6 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+			7 text IR HW1 · LOCAL BIOMEDICAL LIBRARY
+			8 heading 生醫文章全文搜尋, Value: 1, ID: 7e155900
+				9 text 生醫文章全文搜尋
+				10 link Description: Link to heading, Value: 127.0.0.1:8502/#7e155900
+			11 text 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+			12 container
+				13 Description: 功能導覽, ID: react-aria1326492461-:r2:
+					14 container
+						15 radio button (settable, integer) Description: 搜尋文章, Value: 1
+						16 text 搜尋文章
+					17 container
+						18 radio button (settable, integer) Description: 文章詳情, Value: 0
+						19 text 文章詳情
+					20 container
+						21 radio button (settable, integer) Description: 語料概覽, Value: 0
+						22 text 語料概覽
+			23 text 本機文章 2 篇 · 索引詞彙 2,498 · 資料已保存，可離線搜尋
+			24 text 範圍：標題、摘要、正文與圖表文字。完整單詞、不分大小寫；保留停用詞、未啟用詞幹還原。
+			25 text 新增文章：將 PMC XML 放進 data/raw，再重新整理網頁；系統會自動匯入與更新索引。
+			26 container
+				27 text field (settable) Description: 輸入英文關鍵字, ID: :rb:
+			28 container
+				29 combo box (collapsed, settable) Description: 匹配模式, Value: AND, ID: react-aria1326492461-:rm:, Secondary Actions: Expand
+				30 pop up button (collapsed) Description: Open, ID: react-aria1326492461-:ri:, Secondary Actions: Expand
+			31 text AND：全部詞都要出現；OR：任一詞出現。僅接受一般關鍵字，不解析引號片語、NOT 或括號。
+			32 button 搜尋
+				33 text 搜尋
+			34 text 輸入一個或多個英文關鍵字，開始探索本機全文。
+			35 container
+				36 text 你可以在這裡核對 ：命中的正文片段、每篇文章的字元與單字數，以及規則判斷的句界。
+
+The focused UI element is 1 AXWebArea BioSearch｜生醫全文搜尋, URL: 127.0.0.1:8502/

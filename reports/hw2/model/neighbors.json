@@ -1,0 +1,307 @@
+[
+  {
+    "query": "semaglutide",
+    "term": "semaglutide",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "liraglutide",
+        "cosine": 0.6704182028770447
+      },
+      {
+        "term": "tirzepatide",
+        "cosine": 0.660938024520874
+      },
+      {
+        "term": "dulaglutide",
+        "cosine": 0.6132273077964783
+      },
+      {
+        "term": "exenatide",
+        "cosine": 0.5391877889633179
+      },
+      {
+        "term": "rybelsus",
+        "cosine": 0.5343523025512695
+      },
+      {
+        "term": "ex4",
+        "cosine": 0.5312784910202026
+      },
+      {
+        "term": "titrated",
+        "cosine": 0.5145296454429626
+      },
+      {
+        "term": "subcutaneous",
+        "cosine": 0.5107765197753906
+      },
+      {
+        "term": "rituximab",
+        "cosine": 0.5055910348892212
+      },
+      {
+        "term": "mazdutide",
+        "cosine": 0.5054411888122559
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "insulin",
+    "term": "insulin",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "resistance",
+        "cosine": 0.7429595589637756
+      },
+      {
+        "term": "secretion",
+        "cosine": 0.5642209053039551
+      },
+      {
+        "term": "glargine",
+        "cosine": 0.5526387691497803
+      },
+      {
+        "term": "homa-ir",
+        "cosine": 0.5351552963256836
+      },
+      {
+        "term": "beta-cell",
+        "cosine": 0.5268201231956482
+      },
+      {
+        "term": "glucose-stimulated",
+        "cosine": 0.5230013728141785
+      },
+      {
+        "term": "beta-cells",
+        "cosine": 0.5212281942367554
+      },
+      {
+        "term": "androgen",
+        "cosine": 0.5038367509841919
+      },
+      {
+        "term": "gluconeogenesis",
+        "cosine": 0.4978885352611542
+      },
+      {
+        "term": "basal",
+        "cosine": 0.4934418201446533
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "obesity",
+    "term": "obesity",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "overweight",
+        "cosine": 0.6234118938446045
+      },
+      {
+        "term": "tdt-induced",
+        "cosine": 0.6044720411300659
+      },
+      {
+        "term": "type-2",
+        "cosine": 0.5871477127075195
+      },
+      {
+        "term": "resistant",
+        "cosine": 0.5822461843490601
+      },
+      {
+        "term": "sarcopenic",
+        "cosine": 0.5783970952033997
+      },
+      {
+        "term": "antipsychotic-associated",
+        "cosine": 0.5777367949485779
+      },
+      {
+        "term": "co-morbid",
+        "cosine": 0.5722094774246216
+      },
+      {
+        "term": "childhood",
+        "cosine": 0.5693739652633667
+      },
+      {
+        "term": "cvds",
+        "cosine": 0.5675004124641418
+      },
+      {
+        "term": "orc",
+        "cosine": 0.5662516951560974
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "glp-1",
+    "term": "glp-1",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "ras",
+        "cosine": 0.6968141198158264
+      },
+      {
+        "term": "ra",
+        "cosine": 0.6867718696594238
+      },
+      {
+        "term": "hepatotoxicity",
+        "cosine": 0.644049346446991
+      },
+      {
+        "term": "receptor",
+        "cosine": 0.6333426833152771
+      },
+      {
+        "term": "gip",
+        "cosine": 0.6212549209594727
+      },
+      {
+        "term": "overfeeding",
+        "cosine": 0.6074573397636414
+      },
+      {
+        "term": "pan-ppar",
+        "cosine": 0.5933074951171875
+      },
+      {
+        "term": "a2g",
+        "cosine": 0.5925714373588562
+      },
+      {
+        "term": "obesity-labeled",
+        "cosine": 0.5892698168754578
+      },
+      {
+        "term": "diabetes-labeled",
+        "cosine": 0.5843164324760437
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "liraglutide",
+    "term": "liraglutide",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "dulaglutide",
+        "cosine": 0.7077518105506897
+      },
+      {
+        "term": "tirzepatide",
+        "cosine": 0.6859399676322937
+      },
+      {
+        "term": "semaglutide",
+        "cosine": 0.6704183220863342
+      },
+      {
+        "term": "ex4",
+        "cosine": 0.6017845273017883
+      },
+      {
+        "term": "sars",
+        "cosine": 0.5500718951225281
+      },
+      {
+        "term": "exenatide",
+        "cosine": 0.547554612159729
+      },
+      {
+        "term": "setmelanotide",
+        "cosine": 0.5441716909408569
+      },
+      {
+        "term": "bupropion",
+        "cosine": 0.5404372215270996
+      },
+      {
+        "term": "cagrilintide-semaglutide",
+        "cosine": 0.5363805294036865
+      },
+      {
+        "term": "titrated",
+        "cosine": 0.533010721206665
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "GLP-1",
+    "term": "glp-1",
+    "status": "ok",
+    "neighbors": [
+      {
+        "term": "ras",
+        "cosine": 0.6968141198158264
+      },
+      {
+        "term": "ra",
+        "cosine": 0.6867718696594238
+      },
+      {
+        "term": "hepatotoxicity",
+        "cosine": 0.644049346446991
+      },
+      {
+        "term": "receptor",
+        "cosine": 0.6333426833152771
+      },
+      {
+        "term": "gip",
+        "cosine": 0.6212549209594727
+      },
+      {
+        "term": "overfeeding",
+        "cosine": 0.6074573397636414
+      },
+      {
+        "term": "pan-ppar",
+        "cosine": 0.5933074951171875
+      },
+      {
+        "term": "a2g",
+        "cosine": 0.5925714373588562
+      },
+      {
+        "term": "obesity-labeled",
+        "cosine": 0.5892698168754578
+      },
+      {
+        "term": "diabetes-labeled",
+        "cosine": 0.5843164324760437
+      }
+    ],
+    "message": "近鄰反映本語料的上下文相似性，不代表語意正確率。"
+  },
+  {
+    "query": "zzzznotincorpus",
+    "term": "zzzznotincorpus",
+    "status": "oov",
+    "neighbors": [],
+    "message": "此詞不在模型詞彙中，可能未出現或低於 min_count；不以隨機向量替代。"
+  },
+  {
+    "query": "GLP-1 receptor",
+    "terms": [
+      "glp-1",
+      "receptor"
+    ],
+    "status": "invalid_query",
+    "neighbors": [],
+    "message": "請輸入一個依 HW1 切詞規則保留的 B 條件詞彙，例如 GLP-1；GLP-1 receptor 含兩詞，不能作單詞近鄰查詢。"
+  }
+]

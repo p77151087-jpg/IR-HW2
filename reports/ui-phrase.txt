@@ -1,0 +1,349 @@
+AND
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 15 篇 · 索引詞彙 7,707 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原"
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 目前使用原詞比對；例如 therapy 與 therapies 分開搜尋。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: cancer treatment
+- paragraph: 匹配模式
+- combobox "匹配模式": AND
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.29 ms
+- paragraph: 匹配模式
+- paragraph: AND
+- paragraph: 正規化查詢詞：cancer · treatment ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC7617276 · 2022 · 4,685 個單字
+- generic: The P21-Activated Kinase 1 and 2 As Potential Therapeutic Targets for the Management of Cardiovascular Disease
+- paragraph: 正文 / The Therapeutic Values of Pak1 and Pak2 in Cardiovascular Disease
+- text: Evidence has demonstrated that Pak1/2 are upregulated in human tumour tissues, such as breast
+- mark: cancer
+- text: ", gastric"
+- mark: cancer
+- text: ", ovarian"
+- mark: cancer
+- text: ", and head and neck"
+- mark: cancer
+- text: "[ 103 – 106 ].…"
+- paragraph: 正文 / Introduction / Pak1 Activation and Signalling Pathways
+- text: …Considering the important role of Pak1 in cell survival pathways, it holds great promise in the
+- mark: treatment
+- text: of cardiovascular disease
+- mark: treatment
+- text: .…
+- button "開啟文章 PMC7617276":
+  - paragraph: 開啟文章 PMC7617276
+
+PHRASE: NO MATCH
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 15 篇 · 索引詞彙 7,707 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: cancer treatment
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "0"
+- paragraph: 搜尋耗時
+- paragraph: 0.08 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：cancer treatment ｜ 文章編號排序（非相關性排名）
+- status:
+  - paragraph: 找不到完整片語。若要找詞分散出現的文章，可改用 AND 或 OR。
+
+FIVE-WORD PHRASE
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 15 篇 · 索引詞彙 7,707 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: the treatment of cardiovascular disease
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.45 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：the treatment of cardiovascular disease ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC7617276 · 2022 · 4,685 個單字
+- generic: The P21-Activated Kinase 1 and 2 As Potential Therapeutic Targets for the Management of Cardiovascular Disease
+- paragraph: 正文 / Introduction / Pak1 Activation and Signalling Pathways
+- text: …Considering the important role of Pak1 in cell survival pathways, it holds great promise in
+- mark: the treatment of cardiovascular disease
+- text: treatment.…
+- paragraph: 正文 / The Therapeutic Values of Pak1 and Pak2 in Cardiovascular Disease
+- text: …Thus, Pak1 activation holds a great promise in
+- mark: the treatment of cardiovascular disease
+- text: .
+- button "開啟文章 PMC7617276":
+  - paragraph: 開啟文章 PMC7617276
+
+DETAIL
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 15 篇 · 索引詞彙 7,707 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: the treatment of cardiovascular disease
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋":
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.43 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：the treatment of cardiovascular disease ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC7617276 · 2022 · 4,685 個單字
+- generic: The P21-Activated Kinase 1 and 2 As Potential Therapeutic Targets for the Management of Cardiovascular Disease
+- paragraph: 正文 / Introduction / Pak1 Activation and Signalling Pathways
+- text: …Considering the important role of Pak1 in cell survival pathways, it holds great promise in
+- mark: the treatment of cardiovascular disease
+- text: treatment.…
+- paragraph: 正文 / The Therapeutic Values of Pak1 and Pak2 in Cardiovascular Disease
+- text: …Thus, Pak1 activation holds a great promise in
+- mark: the treatment of cardiovascular disease
+- text: .
+- button "開啟文章 PMC7617276":
+  - paragraph: 開啟文章 PMC7617276
+- separator
+- heading "已開啟的文章" [level=3]:
+  - text: 已開啟的文章
+  - link "Link to heading":
+    - /url: "#3cb3855c"
+- paragraph: PMC7617276 · 2022 · en
+- heading "The P21-Activated Kinase 1 and 2 As Potential Therapeutic Targets for the Management of Cardiovascular Disease" [level=3]:
+  - text: The P21-Activated Kinase 1 and 2 As Potential Therapeutic Targets for the Management of Cardiovascular Disease
+  - link "Link to heading":
+    - /url: "#the-p21-activated-kinase-1-and-2-as-potential-therapeutic-targets-for-the-management-of-cardiovascular-disease"
+- paragraph: 字元數（含空白）
+- paragraph: 33,251
+- paragraph: 字元數（不含空白）
+- paragraph: 28,347
+- paragraph: 單字數
+- paragraph: 4,685
+- paragraph: 句子數
+- paragraph: "245"
+- paragraph: 字元／單字：標題、摘要、正文與圖表文字。句子：僅敘述段落、圖說及文字列表；不含標題與表格儲存格。
+- tablist:
+  - tab "摘要與全文" [selected]:
+    - paragraph: 摘要與全文
+  - tab "分句與區塊統計":
+    - paragraph: 分句與區塊統計
+  - tab "來源與授權":
+    - paragraph: 來源與授權
+- tabpanel "摘要與全文":
+  - checkbox "只顯示命中區塊" [checked] [active]
+  - paragraph: 只顯示命中區塊
+  - paragraph: 閱讀章節
+  - combobox "閱讀章節": 全部章節
+  - button "Open":
+  - paragraph:
+    - strong: 正文 / Introduction / Pak1 Activation and Signalling Pathways
+  - text: The anti-apoptotic role of Pak1 have also been well studied. Pak1 induces Raf1 phosphorylation at Ser338 and translocation to mitochondria, leading the formation of the Raf1-Bcl-2 complex to prevent apoptosis in HEK293T cells [ 31 ]. In addition, Pak1 phosphorylates the pro-apoptotic protein Bad at Ser112 and inhibits its interaction with Bcl-2, thereby protecting lymphoid progenitor cells from apoptosis [ 32 ]. Another study also reported that Pak1 knockdown enhances apoptosis in hepatocellular carcinoma cells via the p53/p21 signalling pathway [ 33 ]. The pro-survival role of Pak1 has also been observed in β-cell. β-cell-specific Pak1 knockout mice exhibited impaired redox imbalance due to mitochondrial dysfunction, which led to the generation of ER stress and β-cell apoptosis [ 34 ]. Pak1 overexpression in the type 2 diabetes human islet β-cells ameliorates ER stress and improves β-cell function [ 34 ]. Considering the important role of Pak1 in cell survival pathways, it holds great promise in
+  - mark: the treatment of cardiovascular disease
+  - text: treatment. However, additional mechanisms may be involved, and the effect of Pak1 inhibition on apoptosis of cardiomyocytes needs to be further investigated.
+  - paragraph:
+    - strong: 正文 / The Therapeutic Values of Pak1 and Pak2 in Cardiovascular Disease
+  - text: Sphingosine-1-phosphate (S1P), a bioactive sphingolipid metabolite that activates Pak1 has been reported to protect cardiomyocytes from I/R injury [ 94 – 96 ]. Fingolimod (FTY720) is an FDA-approved sphingolipid drug with a similar structure to S1P, it exerted cardioprotective effects against I/R injury and hypertrophy [ 6 , 63 ]. Similarly, FTY720 also prevented the arrhythmias occurrence by regulating the Pak1/Akt signalling pathway in rat hearts subjected to I/R injury [ 67 ]. FTY720 stimulated NO production via the PI3K/Akt/eNOS signalling pathway to prevent hypoxic/ischemic cell injury [ 97 ]. Mice having TAC-induced cardiac hypertrophy were administered with FTY720 and exhibited a reduction in pathological cardiac hypertrophy [ 98 ]. These findings suggest that FTY720 can prevent cardiac hypertrophy and I/R injury. Thus, Pak1 activation holds a great promise in
+  - mark: the treatment of cardiovascular disease
+  - text: .
+
+MAIN LIBRARY FOUR-WORD PHRASE
+- log
+- log
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- generic: IR HW1 · LOCAL BIOMEDICAL LIBRARY
+- heading "生醫文章全文搜尋" [level=1]:
+  - text: 生醫文章全文搜尋
+  - link "Link to heading":
+    - /url: "#7e155900"
+- generic: 從關鍵字找到文章，再回到原文核對。以 PMC 開放全文建立的本機搜尋系統。
+- paragraph: 功能導覽
+- radiogroup "功能導覽":
+  - radio "搜尋文章" [checked]
+  - paragraph: 搜尋文章
+  - radio "文章詳情"
+  - paragraph: 文章詳情
+  - radio "語料概覽"
+  - paragraph: 語料概覽
+  - radio "文章管理"
+  - paragraph: 文章管理
+- paragraph: 本機文章 1 篇 · 索引詞彙 1,283 · 資料已保存，可離線搜尋
+- paragraph: 範圍：標題、摘要、正文與圖表文字。不分大小寫、保留停用詞；可切換原詞或 Porter 詞幹比對。
+- paragraph: data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+- switch "Porter 詞幹還原" [disabled]
+- paragraph: Porter 詞幹還原
+- button "Help for Porter 詞幹還原":
+- paragraph: 精準片語：完整單字須依序連續出現，不分大小寫，字間只允許空白；不跨標點或段落。本模式不套用 Porter。
+- paragraph: 輸入英文關鍵字
+- textbox "輸入英文關鍵字":
+  - /placeholder: 例如：cancer treatment 或 mitochondria
+  - text: publicly available nucleotide sequences
+- paragraph: 匹配模式
+- combobox "匹配模式": 精準片語
+- button "Open":
+- paragraph: AND：全部詞都要出現；OR：任一詞出現；精準片語：例如 cancer treatment 必須連在一起、順序相同。切換模式後請按搜尋。不支援 NOT 或括號運算式。
+- button "搜尋" [active]:
+  - paragraph: 搜尋
+- paragraph: 符合文章
+- paragraph: "1"
+- paragraph: 搜尋耗時
+- paragraph: 0.20 ms
+- paragraph: 匹配模式
+- paragraph: 精準片語
+- paragraph: 精準片語：publicly available nucleotide sequences ｜ 文章編號排序（非相關性排名）
+- paragraph: 結果頁碼
+- spinbutton "結果頁碼": "1"
+- button "Decrement" [disabled]:
+- button "Increment" [disabled]:
+- paragraph: PMC3531190 · 2013 · 4,728 個單字
+- generic: GenBank
+- paragraph: 摘要
+- text: GenBank® ( http://www.ncbi.nlm.nih.gov ) is a comprehensive database that contains
+- mark: publicly available nucleotide sequences
+- text: for almost 260 000 formally described species.…
+- button "開啟文章 PMC3531190":
+  - paragraph: 開啟文章 PMC3531190

@@ -1,0 +1,102 @@
+{
+  "verified_at_utc": "2026-09-30T03:43:18.693414+00:00",
+  "operation": "log10 update",
+  "marker": "edit, expected-output-count=2, output-format=pdf executed successfully exactly once before authoring",
+  "english_words_in_pdf": 384,
+  "summary_exactly_one_page": true,
+  "all_rq_answers_present": true,
+  "exports": [
+    {
+      "pdf": "output\\pdf\\HW2_REPORT.pdf",
+      "pdf_sha256": "4ac56a30aa2ad3fbc4e184c3ce377014c083b79637719b318a4fe911192e1827",
+      "source": "reports\\hw2\\HW2_REPORT.md",
+      "source_sha256": "bce9eff26a98d5222ed0fbe92c6180e9d9549fb335dcf02339a142527ae0eced",
+      "pages": 12,
+      "table_cell_text_checks": 440,
+      "page_bounds_check": "passed",
+      "renderer": "Poppler pdftoppm",
+      "render_dpi": 110,
+      "rendered_pages": [
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-01.png",
+          "sha256": "4de38ea176780909ae27a0e35ceee98a8d4ac91071fdc2f004b5608eb372cce5",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-02.png",
+          "sha256": "5896bdc4d992d85c4aa83048b499659dd90489d31c3d47e59e92ab201f2193b0",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-03.png",
+          "sha256": "6a061901c794d5fc1799ea4946faf707ad6e63dbb75ff463290ed7ddb01bbdd1",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-04.png",
+          "sha256": "5c48c7cd85a92847af0029d3dbabb9d8ab2cee48f242a53c360b4323792e768d",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-05.png",
+          "sha256": "81966546492b9b738a361b13ac050fefee67f2ef2db42ddd4f943e16d00d2cdd",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-06.png",
+          "sha256": "2b0ec23891026afb1ddb8d3d9068d13c18b1ed2b875d92d233f2a52f5c66f1ad",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-07.png",
+          "sha256": "d117ddad04ccb8373d71d60ae99191a01f6b8ee925bf4267366d4c70d039d957",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-08.png",
+          "sha256": "e9420a3b1fd32f18a6beb87df3db48958d7f050627ab31499416ec5cd3bba3db",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-09.png",
+          "sha256": "cf6f261f863544085cf14c2d46e2ef2ad1b8c5409e171ce9984b70e6a94bf230",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-10.png",
+          "sha256": "c1635fb59e08f10cf40c09ea7d4d0bfb3493abd4fb6f3c97d05038ff09ec8d7c",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-11.png",
+          "sha256": "80bd54f3e3322e33bd258b2befd6511124c0202bc2ca4cd2a9bdc6243b485298",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        },
+        {
+          "path": "tmp\\pdfs\\log10-report\\page-12.png",
+          "sha256": "5d0b03ab78e75ac39d97b5a417f35fa384440f4c077f1470f8794f6f7e1f31a6",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        }
+      ]
+    },
+    {
+      "pdf": "output\\pdf\\HW2_EXECUTIVE_SUMMARY.pdf",
+      "pdf_sha256": "00f37a03681176bec041e1891da641629b1c9a435a86e450156636b6951ba7e0",
+      "source": "reports\\hw2\\EXECUTIVE_SUMMARY.md",
+      "source_sha256": "aa502470085e94b1bcfa51e20d91d35454890bf292e3d76bf0ff696660fea3ec",
+      "pages": 1,
+      "table_cell_text_checks": 25,
+      "page_bounds_check": "passed",
+      "renderer": "Poppler pdftoppm",
+      "render_dpi": 130,
+      "rendered_pages": [
+        {
+          "path": "tmp\\pdfs\\log10-summary\\page-1.png",
+          "sha256": "31f320f9b0407f53f15bd24b873bcf700c8fce0263f04bb02f6ae845d8383c04",
+          "visual_review": "passed: all pages inspected; legible formulas/tables, no clipping, overlap or missing glyphs"
+        }
+      ]
+    }
+  ],
+  "qa_status": "passed"
+}

@@ -1,0 +1,157 @@
+{
+  "verified_at_utc": "2026-10-03T15:41:40.047342+00:00",
+  "operation": "Five additional comparisons, A-D Top50 appendix, requirement answers and PDF downloads",
+  "exports": [
+    {
+      "pdf": "output\\pdf\\HW2_REPORT.pdf",
+      "pdf_sha256": "e20077a571caeca4e369ee0cd756575496cd4b23977cf6eb1747149659782de4",
+      "source": "reports\\hw2\\HW2_REPORT.md",
+      "source_sha256": "8a3a25ebc2922f3d59649128932cdb404edf8abebf2a32957b3417a686a356b8",
+      "pages": 21,
+      "text_completeness_checks": "passed",
+      "rendered_pages": [
+        {
+          "page": 1,
+          "path": "tmp\\pdf-qa-comparisons\\report-01.png",
+          "sha256": "f651ff56670d6bf006f4752e8830c2a2a43bbc3877b6c062510209cd1ff1004e"
+        },
+        {
+          "page": 2,
+          "path": "tmp\\pdf-qa-comparisons\\report-02.png",
+          "sha256": "318fe13a611ce1dc27ecdeff0c84bbfca6d357669a43d32fa652080e272b989e"
+        },
+        {
+          "page": 3,
+          "path": "tmp\\pdf-qa-comparisons\\report-03.png",
+          "sha256": "a4393c9191fa042900808c8346a7c6e3504b4d5746abed29c4005ea05f187daa"
+        },
+        {
+          "page": 4,
+          "path": "tmp\\pdf-qa-comparisons\\report-04.png",
+          "sha256": "52cf4aa2f6a16a0456997508b64a29e55d0c6a699c7ddd6a589d1dfa8ebbc7f1"
+        },
+        {
+          "page": 5,
+          "path": "tmp\\pdf-qa-comparisons\\report-05.png",
+          "sha256": "87c723cbcbb2751ade203881c74bfe9b60a4db973b3b78ac65084bae94763709"
+        },
+        {
+          "page": 6,
+          "path": "tmp\\pdf-qa-comparisons\\report-06.png",
+          "sha256": "48baa15b3b40114061d7026645c1e197db9c80b50f0f5731a0e8c0e51803a1bc"
+        },
+        {
+          "page": 7,
+          "path": "tmp\\pdf-qa-comparisons\\report-07.png",
+          "sha256": "1d54720443f174b72baee8f06bf175adcce34d7bec131bb1165bb1e13c3bea16"
+        },
+        {
+          "page": 8,
+          "path": "tmp\\pdf-qa-comparisons\\report-08.png",
+          "sha256": "d68ab170fa91880f4cbd087d5d007054da887f0aad4a691cfda351c2ea8de7a2"
+        },
+        {
+          "page": 9,
+          "path": "tmp\\pdf-qa-comparisons\\report-09.png",
+          "sha256": "bedb46251a5d567ecba084dfc886c84047f8a21f5f6292c0aa1dfd728a832177"
+        },
+        {
+          "page": 10,
+          "path": "tmp\\pdf-qa-comparisons\\report-10.png",
+          "sha256": "7a5b505fe285cae95a409096adcbd4332292cd693cc66b5caf4630c4f773ff7d"
+        },
+        {
+          "page": 11,
+          "path": "tmp\\pdf-qa-comparisons\\report-11.png",
+          "sha256": "6cc970c83f5d2cd06ede7bbbd82ffd35e895cb2ba2a353d841ef5f8dd9b1c31a"
+        },
+        {
+          "page": 12,
+          "path": "tmp\\pdf-qa-comparisons\\report-12.png",
+          "sha256": "b180fbd213e13b0d111649508f04c014ba739898908e742ed746792b4e62ff6c"
+        },
+        {
+          "page": 13,
+          "path": "tmp\\pdf-qa-comparisons\\report-13.png",
+          "sha256": "4e66ad97468a1f1ce0e2a8f4eb76f7b147f4a858a259d40da4ddaca81f06b986"
+        },
+        {
+          "page": 14,
+          "path": "tmp\\pdf-qa-comparisons\\report-14.png",
+          "sha256": "2ed39e524b67df9c9608699da7c5eeaed749955f258bf2a2da70a1389fa6dd36"
+        },
+        {
+          "page": 15,
+          "path": "tmp\\pdf-qa-comparisons\\report-15.png",
+          "sha256": "71e09ba0eaf46e7211edb29042d2911e528c7090f46bd06e839820f697732814"
+        },
+        {
+          "page": 16,
+          "path": "tmp\\pdf-qa-comparisons\\report-16.png",
+          "sha256": "eb378043faca1831e1f9fb35c9833977a2a3fa1d46decf7b1b5877b785b29fe3"
+        },
+        {
+          "page": 17,
+          "path": "tmp\\pdf-qa-comparisons\\report-17.png",
+          "sha256": "d57cffb3cb1e52c48ecbc15556abfbc63fccf0a6841e25da9c031cb06ba09473"
+        },
+        {
+          "page": 18,
+          "path": "tmp\\pdf-qa-comparisons\\report-18.png",
+          "sha256": "50197105e5bac73362c7cebb1614dfa577e5ca674b6b596710194755d98e4458"
+        },
+        {
+          "page": 19,
+          "path": "tmp\\pdf-qa-comparisons\\report-19.png",
+          "sha256": "c504120f5718c838abd452e4c498e0a1473066405d7be693633237301b76bdf7"
+        },
+        {
+          "page": 20,
+          "path": "tmp\\pdf-qa-comparisons\\report-20.png",
+          "sha256": "86351e59e2dec35e9a44957f38ed1d62e7668bd877be37d4d5e25574b7291811"
+        },
+        {
+          "page": 21,
+          "path": "tmp\\pdf-qa-comparisons\\report-21.png",
+          "sha256": "5432530757f8c0f17d68ca17c42dc4c25018a76ff969b54119c12c1d6f521923"
+        }
+      ]
+    },
+    {
+      "pdf": "output\\pdf\\HW2_EXECUTIVE_SUMMARY.pdf",
+      "pdf_sha256": "722baf51bc72a2d4db4455a4aabca0698b3b5c6c10ddf79bbb921c2e63116f45",
+      "source": "reports\\hw2\\EXECUTIVE_SUMMARY.md",
+      "source_sha256": "92a80aa1eb4c3b2d99b3b0e1c637fce23725a89ca5e11709cbc9e8ff524d81f0",
+      "pages": 1,
+      "text_completeness_checks": "passed",
+      "rendered_pages": [
+        {
+          "page": 1,
+          "path": "tmp\\pdf-qa-comparisons\\summary-1.png",
+          "sha256": "672bd6e45df4a4586ca9a2b0258466856dcab3a96b552e94680c784461a33517"
+        }
+      ]
+    }
+  ],
+  "source_and_output_hashes_match_export_manifest": true,
+  "summary_exactly_one_page": true,
+  "visual_review": "Reviewed all 21 report pages in contact sheets; new figures separately; revised pages 8, 12, 16 and executive summary at full-page scale. No clipping or overlap. Segment legend moved outside plot. Top50 tables stay intact, each condition on its own page.",
+  "figure_review": [
+    "preprocessing_comparison.png",
+    "high_frequency_terms.png",
+    "rank_frequency.png",
+    "log_log.png",
+    "residuals.png",
+    "segment_fit.png",
+    "cf_df.png",
+    "idf_relation.png",
+    "idf_terms.png"
+  ],
+  "validation": {
+    "tests_passed": 497,
+    "junit": "reports/hw2/comparisons-pytest.xml",
+    "final_label_ui_tests": 17,
+    "final_label_junit": "reports/hw2/comparisons-labels-pytest.xml",
+    "unchanged_formal_artifact_hashes": 21
+  }
+}

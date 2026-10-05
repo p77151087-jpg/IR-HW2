@@ -1,0 +1,17 @@
+{
+  "file": "raw-batches/esearch-00000.json",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "params": {
+    "db": "pubmed",
+    "tool": "ir_hw2",
+    "term": "(\"GLP-1\"[Title/Abstract] OR \"glucagon-like peptide-1\"[Title/Abstract]) AND english[Language] AND hasabstract AND (\"1900/01/01\"[Date - Publication] : \"2026/09/29\"[Date - Publication])",
+    "retmode": "json",
+    "sort": "pub date",
+    "retstart": 0,
+    "retmax": 1200
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=ir_hw2&term=%28%22GLP-1%22%5BTitle%2FAbstract%5D+OR+%22glucagon-like+peptide-1%22%5BTitle%2FAbstract%5D%29+AND+english%5BLanguage%5D+AND+hasabstract+AND+%28%221900%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F09%2F29%22%5BDate+-+Publication%5D%29&retmode=json&sort=pub+date&retstart=0&retmax=1200",
+  "retrieved_at_utc": "2026-09-29T01:50:16.989275+00:00",
+  "sha256": "e5cb51e6949bfd11acc1c45f7a4a883be6a9367ea0003ad7fc9e8ea18a5313dd",
+  "bytes": 13542
+}

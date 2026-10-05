@@ -1,0 +1,110 @@
+Browser tab: 1, Title: "BioSearch｜生醫文章搜尋", URL: "http://127.0.0.1:8501/".
+1 AXWebArea BioSearch｜生醫文章搜尋, URL: 127.0.0.1:8501/
+	2 container
+		3 container
+			4 container
+				5 button Deploy
+				6 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+			10 text IR HW2 · BIOMEDICAL SEARCH & EXPERIMENTS
+			7 heading 生醫文章搜尋, Value: 1, ID: 4088465b
+				8 text 生醫文章搜尋
+				9 link Description: Link to heading, Value: 127.0.0.1:8501/#4088465b
+			11 text 輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。
+			12 container
+				13 Description: 功能導覽, ID: react-aria773069250-:r2:
+					14 container
+						15 radio button (settable, integer) Description: 搜尋文章, Value: 0
+						16 text 搜尋文章
+					17 container
+						18 radio button (settable, integer) Description: 文章詳情, Value: 0
+						19 text 文章詳情
+					20 container
+						21 radio button (settable, integer) Description: 語料概覽, Value: 0
+						22 text 語料概覽
+					23 container
+						24 radio button (settable, integer) Description: 文章管理, Value: 0
+						25 text 文章管理
+					26 container
+						27 radio button (settable, integer) Description: HW2 實驗室, Value: 1
+						28 text HW2 實驗室
+			29 text 本機文章 1000 篇 · 索引詞彙 15,106 · 資料已保存，可離線搜尋
+			30 text 範圍依文章設定：PMID 讀摘要，PMCID 讀全文。搜尋自動忽略常見停用詞，支援連字號及字母與數字交界的詞彙匹配。
+			31 text data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。
+			32 heading HW2 實驗室, Value: 3, ID: hw-2
+				33 text HW2 實驗室
+				34 link Description: Link to heading, Value: 127.0.0.1:8501/#hw-2
+			35 text 正式分析使用固定的 PubMed 摘要快照；文章管理的增刪不會改變本次實驗。下載、統計與模型訓練皆由按鈕明確啟動。
+			36 container
+				37 Description: 實驗功能, ID: react-aria773069250-:rk:
+					38 container
+						39 radio button (settable, integer) Description: 語料與前處理, Value: 0
+						40 text 語料與前處理
+					41 container
+						42 radio button (settable, integer) Description: Zipf 分析, Value: 0
+						43 text Zipf 分析
+					44 container
+						45 radio button (settable, integer) Description: Word2Vec, Value: 1
+						46 text Word2Vec
+					47 container
+						48 radio button (settable, integer) Description: 方法與報告, Value: 0
+						49 text 方法與報告
+			50 heading Skip-gram 詞向量, Value: 4, ID: skip-gram
+				51 text Skip-gram 詞向量
+				52 link Description: Link to heading, Value: 127.0.0.1:8501/#skip-gram
+			65 text 從原始摘要的有序句子訓練，保留文件、區塊與句子邊界；使用 B（HW1 原本切詞及標點處理），保留停用詞及詞序。
+			54 text vector size 100 · window 5 · min_count 2 · epochs 30 · seed 42 · workers 1 · negative 5
+			66 button 訓練／重新訓練 Word2Vec
+				67 text 訓練／重新訓練 Word2Vec
+			68 text 已訓練詞彙 9,658 個 · 10,843 句 · 語料 1,000 篇
+			60 button (collapsed) keyboard_arrow_right 模型設定與來源, Secondary Actions: Expand
+				61 text keyboard_arrow_right
+				62 text 模型設定與來源
+			69 container
+				70 text field (settable) Description: 近鄰詞彙, Value: semaglutide, ID: :r2h:
+			71 button 查詢近鄰
+				72 text 查詢近鄰
+			73 text 近鄰反映本語料的上下文相似性，不代表語意正確率。
+			74 container
+				75 button Show/hide columns
+				76 button Download as CSV
+				77 button Search
+				78 button Fullscreen
+				79 image
+					80 table
+						81 row term cosine
+							82 cell (selectable) term
+							83 cell (selectable) cosine
+						84 container
+							85 row (selectable) liraglutide 0.6704182028770447
+								86 cell (selectable) Value: liraglutide, ID: glide-cell-0-0
+								87 cell (selectable) Value: 0.6704182028770447, ID: glide-cell-1-0
+							88 row (selectable) tirzepatide 0.660938024520874
+								89 cell (selectable) Value: tirzepatide, ID: glide-cell-0-1
+								90 cell (selectable) Value: 0.660938024520874, ID: glide-cell-1-1
+							91 row (selectable) dulaglutide 0.6132273077964783
+								92 cell (selectable) Value: dulaglutide, ID: glide-cell-0-2
+								93 cell (selectable) Value: 0.6132273077964783, ID: glide-cell-1-2
+							94 row (selectable) exenatide 0.5391877889633179
+								95 cell (selectable) Value: exenatide, ID: glide-cell-0-3
+								96 cell (selectable) Value: 0.5391877889633179, ID: glide-cell-1-3
+							97 row (selectable) rybelsus 0.5343523025512695
+								98 cell (selectable) Value: rybelsus, ID: glide-cell-0-4
+								99 cell (selectable) Value: 0.5343523025512695, ID: glide-cell-1-4
+							100 row (selectable) ex4 0.5312784910202026
+								101 cell (selectable) Value: ex4, ID: glide-cell-0-5
+								102 cell (selectable) Value: 0.5312784910202026, ID: glide-cell-1-5
+							103 row (selectable) titrated 0.5145296454429626
+								104 cell (selectable) Value: titrated, ID: glide-cell-0-6
+								105 cell (selectable) Value: 0.5145296454429626, ID: glide-cell-1-6
+							106 row (selectable) subcutaneous 0.5107765197753906
+								107 cell (selectable) Value: subcutaneous, ID: glide-cell-0-7
+								108 cell (selectable) Value: 0.5107765197753906, ID: glide-cell-1-7
+							109 row (selectable) rituximab 0.5055910348892212
+								110 cell (selectable) Value: rituximab, ID: glide-cell-0-8
+								111 cell (selectable) Value: 0.5055910348892212, ID: glide-cell-1-8
+							112 row (selectable) mazdutide 0.5054411888122559
+								113 cell (selectable) Value: mazdutide, ID: glide-cell-0-9
+								114 cell (selectable) Value: 0.5054411888122559, ID: glide-cell-1-9
+			115 text 近鄰 cosine 不是正確率；小型單領域語料、規則句界及 min_count 均限制結果。GLP-1 會保留為 glp-1，可直接查詢；此處一次輸入一個切詞後的詞彙。
+
+The focused UI element is 71 button 查詢近鄰
