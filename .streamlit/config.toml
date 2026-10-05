@@ -1,5 +1,6 @@
 [server]
-address = "127.0.0.1"
+# Let the hosting platform choose the bind address.
+# scripts/start_demo.ps1 explicitly binds local runs to 127.0.0.1.
 headless = true
 # Reload imported project modules when source files change, including on Windows.
 fileWatcherType = "poll"

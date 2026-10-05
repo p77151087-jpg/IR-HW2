@@ -20,6 +20,24 @@ Set-Location -LiteralPath 'C:\成大專案\IR-HW2'
 
 「HW2 實驗室」提供五個主題：語料與前處理、Zipf 分析、CF／DF 與 IDF、Word2Vec、方法與報告。各主題用分頁呈現比較圖，完整數表與操作設定收進展開區；可切換數量指標、回歸／殘差、區段 R²／RMSE 及 IDF 圖。條件選單預設 A，四組顏色固定；高頻詞可 A–D 並排比較。既有搜尋保留 TF-IDF、原文高亮及文章管理。輸入停頓 200 ms 後開始更新拼字候選，點選即可套用並搜尋，也能直接搜尋原詞；打字只更新建議區。即時輸入使用 Streamlit 1.64，既有環境請先重跑 `scripts/setup_hw2.ps1` 再啟動。下載、重算與訓練由按鈕觸發，UI rerun 不重做。
 
+## 網址展示版（Streamlit Community Cloud）
+
+本專案需要執行 Python 的 Streamlit 伺服器，不能直接用 GitHub Pages 啟動。
+程式與資料存放在 GitHub，網站由 Streamlit Community Cloud 執行。
+
+1. 前往 <https://share.streamlit.io/>，登入並連接自己的 GitHub 帳號。
+2. 選擇 **Create app → Yup, I have an app**。
+3. Repository 填 `p77151087-jpg/IR-HW2`，Branch 填 `main`。
+4. **Main file path 填 `cloud_app.py`**，它強制啟用展示模式。
+5. 在 **Advanced settings** 將 Python version 設為 **3.13**。本專案不需要填入 Secrets。
+6. 按 **Deploy**；建置成功後，以平台顯示的 `https://…streamlit.app` 網址分享。
+
+展示版保留搜尋、文章詳情、語料統計、Zipf 圖表、CF／DF／IDF 切換與詞表下載、Word2Vec 查詢及報告下載；不提供文章上傳／刪除、語料下載／匯入、重新分析或模型訓練。固定資料與模型隨 Git 儲存庫部署。雲端本機磁碟不作為永久資料庫。
+
+根目錄 `requirements.txt` 包含完整執行套件，`requirements-hw2.txt` 保留為本機安裝腳本的相容入口。`app.py` 與 `start_hw2.cmd` 仍供本機完整功能使用。未來提交並 push 到 `main` 後，Community Cloud 會依 GitHub 更新重新部署。
+
+官方操作說明：[部署流程](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy) · [套件設定](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies)。
+
 ## 正式結果
 
 固定快照 `data/hw2/glp1-1000-20260929/`：一 PMID 為一 document，只計摘要正文。查詢 30,622 筆，候選 1,200，取回 1,100，納入 1,000，排除 5，另 195 不需使用。原 XML、取得時間、完整查詢、逐篇納排及 SHA256 均保留；搜尋文章庫為獨立副本，增刪不改正式快照。

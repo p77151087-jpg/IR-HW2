@@ -48,3 +48,16 @@ urllib3==2.7.0
 uvicorn==0.52.4
 watchdog==6.0.0
 websockets==16.1.1
+
+# Runtime dependencies for the experiment and Word2Vec pages.
+# Streamlit Community Cloud installs this root requirements file.
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.0
+gensim==4.4.0
+kiwisolver==1.5.1
+matplotlib==3.11.2
+pyparsing==3.3.3
+scipy==1.18.1
+smart_open==8.0.1
+wrapt==2.5.0

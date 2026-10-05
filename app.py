@@ -19,6 +19,7 @@ from ir_hw1.storage import DEFAULT_DATA, StorageError, load_documents, read_mani
 from ir_hw1.sync import raw_signature, sync_raw_folder
 from ir_hw1.ui_management import show_management
 from ir_hw1.xml_parser import PARSER_VERSION
+from ir_hw2.deployment import is_read_only
 
 # Application entry point: use the Windows/system CA store for PMC HTTPS.
 truststore.inject_into_ssl()
@@ -40,6 +41,7 @@ mark{background:#ffdf7e;color:#142e45;padding:1px 3px;border-radius:3px}
 </style>""", unsafe_allow_html=True)
 
 DATA_DIR = Path(os.environ.get("IR_HW1_DATA_DIR", str(DEFAULT_DATA)))
+READ_ONLY = is_read_only()
 
 
 @st.cache_resource(show_spinner="載入本機文章與索引…")
@@ -260,7 +262,9 @@ def show_result_articles(response, query: str) -> None:
 
 st.markdown('<div class="eyebrow">IR HW2 · BIOMEDICAL SEARCH & EXPERIMENTS</div>', unsafe_allow_html=True)
 st.title("生醫文章搜尋")
-st.markdown('<div class="intro">輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。</div>', unsafe_allow_html=True)
+intro = ("搜尋固定語料、查看文章與實驗圖表，並查詢詞向量及下載報告。"
+         if READ_ONLY else "輸入 PMID 讀取摘要，輸入 PMCID 讀取全文。從關鍵字找到文章，再回到原文核對。")
+st.markdown(f'<div class="intro">{intro}</div>', unsafe_allow_html=True)
 # Stable slots keep notices from shifting the watcher/navigation/page paths.
 with st.container(key="sync_status"):
     observed_raw = raw_signature(DATA_DIR)
@@ -305,16 +309,25 @@ def watch_raw_folder():
     ensure_reader_current()
 
 
-watch_raw_folder()
+if not READ_ONLY:
+    watch_raw_folder()
 
 if st.session_state.get("view") == "HW2 實驗室":
     st.session_state["view"] = "實驗室"
 
+views = ["搜尋文章", "文章詳情", "語料概覽", "實驗室"] if READ_ONLY else ["搜尋文章", "文章詳情", "語料概覽", "文章管理", "實驗室"]
+if st.session_state.get("view") not in (None, *views):
+    st.session_state["view"] = "搜尋文章"
+
 with st.container(border=True):
-    view = st.radio("功能導覽", ["搜尋文章", "文章詳情", "語料概覽", "文章管理", "實驗室"], key="view", horizontal=True)
-    st.caption(f"本機文章 {len(documents)} 篇 · 索引詞彙 {len(index['porter_relevance_postings']):,} · 資料已保存，可離線搜尋")
+    view = st.radio("功能導覽", views, key="view", horizontal=True)
+    library_label = "展示語料" if READ_ONLY else "本機文章"
+    st.caption(f"{library_label} {len(documents)} 篇 · 索引詞彙 {len(index['porter_relevance_postings']):,} · 資料已保存，可離線搜尋")
     st.caption("範圍依文章設定：PMID 讀摘要，PMCID 讀全文。搜尋自動忽略常見停用詞，支援連字號及字母與數字交界的詞彙匹配。")
-    st.caption("data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。")
+    if READ_ONLY:
+        st.caption("線上展示版：可搜尋、查詢、查看圖表與下載；不提供文章增刪、重新分析或模型訓練。")
+    else:
+        st.caption("data/raw 自動同步：移入會加入搜尋，移出／刪除會移除；頁面開啟時約每 3 秒檢查，搜尋前也會同步。")
 
 if st.session_state.get("corpus_version") != index["corpus_sha256"]:
     reset_search_page()
@@ -332,11 +345,11 @@ with page.container(key="page_content"):
         from ir_hw2.ui import show_lab
         show_lab(DATA_DIR)
         st.stop()
-    if view == "文章管理":
+    if view == "文章管理" and not READ_ONLY:
         show_management(DATA_DIR, documents)
         st.stop()
     if not documents:
-        st.warning("尚無文章，請到「文章管理」上傳 XML 或輸入 PMID／PMCID 取得文章。")
+        st.warning("展示語料尚未載入，請稍後重新整理或聯絡網站管理者。" if READ_ONLY else "尚無文章，請到「文章管理」上傳 XML 或輸入 PMID／PMCID 取得文章。")
         st.stop()
 
     if view == "搜尋文章":

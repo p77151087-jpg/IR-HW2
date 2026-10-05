@@ -12,6 +12,7 @@ from filelock import Timeout
 from .analysis import CONDITIONS, PIPELINE_VERSION, baseline_tokenizer_spec, tokenize
 from .cli import DEFAULT_MODEL, DEFAULT_OUTPUT, DEFAULT_SNAPSHOT, ROOT, snapshot_hash
 from . import comparisons as charts
+from .deployment import is_read_only
 
 
 def _json(path: Path) -> dict:
@@ -29,7 +30,8 @@ def show_lab(data_dir: Path) -> None:
         st.session_state["hw2_segment_condition"] = "A"
         st.session_state["hw2_condition_defaults"] = "ABCD-start-at-A-v2"
     st.subheader("實驗室")
-    st.caption("正式分析使用固定的 PubMed 摘要快照；文章管理的增刪不會改變本次實驗。下載、統計與模型訓練皆由按鈕明確啟動。")
+    st.caption("線上展示版使用固定的 PubMed 摘要快照，可互動查看分析結果、查詢詞向量與下載報告。"
+               if is_read_only() else "正式分析使用固定的 PubMed 摘要快照；文章管理的增刪不會改變本次實驗。下載、統計與模型訓練皆由按鈕明確啟動。")
     section = st.radio("實驗功能", ["語料與前處理", "Zipf 分析", "CF／DF 與 IDF", "Word2Vec", "方法與報告"], horizontal=True, key="hw2_section")
     try:
         manifest = _json(snapshot / "snapshot.json") if (snapshot / "snapshot.json").exists() else None
@@ -119,11 +121,14 @@ def _show_corpus_controls(snapshot, manifest, data_dir, output):
     if manifest:
         st.success(f"固定快照：{len(manifest.get('selected_pmids', [])):,} 篇；一個 PMID 為一篇文件。")
     st.caption("僅納入英文、非空摘要正文，不含文章標題、小標題或全文。搜尋文章庫的增刪不影響快照。")
-    with st.expander("來源、查詢與資料管理"):
+    with st.expander("來源與查詢" if is_read_only() else "來源、查詢與資料管理"):
         st.code(manifest.get("query", DEFAULT_QUERY) if manifest else DEFAULT_QUERY, language=None)
         st.markdown("[NCBI 使用與版權聲明](https://www.ncbi.nlm.nih.gov/home/about/policies/) · [E-utilities 使用規範](https://www.ncbi.nlm.nih.gov/books/NBK25497/)")
         if manifest:
             st.json(manifest)
+        if is_read_only():
+            return
+        if manifest:
             if st.button("驗證快照並加入搜尋文章庫", key="hw2_publish"):
                 from .integration import publish_search_copy
                 with st.spinner("驗證來源並建立搜尋副本…"):
@@ -312,6 +317,9 @@ def _show_embeddings(snapshot, manifest, model_dir):
     try:
         from .embeddings import load_word2vec, neighbors, train_word2vec
     except ImportError as exc:
+        if is_read_only():
+            st.error("詞向量服務暫時無法載入，請聯絡網站管理者確認部署套件。")
+            return
         st.error("Word2Vec 套件無法載入，請用 HW2 專用環境啟動網站。")
         st.write("先停止目前網站，再於 PowerShell 執行下列指令。已保存的語料與模型可繼續使用，不必重新下載或訓練。")
         st.code(f"Set-Location -LiteralPath '{ROOT}'\n"
@@ -319,7 +327,7 @@ def _show_embeddings(snapshot, manifest, model_dir):
         with st.expander("環境診斷"):
             st.text(f"目前 Python：{sys.executable}\n套件載入錯誤：{exc}")
         return
-    if st.button("訓練／重新訓練 Word2Vec", key="hw2_train"):
+    if not is_read_only() and st.button("訓練／重新訓練 Word2Vec", key="hw2_train"):
         from .corpus import load_corpus
         with st.spinner("正在訓練並保存模型，完成後可離線重載…"):
             train_word2vec(load_corpus(snapshot), model_dir, snapshot_hash(snapshot))
@@ -329,7 +337,7 @@ def _show_embeddings(snapshot, manifest, model_dir):
         return
     metadata = _json(model_dir / "metadata.json")
     if metadata.get("baseline_tokenizer") != baseline_tokenizer_spec():
-        st.warning("這個模型使用不同的切詞規則；請按上方按鈕重新訓練，才能與目前 B 條件一致。")
+        st.warning("模型與目前切詞規則不符，請聯絡網站管理者更新模型。" if is_read_only() else "這個模型使用不同的切詞規則；請按上方按鈕重新訓練，才能與目前 B 條件一致。")
         return
     st.caption(f"已訓練詞彙 {metadata['vocabulary_size']:,} 個 · {metadata['sentences']:,} 句 · 語料 {metadata['documents']:,} 篇")
     with st.expander("模型設定與來源"):
